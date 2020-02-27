@@ -1,4 +1,4 @@
-baseurl = "http://www.example.com"
+baseurl = "https://avaframe.org"
 title = "AvaFrame"
 
 theme = "coder-portfolio"

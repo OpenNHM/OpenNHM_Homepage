@@ -1,14 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>AvaFrame</title>
+    <link>https://avaframe.org/</link>
+    <description>Recent content on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Feb 2020 13:00:08 +0100</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Open position numerics</title>
+      <link>https://avaframe.org/posts/openpositionnumerics/</link>
+      <pubDate>Thu, 27 Feb 2020 13:00:08 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/openpositionnumerics/</guid>
+      <description>We currently seek to fill the following position
+Numerical developer/scientist for avalanche simulations
+For details see the pdf, if you have any further questions please use the matrix room (see contact) or details provided in the pdf.</description>
+    </item>
+    
+    <item>
+      <title>About AvaFrame</title>
+      <link>https://avaframe.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://avaframe.org/about/</guid>
+      <description> We are currently starting this project, so this space will get filled step by step
+ </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://avaframe.org/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://avaframe.org/contact/</guid>
+      <description>Visit our matrix room at: #public:matrix.avaframe.org
+If you don&amp;rsquo;t have a matrix account yet, we suggest to use riot.im to create an account.</description>
+    </item>
     
   </channel>
 </rss>

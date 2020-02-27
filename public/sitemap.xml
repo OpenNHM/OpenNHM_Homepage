@@ -3,15 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://avaframe.org/</loc>
+    <lastmod>2020-02-27T13:00:08+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://avaframe.org/posts/openpositionnumerics/</loc>
+    <lastmod>2020-02-27T13:00:08+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://avaframe.org/posts/</loc>
+    <lastmod>2020-02-27T13:00:08+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avaframe.org/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://avaframe.org/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://avaframe.org/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://avaframe.org/tags/</loc>
   </url>
   
 </urlset>
