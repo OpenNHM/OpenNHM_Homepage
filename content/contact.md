@@ -3,6 +3,7 @@ title = "Contact"
 slug = "contact"
 thumbnail = "images/tn.png"
 description = "contact"
+date = 2020-02-26T13:00:08+01:00
 +++
 
 Visit our matrix room at: 

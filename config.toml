@@ -1,7 +1,9 @@
 baseurl = "https://avaframe.org"
+# baseurl = "/"
 title = "AvaFrame"
 
 theme = "coder-portfolio"
+# theme = "hugo-coder"
 
 DefaultContentLanguage = "en"
 
@@ -12,15 +14,13 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 pygmentsUseClasses = true
 
-# disqusShortname = "yourdiscussshortname"
-
 [params]
     author = "AvaFrame"
     description = "The open source avalanche framework"
     keywords = "project,avalanche"
     info = "The Open Avalanche Framework"
     avatarurl = "images/avatar.jpg"
-    footercontent = "AvaFrame"
+    footercontent = ""
     fixedbarContent = "Want to contact us? Visit our matrix room at:  "
     # fixedbarContentAfter = "Thank You! Please share it if you like it→"
 
@@ -60,8 +60,6 @@ pygmentsUseClasses = true
         [languages.en.params]
             author = "AvaFrame"
             info = "The open source avalanche framework"
-            # description = "Yusuke Ishimi's personal website"
-            # keywords = "blog,developer,personal"
 
         [languages.en.menu] # It is possible to change the menu too.
 

@@ -1,8 +1,9 @@
 +++
-title = "About AvaFrame"
+title = "About"
 slug = "about"
 thumbnail = "images/tn.png"
 description = "about"
+date = 2020-02-26T13:00:08+01:00
 +++
 
 ---

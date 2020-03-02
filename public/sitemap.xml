@@ -19,14 +19,16 @@
   
   <url>
     <loc>https://avaframe.org/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://avaframe.org/categories/</loc>
+    <lastmod>2020-02-26T13:00:08+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://avaframe.org/contact/</loc>
+    <lastmod>2020-02-26T13:00:08+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avaframe.org/categories/</loc>
   </url>
   
   <url>
