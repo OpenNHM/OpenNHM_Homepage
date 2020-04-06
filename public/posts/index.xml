@@ -6,10 +6,21 @@
     <description>Recent content in Posts on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Feb 2020 13:00:08 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2020 17:13:12 +0200</lastBuildDate>
     
 	<atom:link href="https://avaframe.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Position numerics CLOSED</title>
+      <link>https://avaframe.org/posts/positionnumericsclosed/</link>
+      <pubDate>Wed, 01 Apr 2020 17:13:12 +0200</pubDate>
+      
+      <guid>https://avaframe.org/posts/positionnumericsclosed/</guid>
+      <description>Application the following position
+Numerical developer/scientist for avalanche simulations
+is CLOSED. Thank you for your applications, you should have recieved an email.</description>
+    </item>
     
     <item>
       <title>Open position numerics</title>
