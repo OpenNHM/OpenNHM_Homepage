@@ -6,10 +6,22 @@
     <description>Recent content in Posts on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Apr 2020 17:13:12 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2020 16:04:13 +0200</lastBuildDate>
     
 	<atom:link href="https://avaframe.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Project start</title>
+      <link>https://avaframe.org/posts/projectstart/</link>
+      <pubDate>Fri, 05 Jun 2020 16:04:13 +0200</pubDate>
+      
+      <guid>https://avaframe.org/posts/projectstart/</guid>
+      <description>The project AvaFrame has officially started with the 1st of June!
+We updated the about page with our mission and aims. Information in German can be found here.
+The first steering committee and scientific committee meetings already took place and our team members will start soon.
+We will continuously keep you updated on this homepage.</description>
+    </item>
     
     <item>
       <title>Position numerics CLOSED</title>

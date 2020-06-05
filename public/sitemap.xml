@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://avaframe.org/posts/positionnumericsclosed/</loc>
-    <lastmod>2020-04-01T17:13:12+02:00</lastmod>
+    <loc>https://avaframe.org/</loc>
+    <lastmod>2020-06-05T16:04:13+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://avaframe.org/posts/</loc>
+    <lastmod>2020-06-05T16:04:13+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avaframe.org/posts/projectstart/</loc>
+    <lastmod>2020-06-05T16:04:13+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://avaframe.org/posts/positionnumericsclosed/</loc>
     <lastmod>2020-04-01T17:13:12+02:00</lastmod>
   </url>
   
@@ -19,11 +29,6 @@
   
   <url>
     <loc>https://avaframe.org/about/</loc>
-    <lastmod>2020-02-26T13:00:08+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://avaframe.org/</loc>
     <lastmod>2020-02-26T13:00:08+01:00</lastmod>
   </url>
   

@@ -6,10 +6,22 @@
     <description>Recent content on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Feb 2020 13:00:08 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2020 16:04:13 +0200</lastBuildDate>
     
 	<atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Project start</title>
+      <link>https://avaframe.org/posts/projectstart/</link>
+      <pubDate>Fri, 05 Jun 2020 16:04:13 +0200</pubDate>
+      
+      <guid>https://avaframe.org/posts/projectstart/</guid>
+      <description>The project AvaFrame has officially started with the 1st of June!
+We updated the about page with our mission and aims. Information in German can be found here.
+The first steering committee and scientific committee meetings already took place and our team members will start soon.
+We will continuously keep you updated on this homepage.</description>
+    </item>
     
     <item>
       <title>Position numerics CLOSED</title>
@@ -39,8 +51,9 @@ For details see the pdf, if you have any further questions please use the matrix
       <pubDate>Wed, 26 Feb 2020 13:00:08 +0100</pubDate>
       
       <guid>https://avaframe.org/about/</guid>
-      <description> We are currently starting this project, so this space will get filled step by step
- </description>
+      <description>AvaFrame is a cooperation between the Austrian Avalanche and Torrent Service (Wildbach- und Lawinenverbauung; WLV) and the Austrian Research Centre for Forests (Bundesforschungszentrum für Wald; BFW) within the Federal Ministry Republic of Austria: Agriculture, Regions and Tourism (BMLRT).
+Our mission is to
+ Develop an open source framework (licensed with the European Union Public license (EUPL) ) for avalanche simulations which replicates and simplifies current simulation procedures and models at the WLV and make them accessible to the public domain.</description>
     </item>
     
     <item>
