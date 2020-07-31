@@ -6,10 +6,22 @@
     <description>Recent content on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2020 16:04:13 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2020 09:49:32 +0200</lastBuildDate>
     
 	<atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>This month in AvaFrame - July 2020 edition</title>
+      <link>https://avaframe.org/posts/monthlyjul2020/</link>
+      <pubDate>Fri, 31 Jul 2020 09:49:32 +0200</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlyjul2020/</guid>
+      <description>Welcome to the first installment of our monthly update on AvaFrame.
+Every month we want to give you a quick overview of the progress on all things related to AvaFrame.
+  This month the project went into full force with 2 new team members: we welcome Anna Wirbel and Matthias Tonnel to the team! More info on the whole team will follow on this homepage.
+  The first (development) code is available on github</description>
+    </item>
     
     <item>
       <title>Project start</title>
