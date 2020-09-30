@@ -6,10 +6,21 @@
     <description>Recent content in Posts on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Aug 2020 12:28:05 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2020 12:28:05 +0200</lastBuildDate>
     
 	<atom:link href="https://avaframe.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>This month in AvaFrame - September 2020 edition</title>
+      <link>https://avaframe.org/posts/monthlysep2020/</link>
+      <pubDate>Wed, 30 Sep 2020 12:28:05 +0200</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlysep2020/</guid>
+      <description>Winter is slowly creeping up on us, so here is the next AvaFrame update:
+  We heavily worked on the dense flow avalanche module com1DFA, bringing functionality from its native code over to python functions. Now there is the option to do parameter variations on friction parameters and release thickness automatically. Besides this new option, more and more simulation parameters can now be set in python.
+  Regarding the necessary executable for the com1DFA (dense flow) module: we discovered some discrepancy which we currently work on to resolve.</description>
+    </item>
     
     <item>
       <title>This month in AvaFrame - August 2020 edition</title>
