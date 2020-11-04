@@ -6,10 +6,18 @@
     <description>Recent content in Posts on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2020 12:28:05 +0200</lastBuildDate>
-    
-	<atom:link href="https://avaframe.org/posts/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Thu, 29 Oct 2020 20:19:18 +0100</lastBuildDate><atom:link href="https://avaframe.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This month in AvaFrame - October 2020 edition</title>
+      <link>https://avaframe.org/posts/monthlyoct2020/</link>
+      <pubDate>Thu, 29 Oct 2020 20:19:18 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlyoct2020/</guid>
+      <description>Winter has arrived here, so this is basically the first winter update:
+This month focused on getting our code base ready for the upcoming release of version 0.1.
+  The documentation got a lot of attention with updates and improvements basically everywhere. Most notably we started to include installation and quick start sections for you to follow.
+  Testing took a big step forward. We expanded out standard tests, generated more benchmarks and created scripts to run these tests on demand as well as within our continuous integration.</description>
+    </item>
     
     <item>
       <title>This month in AvaFrame - September 2020 edition</title>

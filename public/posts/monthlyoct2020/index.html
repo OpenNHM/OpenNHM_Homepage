@@ -6,23 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="author" content="AvaFrame">
-    <meta name="description" content="The open source avalanche framework">
+    <meta name="description" content="https://avaframe.org">
     <meta name="keywords" content="project,avalanche">
 
     <meta property="og:site_name" content="AvaFrame">
-    <meta property="og:title" content="AvaFrame">
-    <meta property="og:description" content="The open source avalanche framework">
+    <meta property="og:title" content="
+  This month in AvaFrame - October 2020 edition - AvaFrame
+">
+    <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://avaframe.org/404.html">
-    <meta property="og:image" content="https://avaframe.orgimages/tn.png">
+    <meta property="og:url" content="https://avaframe.org/posts/monthlyoct2020/">
+    <meta property="og:image" content="https://avaframe.org">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://avaframe.org/404.html">
-    <meta name="twitter:image" content="https://avaframe.orgimages/tn.png">
+    <meta name="twitter:site" content="https://avaframe.org/posts/monthlyoct2020/">
+    <meta name="twitter:image" content="https://avaframe.org">
 
-    <base href="https://avaframe.org/404.html">
-    <title>AvaFrame</title>
+    <base href="https://avaframe.org/posts/monthlyoct2020/">
+    <title>
+  This month in AvaFrame - October 2020 edition - AvaFrame
+</title>
 
-    <link rel="canonical" href="https://avaframe.org/404.html">
+    <link rel="canonical" href="https://avaframe.org/posts/monthlyoct2020/">
     
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
     <link rel="stylesheet" href="https://avaframe.org/css/normalize.min.css">
@@ -76,14 +80,60 @@
 
       <div class="content">
         
-  <section class="container centered">
-  <div class="error">
-    <h1>404</h1>
-    <h2>Page Not Found</h2>
-    <p>Sorry, this page does not exist.<br />You can head back to <a href="https://avaframe.org">homepage</a>.</p>
-  </div>
-</section>
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">This month in AvaFrame - October 2020 edition</h1>
+      <h2 class="date">October 29, 2020</h2>
 
+      
+    </header>
+
+    <p>Winter has arrived here, so this is basically the first winter update:</p>
+<p>This month focused on getting our code base ready for the upcoming release of
+version 0.1.</p>
+<ul>
+<li>
+<p>The documentation got a lot of attention with updates and improvements
+basically everywhere. Most notably we started to include installation and
+quick start sections for you to follow.</p>
+</li>
+<li>
+<p>Testing took a big step forward. We expanded out standard tests, generated more
+benchmarks and created scripts to run these tests on demand as well as within
+our continuous integration.</p>
+</li>
+<li>
+<p>Related to the testing as well as the operational script (see below), plotting
+routines got improved and report generation was heavily developed. This means the results
+and some crucial information of the execution are now presented in an easy
+readable manner.</p>
+</li>
+<li>
+<p>We started to include a <em>runOperational</em> script which will contain the core
+of AvaFrame and will be used to execute the most stable, well tested modules
+in operational settings (who would have guessed with this name&hellip;)</p>
+</li>
+<li>
+<p>A minor bug in com2AB (Alpha Beta) was found and fixed. Furthermore we improved the quality
+of other parts of the code with added checks and more automatic tests with
+pytest.</p>
+</li>
+<li>
+<p>In the new <a href="https://github.com/avaframe/com1DFA_Exe">com1DFA_Exe repository</a> a
+first (linux) executable for the com1DFA module (dense flow kernel) and necessary files can be found.</p>
+</li>
+</ul>
+<p><strong>All this will lead to the release of version 0.1 within the next few days, so please
+watch this space. Exciting times are ahead!</strong></p>
+
+  </article>
+
+  <br/>
+
+  
+  
+</section>
 
       </div>
       
