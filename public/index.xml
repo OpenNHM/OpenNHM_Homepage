@@ -6,7 +6,18 @@
     <description>Recent content on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2020 10:46:51 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Nov 2020 20:19:18 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This month in AvaFrame - November 2020 edition</title>
+      <link>https://avaframe.org/posts/monthlynov2020/</link>
+      <pubDate>Sun, 29 Nov 2020 20:19:18 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlynov2020/</guid>
+      <description>Welcome to our next monthly update.
+  This month started with the exciting (at least for us :-) ) release of version 0.1. Head over to our github repository and our documentation to learn more about it (or read our last post).
+  With this release (and the rest of the month as well) we improved our documentation quite a lot. New getting started and installation pages should make it possible for you to get started (ha, who would have guessed.</description>
+    </item>
+    
     <item>
       <title>Initial release version 0.1</title>
       <link>https://avaframe.org/posts/version0_1/</link>

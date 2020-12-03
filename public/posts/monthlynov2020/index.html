@@ -11,22 +11,22 @@
 
     <meta property="og:site_name" content="AvaFrame">
     <meta property="og:title" content="
-  This month in AvaFrame - October 2020 edition - AvaFrame
+  This month in AvaFrame - November 2020 edition - AvaFrame
 ">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://avaframe.org/posts/monthlyoct2020/">
+    <meta property="og:url" content="https://avaframe.org/posts/monthlynov2020/">
     <meta property="og:image" content="https://avaframe.org">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://avaframe.org/posts/monthlyoct2020/">
+    <meta name="twitter:site" content="https://avaframe.org/posts/monthlynov2020/">
     <meta name="twitter:image" content="https://avaframe.org">
 
-    <base href="https://avaframe.org/posts/monthlyoct2020/">
+    <base href="https://avaframe.org/posts/monthlynov2020/">
     <title>
-  This month in AvaFrame - October 2020 edition - AvaFrame
+  This month in AvaFrame - November 2020 edition - AvaFrame
 </title>
 
-    <link rel="canonical" href="https://avaframe.org/posts/monthlyoct2020/">
+    <link rel="canonical" href="https://avaframe.org/posts/monthlynov2020/">
     
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
     <link rel="stylesheet" href="https://avaframe.org/css/normalize.min.css">
@@ -83,49 +83,64 @@
   <section class="container post">
   <article>
     <header>
-      <h1 class="title">This month in AvaFrame - October 2020 edition</h1>
-      <h2 class="date">October 29, 2020</h2>
+      <h1 class="title">This month in AvaFrame - November 2020 edition</h1>
+      <h2 class="date">November 29, 2020</h2>
 
       
     </header>
 
-    <p>Winter has arrived here, so this is basically the first winter update:</p>
-<p>This month focused on getting our code base ready for the upcoming release of
-version 0.1.</p>
+    <p>Welcome to our next monthly update.</p>
 <ul>
 <li>
-<p>The documentation got a lot of attention with updates and improvements
-basically everywhere. Most notably we started to include installation and
-quick start sections for you to follow.</p>
+<p>This month started with the exciting (at least for us :-) ) release of
+version 0.1. Head over to our <a href="https://github.com/avaframe/avaframe">github repository</a> 
+and our <a href="https://docs.avaframe.org/en/v0.1">documentation</a> to learn more about
+it (or read our last <a href="https://avaframe.org/posts/version0_1/">post</a>).</p>
 </li>
 <li>
-<p>Testing took a big step forward. We expanded out standard tests, generated more
-benchmarks and created scripts to run these tests on demand as well as within
-our continuous integration.</p>
+<p>With this release (and the rest of the month as well) we improved our
+documentation quite a lot. New <em>getting started</em> and <em>installation</em> pages
+should make it possible for you to get started (<em>ha, who would have
+guessed</em>..) with AvaFrame. To make it more readable we reordered the modules
+documentation. Just recently we started adding the API documentation with all
+our functions as well (for those interested: this is achieved with sphinx
+autodoc/autosummary and docstrings). To acknowledge the (very important) data
+providers, a data sources page was added, with sources and references to data
+we use in our framework.</p>
 </li>
 <li>
-<p>Related to the testing as well as the operational script (see below), plotting
-routines got improved and report generation was heavily developed. This means the results
-and some crucial information of the execution are now presented in an easy
-readable manner.</p>
+<p>Our existing test cases received more features, now we include multiple
+release areas and multiple scenarios per avalanche. Also included are scenarios
+with resistance areas for our main dense flow avalanche kernel.</p>
 </li>
 <li>
-<p>We started to include a <em>runOperational</em> script which will contain the core
-of AvaFrame and will be used to execute the most stable, well tested modules
-in operational settings (who would have guessed with this name&hellip;)</p>
+<p>The first data for real avalanche test cases has made it to the
+repository. So far we concentrated on idealised cases, but we now include 6
+real world avalanches. For now release areas and DEMs are available. Soon these
+cases will also end up in our test scripts.</p>
 </li>
 <li>
-<p>A minor bug in com2AB (Alpha Beta) was found and fixed. Furthermore we improved the quality
-of other parts of the code with added checks and more automatic tests with
-pytest.</p>
+<p>New functions for probability / parameter range simulations are available for
+the dense flow kernel com1DFA. Testing this with an applied example is underway at
+the moment.</p>
 </li>
 <li>
-<p>In the new <a href="https://github.com/avaframe/com1DFA_Exe">com1DFA_Exe repository</a> a
-first (linux) executable for the com1DFA module (dense flow kernel) and necessary files can be found.</p>
+<p>We started working on the implementation of our dense flow kernel com1DFA in
+python. This means digging deep into the programming and theory of our C++ reference
+code. The base structure is already there, current developments concentrate on the
+implementation of 2D SPH for depth integrated equations on a surface living in
+3D and time discretizations, among others. Head over to our 
+<a href="https://github.com/avaframe/AvaFrame/issues/">github issues</a> to get an idea about
+the issues (..ha..) at hand.</p>
+</li>
+<li>
+<p>And finally: the second steering committee meeting took place. Which reminds
+me, I need to add a page about AvaFrame&rsquo;s organisational structure&hellip; So watch
+this space&hellip;</p>
 </li>
 </ul>
-<p><strong>All this will lead to the release of version 0.1 within the next few days, so please
-watch this space. Exciting times are ahead!</strong></p>
+<p>On to the next month!</p>
+<p>Felix</p>
 
   </article>
 
