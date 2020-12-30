@@ -6,7 +6,18 @@
     <description>Recent content in Posts on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Dec 2020 10:46:51 +0100</lastBuildDate><atom:link href="https://avaframe.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Dec 2020 20:19:18 +0100</lastBuildDate><atom:link href="https://avaframe.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This month in AvaFrame - December 2020 edition</title>
+      <link>https://avaframe.org/posts/monthlydec2020/</link>
+      <pubDate>Tue, 29 Dec 2020 20:19:18 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlydec2020/</guid>
+      <description>Welcome to this years last monthly update.
+  This month we concentrated on getting more tests into our repository. We now have included all 6 realistic topographies with release areas and benchmark results in our test scripts. We also expanded our routine testing with pytest to more functions/modules. And those testing DEM&amp;rsquo;s, as well as the release areas, are freely available in the repository, see the data directory.
+  The availability of these test cases lead to the release of version 0.</description>
+    </item>
+    
     <item>
       <title>Release version 0.2</title>
       <link>https://avaframe.org/posts/version0_2/</link>
