@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="AvaFrame">
+    <meta name="description" content="https://avaframe.org">
+    <meta name="keywords" content="project,avalanche">
+
+    <meta property="og:site_name" content="AvaFrame">
+    <meta property="og:title" content="
+  This month in AvaFrame - January 2021 edition - AvaFrame
+">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://avaframe.org/posts/monthlyjan2021/">
+    <meta property="og:image" content="https://avaframe.org">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://avaframe.org/posts/monthlyjan2021/">
+    <meta name="twitter:image" content="https://avaframe.org">
+
+    <base href="https://avaframe.org/posts/monthlyjan2021/">
+    <title>
+  This month in AvaFrame - January 2021 edition - AvaFrame
+</title>
+
+    <link rel="canonical" href="https://avaframe.org/posts/monthlyjan2021/">
+    
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="https://avaframe.org/css/normalize.min.css">
+    <link rel="stylesheet" href="https://avaframe.org/css/style.min.css">
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://avaframe.org/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://avaframe.org/images/favicon-16x16.png" sizes="16x16">
+
+    
+      <link rel="alternate" href="https://avaframe.org/index.xml" type="application/rss+xml" title="AvaFrame">
+      <link href="https://avaframe.org/index.xml" rel="feed" type="application/rss+xml" title="AvaFrame" />
+    
+
+    <meta name="generator" content="Hugo 0.80.0" />
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">AvaFrame</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://avaframe.org/about">About</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://avaframe.org/posts">Posts</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://avaframe.org/contact">Contact</a>
+            </li>
+          
+        
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">This month in AvaFrame - January 2021 edition</h1>
+      <h2 class="date">January 30, 2021</h2>
+
+      
+    </header>
+
+    <p>Welcome to the first instalment of our monthly update of 2021. This month we
+started getting into the nitty-gritty of our dense flow module&rsquo;s numerical
+implementation:</p>
+<ul>
+<li>
+<p>To facilitate and improve our development we added new test cases. This time
+they are more geared towards testing specific numerical issues and more <em>targeted</em>
+issues, concentrating for now on the dense flow module com1DFAPy.</p>
+<ul>
+<li>
+<p>flat plane: a <em>pile of sand</em> (i.e. particles with coulomb friction)
+on a flat plane. The pile should or should not move depending on the
+steepness of the sides of the pile</p>
+</li>
+<li>
+<p>inclined slope: similar to the previous, a <em>pile of sand</em> (coulomb
+friction again) flowing down an inclined plane. This test enables comparison
+to a solution described in
+<a href="https://link.springer.com/article/10.1007/BF01176861">Savage-Hutter 1993</a> 
+in which the depth and velocity profiles can be determined in an analytical
+form.</p>
+</li>
+<li>
+<p>(rotated) pyramid: generation routines to produce a, potentially rotated
+and/or shifted, pyramid with a release area at the top of the pyramid. This
+allows for checking of rotational symmetry, among others.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>We are currently looking at and analysing how to place the initial particles
+and what effect this has further along the simulation.</p>
+</li>
+<li>
+<p>Getting into the numerical development also means the compute times start to
+play a role. We moved some parts of the code over to Python to improve the
+computation efficiency of the python dense flow kernel. We are starting to
+profile our python code (pudb and cProfile for those interested).</p>
+</li>
+<li>
+<p>For general analysing with ana3AIMEC: after some deliberation we decided to
+move the (arbitrary) starting point of our runout calculation to the top of
+the main avalanche profile (instead of some point further down the profile).
+See our definitions for this in the <a href="https://docs.avaframe.org/en/latest/glossary.html">glossary</a>.
+If this makes you internally scream in agony because we got it all wrong, feel
+free to contact us!</p>
+</li>
+<li>
+<p>We have a ton of minor changes which however improve usability quite a lot. That means
+mundane (some might say boring) things like enabling underscores in input names,
+consistent naming of result variables, extended export capabilities (more
+time steps), and many more.</p>
+</li>
+<li>
+<p>Bringing AvaFrame to the Windows world is also currently high on our
+priority list. We explored options on the best ways to install and maintain an
+AvaFrame installation on as many Windows versions as possible. Expect some
+exciting news on this one in the next few weeks.</p>
+</li>
+</ul>
+<p>As you can see, we are off to a good start this year! As always please contact
+us with any questions or issues you have!</p>
+<p>Felix</p>
+
+  </article>
+
+  <br/>
+
+  
+  
+</section>
+
+      </div>
+      
+        <footer class="footer">
+    
+</footer>
+<div class="fixed-bar">
+  <section class="container">
+    
+      <p id="privateTriggerText">Want to contact us? Visit our matrix room at:  <a id="privateTrigger"
+                                         href="https://matrix.to/#/!qmUrKSNurDoVuKAtRU:matrix.avaframe.org?via=matrix.avaframe.org">
+     #public:matrix.avaframe.org</a></p>
+    
+  </section>
+</div>
+
+      
+    </main>
+
+    
+
+  <script src="https://avaframe.org/js/app.js"></script>
+  
+  </body>
+</html>

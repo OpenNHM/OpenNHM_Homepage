@@ -6,7 +6,18 @@
     <description>Recent content on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Dec 2020 20:19:18 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Jan 2021 19:08:58 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This month in AvaFrame - January 2021 edition</title>
+      <link>https://avaframe.org/posts/monthlyjan2021/</link>
+      <pubDate>Sat, 30 Jan 2021 19:08:58 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlyjan2021/</guid>
+      <description>Welcome to the first instalment of our monthly update of 2021. This month we started getting into the nitty-gritty of our dense flow module&amp;rsquo;s numerical implementation:
+  To facilitate and improve our development we added new test cases. This time they are more geared towards testing specific numerical issues and more targeted issues, concentrating for now on the dense flow module com1DFAPy.
+  flat plane: a pile of sand (i.</description>
+    </item>
+    
     <item>
       <title>This month in AvaFrame - December 2020 edition</title>
       <link>https://avaframe.org/posts/monthlydec2020/</link>
