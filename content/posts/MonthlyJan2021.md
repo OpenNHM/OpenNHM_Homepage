@@ -33,7 +33,7 @@ issues, concentrating for now on the dense flow module com1DFAPy.
 and what effect this has further along the simulation. 
 
 + Getting into the numerical development also means the compute times start to
-play a role. We moved some parts of the code over to Python to improve the
+play a role. We moved some parts of the code over to Cython to improve the
 computation efficiency of the python dense flow kernel. We are starting to
 profile our python code (pudb and cProfile for those interested). 
 
