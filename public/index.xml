@@ -6,7 +6,18 @@
     <description>Recent content on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 30 Jan 2021 19:08:58 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Mar 2021 19:08:58 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This month in AvaFrame - February 2021 edition</title>
+      <link>https://avaframe.org/posts/monthlyfeb2021/</link>
+      <pubDate>Fri, 05 Mar 2021 19:08:58 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlyfeb2021/</guid>
+      <description>A short month with a lot of progress! It went over so quickly, even this post missed the end of the month&amp;hellip;
+  The big focus this month was the implementation of our dense flow kernel (com1DFAPy) in python/cython. The aim is to replicate the results of our current com1DFA module to be able to swap them. This meant diving deep into every numerical/model detail, things like
+ artificial viscosity friction forces particle initialisation and many more.</description>
+    </item>
+    
     <item>
       <title>This month in AvaFrame - January 2021 edition</title>
       <link>https://avaframe.org/posts/monthlyjan2021/</link>
