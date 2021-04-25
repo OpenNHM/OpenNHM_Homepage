@@ -6,7 +6,18 @@
     <description>Recent content on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Mar 2021 19:08:58 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Apr 2021 19:08:58 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This month in AvaFrame - March 2021 edition</title>
+      <link>https://avaframe.org/posts/monthlymar2021/</link>
+      <pubDate>Sun, 04 Apr 2021 19:08:58 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlymar2021/</guid>
+      <description>Welcome to the March 2021 edition of our monthly update.
+  One big focus this months was a refactor of our AIMEC routines. We realised that our functions were still too complex, so we decided to
+ split it into more atomic function to make it easier to access only certain parts of the AIMEC functionalities. make sure no special folder structure is needed anymore. add an option to compare results from two different com modules.</description>
+    </item>
+    
     <item>
       <title>This month in AvaFrame - February 2021 edition</title>
       <link>https://avaframe.org/posts/monthlyfeb2021/</link>

@@ -11,22 +11,22 @@
 
     <meta property="og:site_name" content="AvaFrame">
     <meta property="og:title" content="
-  This month in AvaFrame - November 2020 edition - AvaFrame
+  This month in AvaFrame - March 2021 edition - AvaFrame
 ">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://avaframe.org/posts/monthlynov2020/">
+    <meta property="og:url" content="https://avaframe.org/posts/monthlymar2021/">
     <meta property="og:image" content="https://avaframe.org">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://avaframe.org/posts/monthlynov2020/">
+    <meta name="twitter:site" content="https://avaframe.org/posts/monthlymar2021/">
     <meta name="twitter:image" content="https://avaframe.org">
 
-    <base href="https://avaframe.org/posts/monthlynov2020/">
+    <base href="https://avaframe.org/posts/monthlymar2021/">
     <title>
-  This month in AvaFrame - November 2020 edition - AvaFrame
+  This month in AvaFrame - March 2021 edition - AvaFrame
 </title>
 
-    <link rel="canonical" href="https://avaframe.org/posts/monthlynov2020/">
+    <link rel="canonical" href="https://avaframe.org/posts/monthlymar2021/">
     
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
     <link rel="stylesheet" href="https://avaframe.org/css/normalize.min.css">
@@ -83,63 +83,60 @@
   <section class="container post">
   <article>
     <header>
-      <h1 class="title">This month in AvaFrame - November 2020 edition</h1>
-      <h2 class="date">November 29, 2020</h2>
+      <h1 class="title">This month in AvaFrame - March 2021 edition</h1>
+      <h2 class="date">April 4, 2021</h2>
 
       
     </header>
 
-    <p>Welcome to our next monthly update.</p>
+    <p>Welcome to the March 2021 edition of our monthly update.</p>
 <ul>
 <li>
-<p>This month started with the exciting (at least for us :-) ) release of
-version 0.1. Head over to our <a href="https://github.com/avaframe/avaframe">github repository</a> 
-and our <a href="https://docs.avaframe.org/en/v0.1">documentation</a> to learn more about
-it (or read our last <a href="https://avaframe.org/posts/version0_1/">post</a>).</p>
+<p>One big focus this months was a refactor of our AIMEC routines. We realised
+that our functions were still too complex, so we decided to</p>
+<ul>
+<li>split it into more atomic function to make it easier to access only certain
+parts of the AIMEC functionalities.</li>
+<li>make sure no special folder structure is needed anymore.</li>
+<li>add an option to compare results from two different com modules.</li>
+<li>improve and develop the AIMEC plots some more.</li>
+<li>showcase how to use it by including it in the standard tests.</li>
+</ul>
+<p>All this is especially important in light of our submission to the vEGU 2021.
+See <a href="https://meetingorganizer.copernicus.org/EGU21/EGU21-6560.html">here</a> for more information.</p>
 </li>
 <li>
-<p>With this release (and the rest of the month as well) we improved our
-documentation quite a lot. New <em>getting started</em> and <em>installation</em> pages
-should make it possible for you to get started (<em>ha, who would have
-guessed</em>..) with AvaFrame. To make it more readable we reordered the modules
-documentation. Just recently we started adding the API documentation with all
-our functions as well (for those interested: this is achieved with sphinx
-autodoc/autosummary and docstrings). To acknowledge the (very important) data
-providers, a data sources page was added, with sources and references to data
-we use in our framework.</p>
+<p>Our Windows side is progressing: the windows executable for the com1DFA module
+has landed. If you want to try it, you can follow our
+<a href="https://docs.avaframe.org/en/latest/installation.html">installation</a> and
+adapt it for windows paths. The documentation will be updated as soon as a
+simpler installation method is available. This will (hopefully) be possible
+via <em>pypi</em>, first tests look promising, but some kinks need to be ironed out
+first.</p>
 </li>
 <li>
-<p>Our existing test cases received more features, now we include multiple
-release areas and multiple scenarios per avalanche. Also included are scenarios
-with resistance areas for our main dense flow avalanche kernel.</p>
+<p>We started an in depth comparison between com1DFA and the python version
+com1DFAPy. Since the python version is getting closer to reproduce the com1DFA
+results we want to make sure we are covering all the bases. To finally being
+able to switch over to the python version, we are now working on adding
+entrainment and resistance areas.</p>
 </li>
 <li>
-<p>The first data for real avalanche test cases has made it to the
-repository. So far we concentrated on idealised cases, but we now include 6
-real world avalanches. For now release areas and DEMs are available. Soon these
-cases will also end up in our test scripts.</p>
-</li>
-<li>
-<p>New functions for probability / parameter range simulations are available for
-the dense flow kernel com1DFA. Testing this with an applied example is underway at
-the moment.</p>
-</li>
-<li>
-<p>We started working on the implementation of our dense flow kernel com1DFA in
-python. This means digging deep into the programming and theory of our C++ reference
-code. The base structure is already there, current developments concentrate on the
-implementation of 2D SPH for depth integrated equations on a surface living in
-3D and time discretizations, among others. Head over to our 
-<a href="https://github.com/avaframe/AvaFrame/issues/">github issues</a> to get an idea about
-the issues (..ha..) at hand.</p>
-</li>
-<li>
-<p>And finally: the second steering committee meeting took place. Which reminds
-me, I need to add a page about AvaFrame&rsquo;s organisational structure&hellip; So watch
-this space&hellip;</p>
+<p>And as always plenty of smaller issues and tasks were tackled:</p>
+<ul>
+<li>writing theory and numerics documentation.</li>
+<li>update idealised topos and naming.</li>
+<li>add description dict/json file for the tests, with an option to filter them using tags.</li>
+<li>update benchmark tests (ini files, particles, benchmark results also regarding com1DFAPy, damBreak).</li>
+<li>add option to change entrainment thickness for com1DFA</li>
+<li>update quickplot with histogram plot insert and 0 values not shown anymore</li>
+</ul>
 </li>
 </ul>
-<p>On to the next month!</p>
+<p>Since the beginning of the month our team got a bit bigger: we welcome Marie and
+Michael, 2 master thesis students, on board. We are looking forward to AvaFrame being
+put to the test!</p>
+<p>Hope to see you at the EGU21,</p>
 <p>Felix</p>
 
   </article>
