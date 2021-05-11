@@ -6,7 +6,32 @@
     <description>Recent content on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Apr 2021 19:08:58 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 May 2021 17:08:58 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This month in AvaFrame - April 2021 edition</title>
+      <link>https://avaframe.org/posts/monthlyapr2021/</link>
+      <pubDate>Wed, 05 May 2021 17:08:58 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlyapr2021/</guid>
+      <description>Welcome to the April 2021 edition of our monthly update.
+Apart from the release of version 0.3, we put a lot of effort into our python/cython dense flow avalanche module com1DFAPy, targeting a swap with com1DFA within the next month:
+  com1DFAPy now includes:
+  an additional particle initialisation method: the per depth method
+  the option to use secondary release areas. They are being triggered if particles enter the area of a secondary release area.</description>
+    </item>
+    
+    <item>
+      <title>Release version 0.3</title>
+      <link>https://avaframe.org/posts/version0_3/</link>
+      <pubDate>Mon, 26 Apr 2021 10:46:51 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/version0_3/</guid>
+      <description>We just released version 0.3 - The AIMEC and Windows release -
+This release brings an AIMEC refactor, plenty of improvements related to the test cases and Windows capabilities. 3 new idealised/generic test case are included: flat plane, inclined slope and pyramid.
+Com1DFAPy recieved a lot of advancement as well, e.g. parts of it are converted to cython to speed up computation times.
+Documentation regarding our testing is included, see more at the testing page.</description>
+    </item>
+    
     <item>
       <title>This month in AvaFrame - March 2021 edition</title>
       <link>https://avaframe.org/posts/monthlymar2021/</link>
