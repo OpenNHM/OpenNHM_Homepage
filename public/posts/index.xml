@@ -21,6 +21,17 @@ We start with a flash update in which everyone working on the project gives a qu
     </item>
     
     <item>
+      <title>This month in AvaFrame - May 2021 edition</title>
+      <link>https://avaframe.org/posts/monthlymay2021/</link>
+      <pubDate>Sat, 05 Jun 2021 17:08:58 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlymay2021/</guid>
+      <description>Welcome to the May 2021 edition of our monthly update. Our main goal was the preparation for the switch of the dense flow model com1DFA from a C code to python (cython) code. This meant to check every little detail and difference that we found as well as:
+  updated the documentation for the new python com1DFAP: algorithm, workflow and description
+  updated the re-projection method of particles. Now particles are re-projected normal to the surface and not vertically.</description>
+    </item>
+    
+    <item>
       <title>This month in AvaFrame - April 2021 edition</title>
       <link>https://avaframe.org/posts/monthlyapr2021/</link>
       <pubDate>Wed, 05 May 2021 17:08:58 +0100</pubDate>

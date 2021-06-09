@@ -6,23 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="author" content="AvaFrame">
-    <meta name="description" content="The open source avalanche framework">
+    <meta name="description" content="https://avaframe.org">
     <meta name="keywords" content="project,avalanche">
 
     <meta property="og:site_name" content="AvaFrame">
-    <meta property="og:title" content="AvaFrame">
-    <meta property="og:description" content="The open source avalanche framework">
+    <meta property="og:title" content="
+  This month in AvaFrame - May 2021 edition - AvaFrame
+">
+    <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://avaframe.org/">
-    <meta property="og:image" content="https://avaframe.orgimages/tn.png">
+    <meta property="og:url" content="https://avaframe.org/posts/monthlymay2021/">
+    <meta property="og:image" content="https://avaframe.org">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://avaframe.org/">
-    <meta name="twitter:image" content="https://avaframe.orgimages/tn.png">
+    <meta name="twitter:site" content="https://avaframe.org/posts/monthlymay2021/">
+    <meta name="twitter:image" content="https://avaframe.org">
 
-    <base href="https://avaframe.org/">
-    <title>AvaFrame</title>
+    <base href="https://avaframe.org/posts/monthlymay2021/">
+    <title>
+  This month in AvaFrame - May 2021 edition - AvaFrame
+</title>
 
-    <link rel="canonical" href="https://avaframe.org/">
+    <link rel="canonical" href="https://avaframe.org/posts/monthlymay2021/">
     
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
     <link rel="stylesheet" href="https://avaframe.org/css/normalize.min.css">
@@ -76,112 +80,78 @@
 
       <div class="content">
         
-  <section class="container centered">
-  <div class="about">
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">This month in AvaFrame - May 2021 edition</h1>
+      <h2 class="date">June 5, 2021</h2>
+
       
-      <div class="avatar"><img src="https://avaframe.org/images/AvaFrameLogo.svg" alt="Logo AvaFrame The
-  open avalanche framework"></div>
-      
-      
-      
+    </header>
 
-
-    <p style="text-align:center;">
-      
-    </p>
-
-  </div>
-
-
-</section>
-
-
-<section class="container list">
-  <div class="content centered">
-  <ul>
-    
-    <li>
-      <span>6. Nov, 2020</span><a href="https://avaframe.org/posts/version0_1/">Initial release version 0.1</a>
-    </li>
-    
-    <li>
-      <span>29. Oct, 2020</span><a href="https://avaframe.org/posts/monthlyoct2020/">This month in AvaFrame - October 2020 edition</a>
-    </li>
-    
-    <li>
-      <span>30. Sep, 2020</span><a href="https://avaframe.org/posts/monthlysep2020/">This month in AvaFrame - September 2020 edition</a>
-    </li>
-    
-    <li>
-      <span>21. Aug, 2020</span><a href="https://avaframe.org/posts/monthlyaug2020/">This month in AvaFrame - August 2020 edition</a>
-    </li>
-    
-    <li>
-      <span>31. Jul, 2020</span><a href="https://avaframe.org/posts/monthlyjul2020/">This month in AvaFrame - July 2020 edition</a>
-    </li>
-    
-    <li>
-      <span>5. Jun, 2020</span><a href="https://avaframe.org/posts/projectstart/">Project start</a>
-    </li>
-    
-    <li>
-      <span>1. Apr, 2020</span><a href="https://avaframe.org/posts/positionnumericsclosed/">Position numerics CLOSED</a>
-    </li>
-    
-    <li>
-      <span>27. Feb, 2020</span><a href="https://avaframe.org/posts/openpositionnumerics/">Open position numerics</a>
-    </li>
-    
-    <li>
-      <span>26. Feb, 2020</span><a href="https://avaframe.org/about/">About</a>
-    </li>
-    
-    <li>
-      <span>26. Feb, 2020</span><a href="https://avaframe.org/contact/">Contact</a>
-    </li>
-    
-  </ul>
-    </div>
-  
-
-
-
-
-
-<ul class="pagination">
-  
-    
-    <li><a href="/">&laquo;</a></li>
-    
-    <li class="hidden"><a href="/">&lsaquo;</a></li>
-  
-  
-    
-    
-      
-    
-    
-      
-      <li><a href="/">1</a></li>
-      
-    
-  
-    
-    
-      
-    
-    
-      
-      <li>2</li>
-      
-    
-  
-  
+    <p>Welcome to the May 2021 edition of our monthly update. Our main goal was the
+preparation for the switch of the dense flow model com1DFA from a C code to
+python (cython) code. This meant to check every little detail and difference that
+we found as well as:</p>
+<ul>
+<li>
+<p>updated the documentation for the new python com1DFAP: algorithm, workflow and description</p>
+</li>
+<li>
+<p>updated the re-projection method of particles. Now particles are re-projected
+normal to the surface and not vertically. This is especially important at
+sharp drops. We also added a test case for this.</p>
+</li>
+<li>
+<p>restructured the com1DFA run workflow</p>
+<ul>
+<li>
+<p>now everything is controlled in model configuration via ini (the previous
+com1DFA had a lot of internal setup)</p>
+</li>
+<li>
+<p>allow for parameter variation runs right from python</p>
+</li>
+<li>
+<p>new naming of simulations which provides easy filtering options</p>
+</li>
 </ul>
+</li>
+<li>
+<p>restructured the benchmark workflow and updated run scripts for standard tests</p>
+<ul>
+<li>
+<p>added simple functions to fetch benchmarks</p>
+</li>
+<li>
+<p>simplify plotting and AIMEC path functions according to new structure based 
+on simulation name and configuration</p>
+</li>
+</ul>
+</li>
+<li>
+<p>com2AB (Alpha Beta) now allows for running with custom parameters</p>
+</li>
+<li>
+<p>added an export function to visualise particle properties with Paraview</p>
+</li>
+<li>
+<p>started the development of the QGis Connection. See this
+<a href="https://github.com/avaframe/QGisAF">repository</a> for the development.</p>
+</li>
+</ul>
+<p>Since we are now nearing the milestone of our first public prototype, I guess we
+will have to start posting some nice graphics as well&hellip; So watch this space for
+upcoming posts! :-)</p>
+<p>Felix</p>
 
+  </article>
 
+  <br/>
+
+  
+  
 </section>
-
 
       </div>
       
