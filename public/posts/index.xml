@@ -6,7 +6,20 @@
     <description>Recent content in Posts on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 May 2021 17:08:58 +0100</lastBuildDate><atom:link href="https://avaframe.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Jun 2021 10:46:51 +0100</lastBuildDate><atom:link href="https://avaframe.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monthly public meeting</title>
+      <link>https://avaframe.org/posts/monthlymeeting/</link>
+      <pubDate>Wed, 09 Jun 2021 10:46:51 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlymeeting/</guid>
+      <description>We invite you to join our first monthly public update meeting on
+Tuesday, 15. June, 9:30
+via this link: online meeting (bigbluebutton, i.e. in your browser).
+These meetings are meant to allow you to see what is currently going on in our development and we invite you to give feedback or suggestions.
+We start with a flash update in which everyone working on the project gives a quick (2min) overview about their current work.</description>
+    </item>
+    
     <item>
       <title>This month in AvaFrame - April 2021 edition</title>
       <link>https://avaframe.org/posts/monthlyapr2021/</link>
