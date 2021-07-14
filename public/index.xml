@@ -6,7 +6,20 @@
     <description>Recent content on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Jun 2021 10:46:51 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Jul 2021 07:08:58 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Public prototype and monthly update</title>
+      <link>https://avaframe.org/posts/publicproto/</link>
+      <pubDate>Wed, 14 Jul 2021 07:08:58 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/publicproto/</guid>
+      <description>In case you wondered where your beloved monthly update is, it was delayed due to us working on a big announcement:
+We released version 0.5 our so called public prototype.
+So now why is this big? (Apart from being a project milestone, which you couldn&amp;rsquo;t care less about I guess)
+This is the first release that is being tested for application in operational hazard mapping.
+To achieve this, quite a few things changed:</description>
+    </item>
+    
     <item>
       <title>Monthly public meeting</title>
       <link>https://avaframe.org/posts/monthlymeeting/</link>
