@@ -47,7 +47,7 @@ will now focus on the new one.
 
 We invite you to give this version a try, but expect some rough edges. 
 But whatever you do, enjoy your summer (or your winter for the southern
-hemisphere guys out there)! 
+hemisphere people out there)! 
 
 Signing out for summer, 
 
