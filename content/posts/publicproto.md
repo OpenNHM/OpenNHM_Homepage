@@ -7,7 +7,7 @@ draft: false
 In case you wondered where your beloved monthly update is, it was delayed due to
 us working on a big announcement:
 
-We released [version 0.5](https://github.com/avaframe/AvaFrame/releases/tag/v0.5) 
+We released [version 0.5](https://github.com/avaframe/AvaFrame/releases/tag/v0.5), 
 our so called **public prototype**. 
 
 So now why is this big? (Apart from being a project milestone, which you couldn't
@@ -50,15 +50,16 @@ But whatever you do, enjoy your summer (or your winter for the southern
 hemisphere guys out there)! 
 
 Signing out for summer, 
+
 Felix
  
  
  Peak flow depth
-![Example image](/img/FZGL_PFD.jpg)
+![Peak flow depth](/img/FZGL_PFD.jpg)
 
  Peak flow pressure
-![Example image](/img/FZGL_PPR.jpg)
+![Peak pressure](/img/FZGL_PPR.jpg)
 
  Peak flow velocity
-![Example image](/img/FZGL_PFV.jpg)
+![Peak flow velocity](/img/FZGL_PFV.jpg)
 
