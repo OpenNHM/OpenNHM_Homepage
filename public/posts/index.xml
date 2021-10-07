@@ -6,7 +6,20 @@
     <description>Recent content in Posts on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Jul 2021 07:08:58 +0100</lastBuildDate><atom:link href="https://avaframe.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Oct 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://avaframe.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This month in AvaFrame - September 2021 edition</title>
+      <link>https://avaframe.org/posts/monthlyseptember2021/</link>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlyseptember2021/</guid>
+      <description>We&amp;rsquo;re back from summer! And with some exciting news too!
+Version 0.6, the QGis/pypi and testing - release, was published.
+So what is included in this release?
+  The installation process was completely changed and (hopefully) made a lot easier for you:
+ installation of AvaFrame is now working via pypi, i.e. through pip install avaframe. the pip install is provided for Windows, Linux and MacOS for python versions &amp;gt; 3.</description>
+    </item>
+    
     <item>
       <title>Public prototype and monthly update</title>
       <link>https://avaframe.org/posts/publicproto/</link>

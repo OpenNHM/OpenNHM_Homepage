@@ -11,22 +11,22 @@
 
     <meta property="og:site_name" content="AvaFrame">
     <meta property="og:title" content="
-  Public prototype and monthly update - AvaFrame
+  This month in AvaFrame - September 2021 edition - AvaFrame
 ">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://avaframe.org/posts/publicproto/">
+    <meta property="og:url" content="https://avaframe.org/posts/monthlyseptember2021/">
     <meta property="og:image" content="https://avaframe.org">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://avaframe.org/posts/publicproto/">
+    <meta name="twitter:site" content="https://avaframe.org/posts/monthlyseptember2021/">
     <meta name="twitter:image" content="https://avaframe.org">
 
-    <base href="https://avaframe.org/posts/publicproto/">
+    <base href="https://avaframe.org/posts/monthlyseptember2021/">
     <title>
-  Public prototype and monthly update - AvaFrame
+  This month in AvaFrame - September 2021 edition - AvaFrame
 </title>
 
-    <link rel="canonical" href="https://avaframe.org/posts/publicproto/">
+    <link rel="canonical" href="https://avaframe.org/posts/monthlyseptember2021/">
     
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
     <link rel="stylesheet" href="https://avaframe.org/css/normalize.min.css">
@@ -83,68 +83,63 @@
   <section class="container post">
   <article>
     <header>
-      <h1 class="title">Public prototype and monthly update</h1>
-      <h2 class="date">July 14, 2021</h2>
+      <h1 class="title">This month in AvaFrame - September 2021 edition</h1>
+      <h2 class="date">October 5, 2021</h2>
 
       
     </header>
 
-    <p>In case you wondered where your beloved monthly update is, it was delayed due to
-us working on a big announcement:</p>
-<p>We released <a href="https://github.com/avaframe/AvaFrame/releases/tag/v0.5">version 0.5</a>, 
-our so called <strong>public prototype</strong>.</p>
-<p>So now why is this big? (Apart from being a project milestone, which you couldn&rsquo;t
-care less about I guess)</p>
-<p><strong>This is the first release that is being tested for
-application in operational hazard mapping.</strong></p>
-<p>To achieve this, quite a few things changed:</p>
+    <p>We&rsquo;re back from summer! And with some exciting news too!</p>
+<p><a href="https://github.com/avaframe/AvaFrame/releases/tag/v0.6">Version 0.6</a>, 
+the <strong>QGis/pypi and testing</strong> - release, was published.</p>
+<p>So what is included in this release?</p>
 <ul>
 <li>
-<p>Version 0.4 saw us switching to our own code for the dense flow module
-com1DFA. The original module is still available, but our development efforts
-will now focus on the new one.</p>
-</li>
-<li>
-<p>With version 0.5 we completely overhauled and updated the documentation to include things
-like:</p>
+<p>The installation process was completely changed and (hopefully) made a lot easier for you:</p>
 <ul>
-<li>updated descriptions of the modules</li>
-<li>installation instructions for Windows</li>
-<li>new DFA algorithm <a href="https://docs.avaframe.org/en/latest/com1DFAAlgorithm.html">description page</a></li>
-<li>and many more changes&hellip;</li>
+<li>installation of AvaFrame is now working via <a href="https://pypi.org/project/avaframe/">pypi</a>, 
+i.e. through <em>pip install avaframe</em>.</li>
+<li>the <em>pip</em> install is provided for Windows, Linux and MacOS for python versions <em>&gt; 3.6</em>. Note that
+we did not test MacOS (anyone got a free Macbook lying around?! :-); seriously: if you work on MacOS
+we&rsquo;d be happy about some feedback!)</li>
+<li>the QGis connector plugin is now in the public
+<a href="https://plugins.qgis.org/plugins/avaframeConnector/">QGis plugin directory</a> 
+and installable via the QGis plugin manager. This allows you to run the standard operational 
+workflow from within QGis.</li>
+<li>see our <a href="https://docs.avaframe.org/en/latest/installation.html">installation instructions</a> for more information</li>
 </ul>
 </li>
 <li>
-<p>We created a <a href="https://github.com/avaframe/QGisAF">new repository</a> for the
-connection between QGis and AvaFrame. This means you can run our operational
-workflow from inside QGis. It is a setup for running com1DFA (dense flow) and
-com2AB (alpha beta), in which you can change
-release thicknesses and run multiple scenarios, but the rest of the setup is
-according to our current default setup.</p>
+<p>Our testing / code coverage has improved considerably. We are still long ways away from perfect, but this is an 
+ongoing process. As a side-note: we switched from codecoverage to codeclimate as service provider, since we felt we
+gain more insights this way.</p>
 </li>
 <li>
-<p>and many more functional changes under the hood, see the main ones in our 
+<p>Modules with the most substantial changes are:</p>
+<ul>
+<li><em>com1DFA</em>:
+<ul>
+<li>any resolution is possible (also see the new <a href="https://docs.avaframe.org/en/latest/FAQ.html">FAQ</a>)</li>
+<li>option to track particles by ID and know which parent particle they originate from.</li>
+<li>include entrainment thickness from shapefiles</li>
+<li>new option for the initialisation of particle mass</li>
+</ul>
+</li>
+<li><em>ana3AIMEC</em>: adjust raster cellsize (for different resolutions) and mass analysis plots</li>
+</ul>
+</li>
+<li>
+<p>And as always: many more functional changes under the hood, see the main ones in our 
 <a href="https://docs.avaframe.org/en/latest/releaseNotes.html">release notes</a>.</p>
 </li>
-<li>
-<p>Together with C. Tollinger (Fachzentrum f. Geologie und Lawinen, WLV) we
-developed a visualisation of the main peak variables based on colormaps that
-works better for people with vision deficiencies (e.g. red/green blindness).
-These plots now work for normal vision, red/green deficiency and in grayscale.
-See examples for the test case ALR at the end of this post.</p>
-</li>
 </ul>
-<p>We invite you to give this version a try, but expect some rough edges. 
-But whatever you do, enjoy your summer (or your winter for the southern
-hemisphere people out there)!</p>
-<p>Signing out for summer,</p>
+<p>We invite you to give this version a try, especially the <em>standard installation using QGis</em>. Please let us know
+if you run into problems (which you will&hellip;). We are looking forward to your feedback!</p>
+<p>And since I can see fresh snow up on the mountains from where I&rsquo;m writing this: let the next avalanche season begin&hellip;</p>
+<p>Till next month,</p>
 <p>Felix</p>
-<p>Peak flow depth
-<img src="/img/FZGL_PFD.jpg" alt="Peak flow depth"></p>
-<p>Peak flow pressure
-<img src="/img/FZGL_PPR.jpg" alt="Peak pressure"></p>
-<p>Peak flow velocity
-<img src="/img/FZGL_PFV.jpg" alt="Peak flow velocity"></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 
   </article>
 
