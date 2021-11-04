@@ -69,8 +69,18 @@ pygmentsUseClasses = true
                 url = "about"
 
             [[languages.en.menu.main]]
-                name = "Posts"
+                name = "Documentation"
+                url = "https://docs.avaframe.org"
                 weight = 2.0
+
+            [[languages.en.menu.main]]
+                name = "Code"
+                url = "https://github.com/avaframe/AvaFrame/"
+                weight = 3.0
+
+            [[languages.en.menu.main]]
+                name = "Posts"
+                weight = 4.0
                 url = "posts"
 
             [[languages.en.menu.main]]
