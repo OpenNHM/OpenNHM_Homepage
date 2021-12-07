@@ -6,7 +6,19 @@
     <description>Recent content on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 05 Oct 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Nov 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This month in AvaFrame - October 2021 edition</title>
+      <link>https://avaframe.org/posts/monthlyoct2021/</link>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlyoct2021/</guid>
+      <description>Welcome to the first winter edition of the monthly update!
+This has been a month with a lot of internal development, but not much of it landed on the master branch just yet.
+The topics we are tackling at the moment are:
+  investigation of the initial particle distribution, we are trying different options and check to see if there is a significant change in the results. Aim is to make this easier to reproduce and less arbitrary.</description>
+    </item>
+    
     <item>
       <title>This month in AvaFrame - September 2021 edition</title>
       <link>https://avaframe.org/posts/monthlyseptember2021/</link>
