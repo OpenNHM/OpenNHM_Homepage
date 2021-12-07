@@ -10,19 +10,25 @@ This has been a month with a lot of internal development, but not much of it lan
 
 The topics we are tackling at the moment are:
 
-- initial particle distribution, trying different options
-and checking if there is a significant change in the results
+- investigation of the  initial particle distribution, we are trying different options
+  and check to see if there is a significant change in the results. Aim is to make this easier to reproduce and less
+  arbitrary.
 
--  working on the DFA kernel convergence (with Amaury). 
+- another method of splitting (and potentially merging) of particles is being developed. This relates to particle masses
+and consistent handling in the numerical schemes. 
 
-- I also looked at Maries code and we are trying with JT to get a
+- we have the pleasure of welcoming an intern to our team: Amaury. Expect to see code and other contributions coming
+from him. He will be working on investigating DFA kernel convergence (together with Matthias). 
 
-- good workflow out of it. I am now working on the splitting method for particles.1
+- the first of the AvaFrame related master thesis results are coming closer. The first code from Marie has landed and is
+being integrated in the code base. Exciting stuff related to path generation, hybrid / combination modeling of com1DFA
+(dense flow) and com2AB (alpha beta). 
 
-- Welcome Amaury as an intern, you will see some more code and other contributions from him
+- we are now beginning the process of bringing end users with operational background in, getting feedback and stumbling
+on all those pesky little teething problems. Thanks to all those taking time for this, your contribution is highly
+valued!
 
-- Now beginning the process of bringing end users with operational background in  is and getting feedback
-
+That's it for this month, see you 
 
 Felix
  
