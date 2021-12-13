@@ -6,7 +6,19 @@
     <description>Recent content in Posts on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Nov 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://avaframe.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Dec 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://avaframe.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This month in AvaFrame - November 2021 edition</title>
+      <link>https://avaframe.org/posts/monthlynov2021/</link>
+      <pubDate>Fri, 03 Dec 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlynov2021/</guid>
+      <description>Welcome to our monthly update for November.
+There are some changes especially for those wanting to try and test AvaFrame:
+  the AvaFrame QGis Connector is now out of the experimental state, so it is easily installable via the QGis plugins manager. No more need to enable experimental plugins. See QGis plugin directory.
+  We had our first webinar with about 15 test users. This group is testing AvaFrame from an operational point of view.</description>
+    </item>
+    
     <item>
       <title>This month in AvaFrame - October 2021 edition</title>
       <link>https://avaframe.org/posts/monthlyoct2021/</link>

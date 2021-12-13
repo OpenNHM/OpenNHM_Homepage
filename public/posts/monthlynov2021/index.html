@@ -11,22 +11,22 @@
 
     <meta property="og:site_name" content="AvaFrame">
     <meta property="og:title" content="
-  This month in AvaFrame - May 2021 edition - AvaFrame
+  This month in AvaFrame - November 2021 edition - AvaFrame
 ">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://avaframe.org/posts/monthlymay2021/">
+    <meta property="og:url" content="https://avaframe.org/posts/monthlynov2021/">
     <meta property="og:image" content="https://avaframe.org">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://avaframe.org/posts/monthlymay2021/">
+    <meta name="twitter:site" content="https://avaframe.org/posts/monthlynov2021/">
     <meta name="twitter:image" content="https://avaframe.org">
 
-    <base href="https://avaframe.org/posts/monthlymay2021/">
+    <base href="https://avaframe.org/posts/monthlynov2021/">
     <title>
-  This month in AvaFrame - May 2021 edition - AvaFrame
+  This month in AvaFrame - November 2021 edition - AvaFrame
 </title>
 
-    <link rel="canonical" href="https://avaframe.org/posts/monthlymay2021/">
+    <link rel="canonical" href="https://avaframe.org/posts/monthlynov2021/">
     
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
     <link rel="stylesheet" href="https://avaframe.org/css/normalize.min.css">
@@ -91,66 +91,52 @@
   <section class="container post">
   <article>
     <header>
-      <h1 class="title">This month in AvaFrame - May 2021 edition</h1>
-      <h2 class="date">June 5, 2021</h2>
+      <h1 class="title">This month in AvaFrame - November 2021 edition</h1>
+      <h2 class="date">December 3, 2021</h2>
 
       
     </header>
 
-    <p>Welcome to the May 2021 edition of our monthly update. Our main goal was the
-preparation for the switch of the dense flow model com1DFA from a C code to
-python (cython) code. This meant to check every little detail and difference that
-we found as well as:</p>
+    <p>Welcome to our monthly update for November.</p>
+<p>There are some changes especially for those wanting to try and test AvaFrame:</p>
 <ul>
 <li>
-<p>updated the documentation for the new python com1DFAP: algorithm, workflow and description</p>
+<p>the AvaFrame QGis Connector is now out of the experimental state, so it is easily installable via the QGis plugins
+manager. No more need to enable experimental plugins. See
+<a href="https://plugins.qgis.org/plugins/avaframeConnector/">QGis plugin directory</a>.</p>
 </li>
 <li>
-<p>updated the re-projection method of particles. Now particles are re-projected
-normal to the surface and not vertically. This is especially important at
-sharp drops. We also added a test case for this.</p>
+<p>We had our first webinar with about 15 test users. This group is testing AvaFrame from an operational point of view.
+The first feedback is already rolling in, and we already discovered some more snags. However, so far nothing too serious.
+Some, as yet to be solved, problems concern file access rights on windows machines. If you hit a similar problem, we&rsquo;d
+be happy to hear from you! (e.g. via a github bug report&hellip;)</p>
 </li>
 <li>
-<p>restructured the com1DFA run workflow</p>
-<ul>
-<li>
-<p>now everything is controlled in model configuration via ini (the previous
-com1DFA had a lot of internal setup)</p>
+<p>For those working on MacOS: there are successful installations on current MacOS versions. The safest way seems to be
+to install QGis via conda (anaconda; conda-forge).</p>
 </li>
 <li>
-<p>allow for parameter variation runs right from python</p>
+<p>We are investing more effort into the improvement of our testing. Both unit testing and model testing are tackled.
+This is applied right away for current developments like the ongoing investigation into initial particle distribution
+methods.</p>
 </li>
 <li>
-<p>new naming of simulations which provides easy filtering options</p>
+<p>Work is also being done on the  similarity solution test, comparing DFA results to an analytic solution.</p>
+</li>
+<li>
+<p>As mentioned last month, a, what we call <em>hybrid model</em> is being developed.  This includes automatic path finding
+from a combination of  DFA simulations (com1DFA) and alpha beta results (com2AB). Expect the full module hitting our
+code base soon.</p>
+</li>
+<li>
+<p>The documentation now includes information about an extended method to split and/or merge particles during computation
+of the com1DFA module. See <a href="https://docs.avaframe.org/en/latest/DFAnumerics.html?highlight=merge#particle-splitting-and-merging">here</a>
+for more information.</p>
 </li>
 </ul>
-</li>
-<li>
-<p>restructured the benchmark workflow and updated run scripts for standard tests</p>
-<ul>
-<li>
-<p>added simple functions to fetch benchmarks</p>
-</li>
-<li>
-<p>simplify plotting and AIMEC path functions according to new structure based
-on simulation name and configuration</p>
-</li>
-</ul>
-</li>
-<li>
-<p>com2AB (Alpha Beta) now allows for running with custom parameters</p>
-</li>
-<li>
-<p>added an export function to visualise particle properties with Paraview</p>
-</li>
-<li>
-<p>started the development of the QGis Connection. See this
-<a href="https://github.com/avaframe/QGisAF">repository</a> for the development.</p>
-</li>
-</ul>
-<p>Since we are now nearing the milestone of our first public prototype, I guess we
-will have to start posting some nice graphics as well&hellip; So watch this space for
-upcoming posts! :-)</p>
+<p>We plan on offering a  <strong>public webinar</strong> for everyone interested. It is currently set for the beginning of February,
+watch this space for an announcement soon!</p>
+<p>That&rsquo;s it for this month, happy skiing, snowboarding or whatever satisfies your winter-y needs!</p>
 <p>Felix</p>
 
   </article>
