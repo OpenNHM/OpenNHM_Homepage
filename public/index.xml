@@ -6,7 +6,18 @@
     <description>Recent content on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Dec 2021 00:00:00 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Jan 2022 00:00:00 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This month in AvaFrame - December 2021 edition</title>
+      <link>https://avaframe.org/posts/monthlydec2021/</link>
+      <pubDate>Mon, 03 Jan 2022 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlydec2021/</guid>
+      <description>Welcome to our last monthly update for 2021.
+This month so a broad development across all modules:
+  A new module ana4Stats/probAna is available and is concerned with all things related to probability runs and it therefore includes a lot of tools for parameter variations as well. This lead to some general improvements regarding filtering and ordering of simulations, both before any simulations ar run, as well as for sorting and filtering results for postprocessing.</description>
+    </item>
+    
     <item>
       <title>This month in AvaFrame - November 2021 edition</title>
       <link>https://avaframe.org/posts/monthlynov2021/</link>
@@ -55,6 +66,19 @@ We released version 0.5, our so called public prototype.
 So now why is this big? (Apart from being a project milestone, which you couldn&amp;rsquo;t care less about I guess)
 This is the first release that is being tested for application in operational hazard mapping.
 To achieve this, quite a few things changed:</description>
+    </item>
+    
+    <item>
+      <title>Monthly public meeting</title>
+      <link>https://avaframe.org/posts/monthlymeeting/</link>
+      <pubDate>Wed, 09 Jun 2021 10:46:51 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlymeeting/</guid>
+      <description>We invite you to join our first monthly public update meeting on
+Tuesday, 15. June, 9:30
+via this link: online meeting (bigbluebutton, i.e. in your browser).
+These meetings are meant to allow you to see what is currently going on in our development and we invite you to give feedback or suggestions.
+We start with a flash update in which everyone working on the project gives a quick (2min) overview about their current work.</description>
     </item>
     
     <item>

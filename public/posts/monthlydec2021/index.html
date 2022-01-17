@@ -6,23 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="author" content="AvaFrame">
-    <meta name="description" content="The open source avalanche framework">
+    <meta name="description" content="https://avaframe.org">
     <meta name="keywords" content="project,avalanche">
 
     <meta property="og:site_name" content="AvaFrame">
-    <meta property="og:title" content="AvaFrame">
-    <meta property="og:description" content="The open source avalanche framework">
+    <meta property="og:title" content="
+  This month in AvaFrame - December 2021 edition - AvaFrame
+">
+    <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://avaframe.org/">
-    <meta property="og:image" content="https://avaframe.orgimages/tn.png">
+    <meta property="og:url" content="https://avaframe.org/posts/monthlydec2021/">
+    <meta property="og:image" content="https://avaframe.org">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://avaframe.org/">
-    <meta name="twitter:image" content="https://avaframe.orgimages/tn.png">
+    <meta name="twitter:site" content="https://avaframe.org/posts/monthlydec2021/">
+    <meta name="twitter:image" content="https://avaframe.org">
 
-    <base href="https://avaframe.org/">
-    <title>AvaFrame</title>
+    <base href="https://avaframe.org/posts/monthlydec2021/">
+    <title>
+  This month in AvaFrame - December 2021 edition - AvaFrame
+</title>
 
-    <link rel="canonical" href="https://avaframe.org/">
+    <link rel="canonical" href="https://avaframe.org/posts/monthlydec2021/">
     
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
     <link rel="stylesheet" href="https://avaframe.org/css/normalize.min.css">
@@ -84,106 +88,71 @@
 
       <div class="content">
         
-  <section class="container centered">
-  <div class="about">
-      
-      <div class="avatar"><img src="https://avaframe.org/images/AvaFrameLogo.svg" alt="Logo AvaFrame The
-  open avalanche framework"></div>
-      
-      
-      
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">This month in AvaFrame - December 2021 edition</h1>
+      <h2 class="date">January 3, 2022</h2>
 
-
-    <p style="text-align:center;">
       
-    </p>
+    </header>
 
-  </div>
-
-
-</section>
-
-
-<section class="container list">
-  <div class="content centered">
-  <ul>
-    
-    <li>
-      <span>31. Jul, 2020</span><a href="https://avaframe.org/posts/monthlyjul2020/">This month in AvaFrame - July 2020 edition</a>
-    </li>
-    
-    <li>
-      <span>5. Jun, 2020</span><a href="https://avaframe.org/posts/projectstart/">Project start</a>
-    </li>
-    
-    <li>
-      <span>1. Apr, 2020</span><a href="https://avaframe.org/posts/positionnumericsclosed/">Position numerics CLOSED</a>
-    </li>
-    
-    <li>
-      <span>27. Feb, 2020</span><a href="https://avaframe.org/posts/openpositionnumerics/">Open position numerics</a>
-    </li>
-    
-    <li>
-      <span>26. Feb, 2020</span><a href="https://avaframe.org/about/">About</a>
-    </li>
-    
-    <li>
-      <span>26. Feb, 2020</span><a href="https://avaframe.org/contact/">Contact</a>
-    </li>
-    
-  </ul>
-    </div>
-  
-
-
-
-
-
-<ul class="pagination">
-  
-    
-    <li><a href="/">&laquo;</a></li>
-    
-    <li class="hidden"><a href="/page/2/">&lsaquo;</a></li>
-  
-  
-    
-    
-      
-    
-    
-      
-      <li><a href="/">1</a></li>
-      
-    
-  
-    
-    
-      
-    
-    
-      
-      <li><a href="/page/2/">2</a></li>
-      
-    
-  
-    
-    
-      
-    
-    
-      
-      <li>3</li>
-      
-    
-  
-  
+    <p>Welcome to our last monthly update for 2021.</p>
+<p>This month so a broad development across all modules:</p>
+<ul>
+<li>
+<p>A new module <code>ana4Stats/probAna</code> is available and is concerned with all things related to probability runs
+and it therefore includes a lot of tools for parameter variations as well. This lead to some general improvements
+regarding filtering and ordering of simulations, both before any simulations ar run, as well as for sorting
+and filtering results for postprocessing.</p>
+</li>
+<li>
+<p>Some more initial particle distribution stuff was tackled, mainly experimenting on new ideas / improvements.</p>
+</li>
+<li>
+<p>One big improvement is related to our unique ID, the so called <code>simHash</code>. It now includes input data info
+about the DEM, release/entrainment/secondary release scenario names. This avoids a previous issue in which
+it was possible to get the same hash for different input values, if those values originated in the input
+shape files. Glad this is off the table now&hellip;</p>
+</li>
+<li>
+<p>In the same area of the code, the process of getting thickness values from configuration or shape file is
+now fully documented and fully reproducible.</p>
+</li>
+<li>
+<p>The documentation received some substantial update regarding the splitting and merging of particles, as well
+as an extensive documentation for our bottom friction and operator splitting algorithm.</p>
+</li>
+<li>
+<p>The data format for AIMEC inputs and outputs is refactored to use pandas dataframes. This is to make it easier to use,
+filter, order the outputs of AIMEC.</p>
+</li>
+<li>
+<p>We introduced the concept of the <code>travel angle</code>, expect some more development/output in this regard.</p>
+</li>
+<li>
+<p>Work is still going on regarding the similarity solution convergence test.</p>
+</li>
 </ul>
+<p>Some fixes that are included now:</p>
+<ul>
+<li>
+<p>Fix com2AB documentation with ambiguous symbols</p>
+</li>
+<li>
+<p>Fix bug in ordering simulation files inside AIMEC</p>
+</li>
+</ul>
+<p>Hope you all had a nice end of the year, and are are excited for the new year to come (at least I am :-) )</p>
+<p>Felix</p>
 
+  </article>
 
+  <br/>
+
+  
+  
 </section>
-
 
       </div>
       
