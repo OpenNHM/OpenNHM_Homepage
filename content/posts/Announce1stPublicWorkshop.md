@@ -11,9 +11,9 @@ You are invited to join us on
 
 **8. March at 11:00**.
 
-The workshop will be held online, details with links to all necessary information will be
-posted on this homepage. So if you want to learn how to use AvaFrame or
-have questions about it, we look forward to your participation!
+The workshop will be held online, details with links to all necessary information will be posted on this homepage. We
+will cover the basic usage of AvaFrame via the AvaFrame QGis Connector and give you some background information. So if
+you want to learn how to use AvaFrame or have questions about it, we look forward to your participation!   
 
 Your AvaFrame core team
 
