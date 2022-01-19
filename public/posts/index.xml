@@ -6,7 +6,20 @@
     <description>Recent content in Posts on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Jan 2022 10:46:51 +0100</lastBuildDate><atom:link href="https://avaframe.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Jan 2022 10:46:51 +0100</lastBuildDate><atom:link href="https://avaframe.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1st Public Workshop</title>
+      <link>https://avaframe.org/posts/announce1stworkshop/</link>
+      <pubDate>Wed, 19 Jan 2022 10:46:51 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/announce1stworkshop/</guid>
+      <description>We are happy to announce our 1st public AvaFrame workshop.
+You are invited to join us on
+8. March at 11:00.
+The workshop will be held online, details with links to all necessary information will be posted on this homepage. So if you want to learn how to use AvaFrame or have questions about it, we look forward to your participation!
+Your AvaFrame core team</description>
+    </item>
+    
     <item>
       <title>Call for abstracts IMC 2022</title>
       <link>https://avaframe.org/posts/announceimc22/</link>
