@@ -11,22 +11,22 @@
 
     <meta property="og:site_name" content="AvaFrame">
     <meta property="og:title" content="
-  Open position numerics - AvaFrame
+  This month in AvaFrame - January 2022 edition - AvaFrame
 ">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://avaframe.org/posts/openpositionnumerics/">
-    <meta property="og:image" content="https://avaframe.orgimages/tn.png">
+    <meta property="og:url" content="https://avaframe.org/posts/monthlyjan2022/">
+    <meta property="og:image" content="https://avaframe.org">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://avaframe.org/posts/openpositionnumerics/">
-    <meta name="twitter:image" content="https://avaframe.orgimages/tn.png">
+    <meta name="twitter:site" content="https://avaframe.org/posts/monthlyjan2022/">
+    <meta name="twitter:image" content="https://avaframe.org">
 
-    <base href="https://avaframe.org/posts/openpositionnumerics/">
+    <base href="https://avaframe.org/posts/monthlyjan2022/">
     <title>
-  Open position numerics - AvaFrame
+  This month in AvaFrame - January 2022 edition - AvaFrame
 </title>
 
-    <link rel="canonical" href="https://avaframe.org/posts/openpositionnumerics/">
+    <link rel="canonical" href="https://avaframe.org/posts/monthlyjan2022/">
     
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
     <link rel="stylesheet" href="https://avaframe.org/css/normalize.min.css">
@@ -91,16 +91,50 @@
   <section class="container post">
   <article>
     <header>
-      <h1 class="title">Open position numerics</h1>
-      <h2 class="date">February 27, 2020</h2>
+      <h1 class="title">This month in AvaFrame - January 2022 edition</h1>
+      <h2 class="date">February 5, 2022</h2>
 
       
     </header>
 
-    <p>We currently seek to fill the following position</p>
-<p><a href="/pdf/20200214_Ausschreibung_Numeriker.pdf">Numerical developer/scientist for avalanche simulations</a></p>
-<p>For details see the pdf, if you have any further questions please use the
-matrix room (see <a href="/contact">contact</a>) or details provided in the pdf.</p>
+    <p>Welcome to the January 2022 update.</p>
+<p>Our focus this month was the preparation for our upcoming version 1.0 release. We finished the month by publishing
+the first release candidate. See <a href="https://github.com/avaframe/AvaFrame/releases">github releases</a> for a full changelog.</p>
+<ul>
+<li>
+<p>For the final release of version 1.0 we worked on a difference report, investigating our numerics and comparing it
+to com1DFAOrig.</p>
+</li>
+<li>
+<p>We streamlined and improved the way release thickness is being set in the DFA module <em>com1DFA</em></p>
+<ul>
+<li>it is possible now to add variations if release thickness is read from shapefile.</li>
+<li>add percent and range variation options.</li>
+</ul>
+</li>
+<li>
+<p>A new probability runscript is now in its final development stages.</p>
+</li>
+<li>
+<p>On the numerics side <em>convergence</em> of com1DFA for the similarity solution test case was the topic of the month.</p>
+<ul>
+<li>The aim is to extract a criterion between the time and space discretization parameters that leads to convergence
+of the numerical method towards the solution of the depth integrated equations.</li>
+<li>We are now trying to do the same analysis on more test cases. Starting with idealized topographies and coulomb friction,
+but also real topographies.</li>
+</ul>
+</li>
+<li>
+<p>Further minor improvements here and there, including:</p>
+<ul>
+<li>cleaning up runscripts.</li>
+<li>cleaning benchmarks.</li>
+<li>explore plotting options for uncertainty visualisation.</li>
+</ul>
+</li>
+</ul>
+<p>That&rsquo;s it for this month, have a good start into this year!</p>
+<p>Felix</p>
 
   </article>
 
