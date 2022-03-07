@@ -344,8 +344,11 @@ Our mission is to
       <pubDate>Wed, 26 Feb 2020 13:00:08 +0100</pubDate>
       
       <guid>https://avaframe.org/contact/</guid>
-      <description>Visit our matrix room at: #public:matrix.avaframe.org
-If you don&amp;rsquo;t have a matrix account yet, we suggest to use riot.im to create an account.</description>
+      <description>We are using https://element.io/ / https://matrix.org/ for our communication.
+You don’t have an acocunt, go to: https://app.element.io/#/register -&amp;gt; Create Account
+You can choose between using:
+ matrix.org, this is the default. your own or another infrastructure (universities, company, …). Setup via: Edit -&amp;gt; add your own homeserver.  Note: It does not matter where your account originates, it works for the whole matrix environment.
+Once you’re done, head to the next step:</description>
     </item>
     
   </channel>
