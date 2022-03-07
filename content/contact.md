@@ -11,9 +11,9 @@ We are using https://element.io/ / https://matrix.org/ for our communication.
 <!-- Visit our matrix room at:  -->
 <!-- [#public:matrix.avaframe.org](https://matrix.to/#/!qmUrKSNurDoVuKAtRU:matrix.avaframe.org?via=matrix.avaframe.org) -->
 
-### You don’t have an acocunt, go to:
+### You don’t have an element/matrix account:
 
-https://app.element.io/#/register -> Create Account
+got to [https://app.element.io/#/register](https://app.element.io/#/register) -> Create Account
 
 You can choose between using:
    - matrix.org, this is the default.
