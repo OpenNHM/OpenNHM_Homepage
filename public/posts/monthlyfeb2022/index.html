@@ -6,23 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="author" content="AvaFrame">
-    <meta name="description" content="The open source avalanche framework">
+    <meta name="description" content="https://avaframe.org">
     <meta name="keywords" content="project,avalanche">
 
     <meta property="og:site_name" content="AvaFrame">
-    <meta property="og:title" content="AvaFrame">
-    <meta property="og:description" content="The open source avalanche framework">
+    <meta property="og:title" content="
+  This month in AvaFrame - February 2022 edition - AvaFrame
+">
+    <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://avaframe.org/">
-    <meta property="og:image" content="https://avaframe.orgimages/tn.png">
+    <meta property="og:url" content="https://avaframe.org/posts/monthlyfeb2022/">
+    <meta property="og:image" content="https://avaframe.org">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://avaframe.org/">
-    <meta name="twitter:image" content="https://avaframe.orgimages/tn.png">
+    <meta name="twitter:site" content="https://avaframe.org/posts/monthlyfeb2022/">
+    <meta name="twitter:image" content="https://avaframe.org">
 
-    <base href="https://avaframe.org/">
-    <title>AvaFrame</title>
+    <base href="https://avaframe.org/posts/monthlyfeb2022/">
+    <title>
+  This month in AvaFrame - February 2022 edition - AvaFrame
+</title>
 
-    <link rel="canonical" href="https://avaframe.org/">
+    <link rel="canonical" href="https://avaframe.org/posts/monthlyfeb2022/">
     
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
     <link rel="stylesheet" href="https://avaframe.org/css/normalize.min.css">
@@ -84,132 +88,50 @@
 
       <div class="content">
         
-  <section class="container centered">
-  <div class="about">
-      
-      <div class="avatar"><img src="https://avaframe.org/images/AvaFrameLogo.svg" alt="Logo AvaFrame The
-  open avalanche framework"></div>
-      
-      
-      
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">This month in AvaFrame - February 2022 edition</h1>
+      <h2 class="date">March 4, 2022</h2>
 
+      
+    </header>
 
-    <p style="text-align:center;">
-      
-    </p>
-
-  </div>
-
-
-</section>
-
-
-<section class="container list">
-  <div class="content centered">
-  <ul>
-    
-    <li>
-      <span>28. Mar, 2022</span><a href="https://avaframe.org/posts/recording1stworkshop/">Recording 1st Public Workshop 8. March</a>
-    </li>
-    
-    <li>
-      <span>4. Mar, 2022</span><a href="https://avaframe.org/posts/monthlyfeb2022/">This month in AvaFrame - February 2022 edition</a>
-    </li>
-    
-    <li>
-      <span>1. Mar, 2022</span><a href="https://avaframe.org/posts/info1stworkshop/">Info 1st Public Workshop 8. March</a>
-    </li>
-    
-    <li>
-      <span>5. Feb, 2022</span><a href="https://avaframe.org/posts/monthlyjan2022/">This month in AvaFrame - January 2022 edition</a>
-    </li>
-    
-    <li>
-      <span>19. Jan, 2022</span><a href="https://avaframe.org/posts/announce1stworkshop/">1st Public Workshop</a>
-    </li>
-    
-    <li>
-      <span>17. Jan, 2022</span><a href="https://avaframe.org/posts/announceimc22/">Call for abstracts IMC 2022</a>
-    </li>
-    
-    <li>
-      <span>3. Jan, 2022</span><a href="https://avaframe.org/posts/monthlydec2021/">This month in AvaFrame - December 2021 edition</a>
-    </li>
-    
-    <li>
-      <span>3. Dec, 2021</span><a href="https://avaframe.org/posts/monthlynov2021/">This month in AvaFrame - November 2021 edition</a>
-    </li>
-    
-    <li>
-      <span>5. Nov, 2021</span><a href="https://avaframe.org/posts/monthlyoct2021/">This month in AvaFrame - October 2021 edition</a>
-    </li>
-    
-    <li>
-      <span>5. Oct, 2021</span><a href="https://avaframe.org/posts/monthlyseptember2021/">This month in AvaFrame - September 2021 edition</a>
-    </li>
-    
-  </ul>
-    </div>
-  
-
-
-
-
-
-<ul class="pagination">
-  
-  
-    
-    
-      
-    
-    
-      
-      <li>1</li>
-      
-    
-  
-    
-    
-      
-    
-    
-      
-      <li><a href="/page/2/">2</a></li>
-      
-    
-  
-    
-    
-      
-    
-    
-      
-      <li><a href="/page/3/">3</a></li>
-      
-    
-  
-    
-    
-      
-    
-    
-      
-      <li><a href="/page/4/">4</a></li>
-      
-    
-  
-  
-    <li class="hidden"><a href="/page/2/">&rsaquo;</a></li>
-    
-    <li><a href="/page/4/">&raquo;</a></li>
-    
-  
+    <p>Welcome to the second update of 2022.</p>
+<p>We are still preparing for the upcoming release, so expect to see some release candidates being published:</p>
+<ul>
+<li>
+<p>We are preparing a difference report with a comparison between com1DFAOrig and com1DFA. In there we&rsquo;ll look at different
+numerical and other investigations, among this is comparison for different particle seeds.</p>
+</li>
+<li>
+<p>It is now possible to use a range option to vary thickness values</p>
+</li>
+<li>
+<p>Remeshing of the DEMs is improved now: if the remeshing was already done in a previous simulation, remeshing is not
+redone, but taken from a saved DEM. This saves some compute time right at the beginning.</p>
+</li>
+<li>
+<p>We are adding code to create simulograms and thalweg-time-diagrams. More on those later&hellip;</p>
+</li>
+<li>
+<p>A new, so called <em>energy line test</em> now available with its documentation. If you want to know more, head over to our
+documentation.</p>
+</li>
+<li>
+<p>We started the process of providing peer-reviewed papers, by starting on different papers.</p>
+</li>
 </ul>
+<p>We are also looking forward to the 1st public workshop at the 8th of March.</p>
+<p>Felix</p>
 
+  </article>
 
+  <br/>
+
+  
+  
 </section>
-
 
       </div>
       

@@ -22,6 +22,18 @@ Your AvaFrame core team</description>
     </item>
     
     <item>
+      <title>This month in AvaFrame - February 2022 edition</title>
+      <link>https://avaframe.org/posts/monthlyfeb2022/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlyfeb2022/</guid>
+      <description>Welcome to the second update of 2022.
+We are still preparing for the upcoming release, so expect to see some release candidates being published:
+  We are preparing a difference report with a comparison between com1DFAOrig and com1DFA. In there we&amp;rsquo;ll look at different numerical and other investigations, among this is comparison for different particle seeds.
+  It is now possible to use a range option to vary thickness values</description>
+    </item>
+    
+    <item>
       <title>Info 1st Public Workshop 8. March</title>
       <link>https://avaframe.org/posts/info1stworkshop/</link>
       <pubDate>Tue, 01 Mar 2022 20:46:51 +0100</pubDate>
@@ -32,19 +44,6 @@ Your AvaFrame core team</description>
 It takes place via a zoom meeting: ZOOMLINK (Login via browser is possible, no app installation necessary). The workshop will be held in English.
 If you want to follow the hands on demo:
   please prepare by following the installation instructions on our documentation: standard installation.</description>
-    </item>
-    
-    <item>
-      <title>This month in AvaFrame - January 2022 edition</title>
-      <link>https://avaframe.org/posts/monthlyfeb2022/</link>
-      <pubDate>Sat, 05 Feb 2022 00:00:00 +0100</pubDate>
-      
-      <guid>https://avaframe.org/posts/monthlyfeb2022/</guid>
-      <description>Welcome to the January 2022 update.
-seed test for difference report
-add range option to vary thickness values
-new workflow for remeshing DEM, saving, looking for remeshed DEM
-mostly work on including AK/MWs code on simulograms, make tt-diagram and runscripts for both (not sure if good to mentions as no PR is there yet, I am working on docu and pytests and want to have Anselms feedback on docu first)</description>
     </item>
     
     <item>
