@@ -1,25 +1,25 @@
 ---
 title: "This month in AvaFrame - April 2022 edition"
-date: 2022-04-03T00:00:00+01:00
-draft: true 
+date: 2022-05-05T00:00:00+01:00
+draft: false
 ---
 
 Welcome to the April 2022 update.
 
-This is an important one! Version on 
+The info in here is a bit short... This is because there's a separate post about the main
+event this month: **Version 1.0 is out**!!
+Please head over there to get the full info on this. 
 
-TODO: update the Relese notes on doc!!
+Apart from this we worked on:
 
+- a few fixes regarding init files
+- reworking a few AIMEC functions and calculating real areas in this regard
+- a few minor bugs are fixed
+- added various documentation bits, especially the installation instructions. Currently 
+  we are offering to different setups for you to choose. One for operational settings and on for
+  development purposes. Please head over to our documentation https://docs.avaframe.org to find out more
+- we are in the process of writing peer reviewed papers. Will take a while :-) 
 
-Add init files to new modules, fixes #712
-group aimec functions and get real area
-
-Bug Fixes and documenation
-Reorder installation and getting started documentation
-https://docs.avaframe.org/en/fixfor1.0/
-
-Path generation
-
-We had a few release candidates, for a full changelog see [github releases](https://github.com/avaframe/AvaFrame/releases).
+And now on to the version 1.0 announcement. 
 
 Felix
