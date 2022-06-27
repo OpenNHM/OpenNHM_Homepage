@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://avaframe.org/</loc>
-    <lastmod>2022-05-06T00:00:00+01:00</lastmod>
+    <lastmod>2022-05-19T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://avaframe.org/posts/</loc>
-    <lastmod>2022-05-06T00:00:00+01:00</lastmod>
+    <lastmod>2022-05-19T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://avaframe.org/posts/version1_1/</loc>
+    <lastmod>2022-05-19T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://avaframe.org/posts/version1_0/</loc>
     <lastmod>2022-05-06T00:00:00+01:00</lastmod>

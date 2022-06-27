@@ -6,23 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="author" content="AvaFrame">
-    <meta name="description" content="The open source avalanche framework">
+    <meta name="description" content="https://avaframe.org">
     <meta name="keywords" content="project,avalanche">
 
     <meta property="og:site_name" content="AvaFrame">
-    <meta property="og:title" content="AvaFrame">
-    <meta property="og:description" content="The open source avalanche framework">
+    <meta property="og:title" content="
+  Release Version 1.1 - AvaFrame
+">
+    <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://avaframe.org/">
-    <meta property="og:image" content="https://avaframe.orgimages/tn.png">
+    <meta property="og:url" content="https://avaframe.org/posts/version1_1/">
+    <meta property="og:image" content="https://avaframe.org">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://avaframe.org/">
-    <meta name="twitter:image" content="https://avaframe.orgimages/tn.png">
+    <meta name="twitter:site" content="https://avaframe.org/posts/version1_1/">
+    <meta name="twitter:image" content="https://avaframe.org">
 
-    <base href="https://avaframe.org/">
-    <title>AvaFrame</title>
+    <base href="https://avaframe.org/posts/version1_1/">
+    <title>
+  Release Version 1.1 - AvaFrame
+</title>
 
-    <link rel="canonical" href="https://avaframe.org/">
+    <link rel="canonical" href="https://avaframe.org/posts/version1_1/">
     
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
     <link rel="stylesheet" href="https://avaframe.org/css/normalize.min.css">
@@ -88,137 +92,63 @@
 
       <div class="content">
         
-  <section class="container centered">
-  <div class="about">
-      
-      <div class="avatar"><img src="https://avaframe.org/images/AvaFrameLogo.svg" alt="Logo AvaFrame The
-  open avalanche framework"></div>
-      
-      
-      
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">Release Version 1.1</h1>
+      <h2 class="date">May 19, 2022</h2>
 
+      
+    </header>
 
-    <p style="text-align:center;">
-      
-    </p>
-
-  </div>
-
-
-</section>
-
-
-<section class="container list">
-  <div class="content centered">
-  <ul>
-    
-    <li>
-      <span>5. Mar, 2021</span><a href="https://avaframe.org/posts/monthlyfeb2021/">This month in AvaFrame - February 2021 edition</a>
-    </li>
-    
-    <li>
-      <span>30. Jan, 2021</span><a href="https://avaframe.org/posts/monthlyjan2021/">This month in AvaFrame - January 2021 edition</a>
-    </li>
-    
-    <li>
-      <span>29. Dec, 2020</span><a href="https://avaframe.org/posts/monthlydec2020/">This month in AvaFrame - December 2020 edition</a>
-    </li>
-    
-    <li>
-      <span>28. Dec, 2020</span><a href="https://avaframe.org/posts/version0_2/">Release version 0.2</a>
-    </li>
-    
-    <li>
-      <span>29. Nov, 2020</span><a href="https://avaframe.org/posts/monthlynov2020/">This month in AvaFrame - November 2020 edition</a>
-    </li>
-    
-    <li>
-      <span>6. Nov, 2020</span><a href="https://avaframe.org/posts/version0_1/">Initial release version 0.1</a>
-    </li>
-    
-    <li>
-      <span>29. Oct, 2020</span><a href="https://avaframe.org/posts/monthlyoct2020/">This month in AvaFrame - October 2020 edition</a>
-    </li>
-    
-    <li>
-      <span>30. Sep, 2020</span><a href="https://avaframe.org/posts/monthlysep2020/">This month in AvaFrame - September 2020 edition</a>
-    </li>
-    
-    <li>
-      <span>21. Aug, 2020</span><a href="https://avaframe.org/posts/monthlyaug2020/">This month in AvaFrame - August 2020 edition</a>
-    </li>
-    
-    <li>
-      <span>31. Jul, 2020</span><a href="https://avaframe.org/posts/monthlyjul2020/">This month in AvaFrame - July 2020 edition</a>
-    </li>
-    
-  </ul>
-    </div>
-  
-
-
-
-
-
-<ul class="pagination">
-  
-    
-    <li><a href="/">&laquo;</a></li>
-    
-    <li class="hidden"><a href="/page/2/">&lsaquo;</a></li>
-  
-  
-    
-    
-      
-    
-    
-      
-      <li><a href="/">1</a></li>
-      
-    
-  
-    
-    
-      
-    
-    
-      
-      <li><a href="/page/2/">2</a></li>
-      
-    
-  
-    
-    
-      
-    
-    
-      
-      <li>3</li>
-      
-    
-  
-    
-    
-      
-    
-    
-      
-      <li><a href="/page/4/">4</a></li>
-      
-    
-  
-  
-    <li class="hidden"><a href="/page/4/">&rsaquo;</a></li>
-    
-    <li><a href="/page/4/">&raquo;</a></li>
-    
-  
+    <p><strong>Today we released <a href="https://github.com/avaframe/AvaFrame/releases/tag/1.1">Version 1.1</a></strong></p>
+<p>The benchmark and thickness release. There are two main changes:</p>
+<ul>
+<li>The benchmarks (i.e. reference results) are updated and originate from com1DFA now.
+Previously these were produced by com1DFAOrig.</li>
+<li>All references to <em>depth</em> are now switched to <em>thickness</em>. This is done to be more consistent
+and precise. It also means result types switch from <em>pfd / fd</em> (peak flow depth / flow depth) to
+<em>pft / ft</em> (peak flow thickness / flow thickness). Note that this is purely a <em>naming</em> change; nothing
+changed regarding the computation!</li>
 </ul>
+<p>ENHANCEMENTS</p>
+<ul>
+<li>benchmarks originate from com1DFA</li>
+<li>change all depth variables to thickness</li>
+<li>change the order of simHash within the result names; fixes Move simHash in filename #690</li>
+<li>path finding added; see issue #610. This will be fully introduced in version 1.2, including
+automatic split point generation
+<ul>
+<li>refactor path computation functions</li>
+<li>allow computing path from particles or fields (if <em>from fields</em>: needs the FM=FlowMass)</li>
+<li>runscript to compute a path from com1DFA results (requires that one saves some time steps)</li>
+</ul>
+</li>
+<li>automate the benchmark updating process</li>
+<li>improve energy line plot</li>
+<li>set deleteOutput to False in runOperational; addresses User Feedback (CT) #715. This means
+it is possible to reuse the same directory in the QGis Connector, adding results to existing
+ones</li>
+<li>add real area to aimec analysis #695</li>
+<li>update hybrid and energy test</li>
+<li>add com3Hybrid documentation #618</li>
+</ul>
+<p>FIX</p>
+<ul>
+<li>hybrid model #611</li>
+<li>refactor com2AB for clarity and readability #446</li>
+<li>address savefigFormat TODO in outAB #560</li>
+<li>only one makeDomainTransfo #700</li>
+</ul>
+<p>Felix</p>
 
+  </article>
 
+  <br/>
+
+  
+  
 </section>
-
 
       </div>
       

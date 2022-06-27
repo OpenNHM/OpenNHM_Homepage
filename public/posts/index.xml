@@ -6,7 +6,18 @@
     <description>Recent content in Posts on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 May 2022 00:00:00 +0100</lastBuildDate><atom:link href="https://avaframe.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 May 2022 00:00:00 +0100</lastBuildDate><atom:link href="https://avaframe.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Release Version 1.1</title>
+      <link>https://avaframe.org/posts/version1_1/</link>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/version1_1/</guid>
+      <description>Today we released Version 1.1
+The benchmark and thickness release. There are two main changes:
+ The benchmarks (i.e. reference results) are updated and originate from com1DFA now. Previously these were produced by com1DFAOrig. All references to depth are now switched to thickness. This is done to be more consistent and precise. It also means result types switch from pfd / fd (peak flow depth / flow depth) to pft / ft (peak flow thickness / flow thickness).</description>
+    </item>
+    
     <item>
       <title>Release Version 1.0</title>
       <link>https://avaframe.org/posts/version1_0/</link>
