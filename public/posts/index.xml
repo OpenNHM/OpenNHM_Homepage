@@ -6,7 +6,32 @@
     <description>Recent content in Posts on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 03 Apr 2022 00:00:00 +0100</lastBuildDate><atom:link href="https://avaframe.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 May 2022 00:00:00 +0100</lastBuildDate><atom:link href="https://avaframe.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Release Version 1.0</title>
+      <link>https://avaframe.org/posts/version1_0/</link>
+      <pubDate>Fri, 06 May 2022 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/version1_0/</guid>
+      <description>So this is a big one:
+On April 6. we released Version 1.0!
+As you might guess, this is very exciting for us, but what does this mean?
+  First of all, you can find all changes in our documentation release notes. As one might expect with a first full release, the list is long!
+  Version 1.0 means we can partly fulfil a vital topic of our mission, namely the replicating &amp;hellip; current simulation procedures&amp;hellip; part.</description>
+    </item>
+    
+    <item>
+      <title>This month in AvaFrame - April 2022 edition</title>
+      <link>https://avaframe.org/posts/monthlyapr2022/</link>
+      <pubDate>Thu, 05 May 2022 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlyapr2022/</guid>
+      <description>Welcome to the April 2022 update.
+The info in here is a bit short&amp;hellip; This is because there&amp;rsquo;s a separate post about the main event this month: Version 1.0 is out!! Please head over there to get the full info.
+Apart from this we worked on:
+ a few fixes regarding init files reworking a few AIMEC functions and calculating real areas a few minor bugs are fixed added various documentation bits, especially the installation instructions.</description>
+    </item>
+    
     <item>
       <title>This month in AvaFrame - March 2022 edition</title>
       <link>https://avaframe.org/posts/monthlymar2022/</link>
