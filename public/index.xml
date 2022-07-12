@@ -6,7 +6,43 @@
     <description>Recent content on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 19 May 2022 00:00:00 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jul 2022 00:00:00 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Release Version 1.2</title>
+      <link>https://avaframe.org/posts/version1_2/</link>
+      <pubDate>Thu, 07 Jul 2022 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/version1_2/</guid>
+      <description>Today we released Version 1.2
+The main changes are the automatic split point generation and optional computation of fields inside the calculation loop. Furthermore, renaming functions used for the QGis AvaFrameconnector are included.
+ENHANCEMENTS
+Add function for renaming simulations, i.e. adding info to the simName. Used for AvaFrameConnector Split cfgUtils: Utils contain all reading and writing; cfghandling has functions that do something with the cfgInfos Make computation of ppr, pta, P, TA and pke optional within the calculation loop.</description>
+    </item>
+    
+    <item>
+      <title>This month in AvaFrame - June 2022 edition</title>
+      <link>https://avaframe.org/posts/monthlyjun2022/</link>
+      <pubDate>Tue, 05 Jul 2022 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlyjun2022/</guid>
+      <description>Welcome to the June 2022 update.
+This seems to be a recurring update lately: we are nearly at a rate of one release per month (this makes my life in regards to these monthly updates a lot easier&amp;hellip;).
+To know what went on, head over to the release info of version 1.2.
+So we recommend you update your installations, you will find the instructions at our documentation at the end of the installation instructions.</description>
+    </item>
+    
+    <item>
+      <title>This month in AvaFrame - May 2022 edition</title>
+      <link>https://avaframe.org/posts/monthlymay2022/</link>
+      <pubDate>Sun, 05 Jun 2022 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlymay2022/</guid>
+      <description>Welcome to the May 2022 update.
+Bevor you keep reading here, head over to the release info of version 1.1 to get all changes that went into it. These changes are basically what we mainly worked on during this month.
+However, two additional bits went on:
+the ongoing writing of peer-reviewed papers and in relation to that, the EGU 2022 took place. The following contributions are related to AvaFrame: Tonnel, M.</description>
+    </item>
+    
     <item>
       <title>Release Version 1.1</title>
       <link>https://avaframe.org/posts/version1_1/</link>
@@ -15,7 +51,7 @@
       <guid>https://avaframe.org/posts/version1_1/</guid>
       <description>Today we released Version 1.1
 The benchmark and thickness release. There are two main changes:
- The benchmarks (i.e. reference results) are updated and originate from com1DFA now. Previously these were produced by com1DFAOrig. All references to depth are now switched to thickness. This is done to be more consistent and precise. It also means result types switch from pfd / fd (peak flow depth / flow depth) to pft / ft (peak flow thickness / flow thickness).</description>
+The benchmarks (i.e. reference results) are updated and originate from com1DFA now. Previously these were produced by com1DFAOrig. All references to depth are now switched to thickness. This is done to be more consistent and precise. It also means result types switch from pfd / fd (peak flow depth / flow depth) to pft / ft (peak flow thickness / flow thickness).</description>
     </item>
     
     <item>
@@ -27,8 +63,8 @@ The benchmark and thickness release. There are two main changes:
       <description>So this is a big one:
 On April 6. we released Version 1.0!
 As you might guess, this is very exciting for us, but what does this mean?
-  First of all, you can find all changes in our documentation release notes. As one might expect with a first full release, the list is long!
-  Version 1.0 means we can partly fulfil a vital topic of our mission, namely the replicating &amp;hellip; current simulation procedures&amp;hellip; part.</description>
+First of all, you can find all changes in our documentation release notes. As one might expect with a first full release, the list is long!
+Version 1.0 means we can partly fulfil a vital topic of our mission, namely the replicating &amp;hellip; current simulation procedures&amp;hellip; part.</description>
     </item>
     
     <item>
@@ -40,7 +76,7 @@ As you might guess, this is very exciting for us, but what does this mean?
       <description>Welcome to the April 2022 update.
 The info in here is a bit short&amp;hellip; This is because there&amp;rsquo;s a separate post about the main event this month: Version 1.0 is out!! Please head over there to get the full info.
 Apart from this we worked on:
- a few fixes regarding init files reworking a few AIMEC functions and calculating real areas a few minor bugs are fixed added various documentation bits, especially the installation instructions.</description>
+a few fixes regarding init files reworking a few AIMEC functions and calculating real areas a few minor bugs are fixed added various documentation bits, especially the installation instructions.</description>
     </item>
     
     <item>
@@ -75,8 +111,9 @@ Your AvaFrame core team</description>
       <guid>https://avaframe.org/posts/monthlyfeb2022/</guid>
       <description>Welcome to the second update of 2022.
 We are still preparing for the upcoming release, so expect to see some release candidates being published:
-  We are preparing a difference report with a comparison between com1DFAOrig and com1DFA. In there we&amp;rsquo;ll look at different numerical and other investigations, among this is comparison for different particle seeds.
-  It is now possible to use a range option to vary thickness values</description>
+We are preparing a difference report with a comparison between com1DFAOrig and com1DFA. In there we&amp;rsquo;ll look at different numerical and other investigations, among this is comparison for different particle seeds.
+It is now possible to use a range option to vary thickness values
+Remeshing of the DEMs is improved now: if the remeshing was already done in a previous simulation, remeshing is not redone, but taken from a saved DEM.</description>
     </item>
     
     <item>
@@ -89,7 +126,8 @@ We are still preparing for the upcoming release, so expect to see some release c
 1st public AvaFrame workshop on 8th of March at 11:00 (Central European Time; UTC+1:00).
 It takes place via a zoom meeting: ZOOMLINK (Login via browser is possible, no app installation necessary). The workshop will be held in English.
 If you want to follow the hands on demo:
-  please prepare by following the installation instructions on our documentation: standard installation.</description>
+please prepare by following the installation instructions on our documentation: standard installation.
+you can bring your own data if you want, but we will also provide test data.</description>
     </item>
     
     <item>
@@ -100,8 +138,8 @@ If you want to follow the hands on demo:
       <guid>https://avaframe.org/posts/monthlyjan2022/</guid>
       <description>Welcome to the January 2022 update.
 Our focus this month was the preparation for our upcoming version 1.0 release. We finished the month by publishing the first release candidate. See github releases for a full changelog.
-  For the final release of version 1.0 we worked on a difference report, investigating our numerics and comparing it to com1DFAOrig.
-  We streamlined and improved the way release thickness is being set in the DFA module com1DFA</description>
+For the final release of version 1.0 we worked on a difference report, investigating our numerics and comparing it to com1DFAOrig.
+We streamlined and improved the way release thickness is being set in the DFA module com1DFA</description>
     </item>
     
     <item>
@@ -139,7 +177,7 @@ Jan-Thomas, Felix</description>
       <guid>https://avaframe.org/posts/monthlydec2021/</guid>
       <description>Welcome to our last monthly update for 2021.
 This month so a broad development across all modules:
-  A new module ana4Stats/probAna is available and is concerned with all things related to probability runs and it therefore includes a lot of tools for parameter variations as well. This lead to some general improvements regarding filtering and ordering of simulations, both before any simulations are run, as well as for sorting and filtering results for postprocessing.</description>
+A new module ana4Stats/probAna is available and is concerned with all things related to probability runs and it therefore includes a lot of tools for parameter variations as well. This lead to some general improvements regarding filtering and ordering of simulations, both before any simulations are run, as well as for sorting and filtering results for postprocessing.</description>
     </item>
     
     <item>
@@ -150,8 +188,8 @@ This month so a broad development across all modules:
       <guid>https://avaframe.org/posts/monthlynov2021/</guid>
       <description>Welcome to our monthly update for November.
 There are some changes especially for those wanting to try and test AvaFrame:
-  the AvaFrame QGis Connector is now out of the experimental state, so it is easily installable via the QGis plugins manager. No more need to enable experimental plugins. See QGis plugin directory.
-  We had our first webinar with about 15 test users. This group is testing AvaFrame from an operational point of view.</description>
+the AvaFrame QGis Connector is now out of the experimental state, so it is easily installable via the QGis plugins manager. No more need to enable experimental plugins. See QGis plugin directory.
+We had our first webinar with about 15 test users. This group is testing AvaFrame from an operational point of view.</description>
     </item>
     
     <item>
@@ -163,7 +201,7 @@ There are some changes especially for those wanting to try and test AvaFrame:
       <description>Welcome to the first winter edition of the monthly update!
 This has been a month with a lot of internal development, but not much of it landed on the master branch just yet.
 The topics we are tackling at the moment are:
-  investigation of the initial particle distribution, we are trying different options and check to see if there is a significant change in the results. Aim is to make this easier to reproduce and less arbitrary.</description>
+investigation of the initial particle distribution, we are trying different options and check to see if there is a significant change in the results. Aim is to make this easier to reproduce and less arbitrary.</description>
     </item>
     
     <item>
@@ -175,8 +213,8 @@ The topics we are tackling at the moment are:
       <description>We&amp;rsquo;re back from summer! And with some exciting news too!
 Version 0.6, the QGis/pypi and testing - release, was published.
 So what is included in this release?
-  The installation process was completely changed and (hopefully) made a lot easier for you:
- installation of AvaFrame is now working via pypi, i.e. through pip install avaframe. the pip install is provided for Windows, Linux and MacOS for python versions &amp;gt; 3.</description>
+The installation process was completely changed and (hopefully) made a lot easier for you:
+installation of AvaFrame is now working via pypi, i.e. through pip install avaframe. the pip install is provided for Windows, Linux and MacOS for python versions &amp;gt; 3.6. Note that we did not test MacOS (anyone got a free Macbook lying around?</description>
     </item>
     
     <item>
@@ -212,8 +250,8 @@ We start with a flash update in which everyone working on the project gives a qu
       
       <guid>https://avaframe.org/posts/monthlymay2021/</guid>
       <description>Welcome to the May 2021 edition of our monthly update. Our main goal was the preparation for the switch of the dense flow model com1DFA from a C code to python (cython) code. This meant to check every little detail and difference that we found as well as:
-  updated the documentation for the new python com1DFAP: algorithm, workflow and description
-  updated the re-projection method of particles. Now particles are re-projected normal to the surface and not vertically.</description>
+updated the documentation for the new python com1DFAP: algorithm, workflow and description
+updated the re-projection method of particles. Now particles are re-projected normal to the surface and not vertically.</description>
     </item>
     
     <item>
@@ -224,9 +262,9 @@ We start with a flash update in which everyone working on the project gives a qu
       <guid>https://avaframe.org/posts/monthlyapr2021/</guid>
       <description>Welcome to the April 2021 edition of our monthly update.
 Apart from the release of version 0.3, we put a lot of effort into our python/cython dense flow avalanche module com1DFAPy, targeting a swap with com1DFA within the next month:
-  com1DFAPy now includes:
-  an additional particle initialisation method: the per depth method
-  the option to use secondary release areas. They are being triggered if particles enter the area of a secondary release area.</description>
+com1DFAPy now includes:
+an additional particle initialisation method: the per depth method
+the option to use secondary release areas. They are being triggered if particles enter the area of a secondary release area.</description>
     </item>
     
     <item>
@@ -248,8 +286,8 @@ Documentation regarding our testing is included, see more at the testing page.</
       
       <guid>https://avaframe.org/posts/monthlymar2021/</guid>
       <description>Welcome to the March 2021 edition of our monthly update.
-  One big focus this months was a refactor of our AIMEC routines. We realised that our functions were still too complex, so we decided to
- split it into more atomic function to make it easier to access only certain parts of the AIMEC functionalities. make sure no special folder structure is needed anymore. add an option to compare results from two different com modules.</description>
+One big focus this months was a refactor of our AIMEC routines. We realised that our functions were still too complex, so we decided to
+split it into more atomic function to make it easier to access only certain parts of the AIMEC functionalities. make sure no special folder structure is needed anymore. add an option to compare results from two different com modules.</description>
     </item>
     
     <item>
@@ -259,8 +297,8 @@ Documentation regarding our testing is included, see more at the testing page.</
       
       <guid>https://avaframe.org/posts/monthlyfeb2021/</guid>
       <description>A short month with a lot of progress! It went over so quickly, even this post missed the end of the month&amp;hellip;
-  The big focus this month was the implementation of our dense flow kernel (com1DFAPy) in python/cython. The aim is to replicate the results of our current com1DFA module to be able to swap them. This meant diving deep into every numerical/model detail, things like
- artificial viscosity friction forces particle initialisation and many more.</description>
+The big focus this month was the implementation of our dense flow kernel (com1DFAPy) in python/cython. The aim is to replicate the results of our current com1DFA module to be able to swap them. This meant diving deep into every numerical/model detail, things like
+artificial viscosity friction forces particle initialisation and many more.</description>
     </item>
     
     <item>
@@ -270,8 +308,8 @@ Documentation regarding our testing is included, see more at the testing page.</
       
       <guid>https://avaframe.org/posts/monthlyjan2021/</guid>
       <description>Welcome to the first instalment of our monthly update of 2021. This month we started getting into the nitty-gritty of our dense flow module&amp;rsquo;s numerical implementation:
-  To facilitate and improve our development we added new test cases. This time they are more geared towards testing specific numerical issues and more targeted issues, concentrating for now on the dense flow module com1DFAPy.
-  flat plane: a pile of sand (i.</description>
+To facilitate and improve our development we added new test cases. This time they are more geared towards testing specific numerical issues and more targeted issues, concentrating for now on the dense flow module com1DFAPy.
+flat plane: a pile of sand (i.e. particles with coulomb friction) on a flat plane.</description>
     </item>
     
     <item>
@@ -281,8 +319,8 @@ Documentation regarding our testing is included, see more at the testing page.</
       
       <guid>https://avaframe.org/posts/monthlydec2020/</guid>
       <description>Welcome to this years last monthly update.
-  This month we concentrated on getting more tests into our repository. We now have included all 6 realistic topographies with release areas and benchmark results in our test scripts. We also expanded our routine testing with pytest to more functions/modules. And those testing DEM&amp;rsquo;s, as well as the release areas, are freely available in the repository, see the data directory.
-  The availability of these test cases lead to the release of version 0.</description>
+This month we concentrated on getting more tests into our repository. We now have included all 6 realistic topographies with release areas and benchmark results in our test scripts. We also expanded our routine testing with pytest to more functions/modules. And those testing DEM&amp;rsquo;s, as well as the release areas, are freely available in the repository, see the data directory.
+The availability of these test cases lead to the release of version 0.</description>
     </item>
     
     <item>
@@ -303,8 +341,8 @@ All our standard test can be run by using runStandardTests.</description>
       
       <guid>https://avaframe.org/posts/monthlynov2020/</guid>
       <description>Welcome to our next monthly update.
-  This month started with the exciting (at least for us :-) ) release of version 0.1. Head over to our github repository and our documentation to learn more about it (or read our last post).
-  With this release (and the rest of the month as well) we improved our documentation quite a lot. New getting started and installation pages should make it possible for you to get started (ha, who would have guessed.</description>
+This month started with the exciting (at least for us :-) ) release of version 0.1. Head over to our github repository and our documentation to learn more about it (or read our last post).
+With this release (and the rest of the month as well) we improved our documentation quite a lot. New getting started and installation pages should make it possible for you to get started (ha, who would have guessed.</description>
     </item>
     
     <item>
@@ -315,8 +353,8 @@ All our standard test can be run by using runStandardTests.</description>
       <guid>https://avaframe.org/posts/version0_1/</guid>
       <description>We are very excited to be able to announce our initial release version 0.1!
 This release is the result of several months of development, containing code from different contributors.
- Disclaimer: please be aware that this is our initial release. So expect some (read: a lot of) rough edges!
- You should be able to follow our quick start (only on Linux so far) and produce simulation results for dense flow avalanches.</description>
+Disclaimer: please be aware that this is our initial release. So expect some (read: a lot of) rough edges!
+You should be able to follow our quick start (only on Linux so far) and produce simulation results for dense flow avalanches. And yes, nice pictures are also included :-).</description>
     </item>
     
     <item>
@@ -327,8 +365,8 @@ This release is the result of several months of development, containing code fro
       <guid>https://avaframe.org/posts/monthlyoct2020/</guid>
       <description>Winter has arrived here, so this is basically the first winter update:
 This month focused on getting our code base ready for the upcoming release of version 0.1.
-  The documentation got a lot of attention with updates and improvements basically everywhere. Most notably we started to include installation and quick start sections for you to follow.
-  Testing took a big step forward. We expanded out standard tests, generated more benchmarks and created scripts to run these tests on demand as well as within our continuous integration.</description>
+The documentation got a lot of attention with updates and improvements basically everywhere. Most notably we started to include installation and quick start sections for you to follow.
+Testing took a big step forward. We expanded out standard tests, generated more benchmarks and created scripts to run these tests on demand as well as within our continuous integration.</description>
     </item>
     
     <item>
@@ -338,8 +376,8 @@ This month focused on getting our code base ready for the upcoming release of ve
       
       <guid>https://avaframe.org/posts/monthlysep2020/</guid>
       <description>Winter is slowly creeping up on us, so here is the next AvaFrame update:
-  We heavily worked on the dense flow avalanche module com1DFA, bringing functionality from its native code over to python functions. Now there is the option to do parameter variations on friction parameters and release thickness automatically. Besides this new option, more and more simulation parameters can now be set in python.
-  Regarding the necessary executable for the com1DFA (dense flow) module: we discovered some discrepancy which we currently work on to resolve.</description>
+We heavily worked on the dense flow avalanche module com1DFA, bringing functionality from its native code over to python functions. Now there is the option to do parameter variations on friction parameters and release thickness automatically. Besides this new option, more and more simulation parameters can now be set in python.
+Regarding the necessary executable for the com1DFA (dense flow) module: we discovered some discrepancy which we currently work on to resolve.</description>
     </item>
     
     <item>
@@ -349,8 +387,8 @@ This month focused on getting our code base ready for the upcoming release of ve
       
       <guid>https://avaframe.org/posts/monthlyaug2020/</guid>
       <description>Welcome to this months monthly update (try to say this really fast :-) ) :
-  The computational module for AlphaBeta is coming along nicely. We cleaned quite a lot of code and are starting the testing / comparing to reference results (Matthias is working on this).
-  Creation of idealised (test) topographies hit our public code base (see github). With these functions the creation of various types of topographies is a breeze (thanks Anna).</description>
+The computational module for AlphaBeta is coming along nicely. We cleaned quite a lot of code and are starting the testing / comparing to reference results (Matthias is working on this).
+Creation of idealised (test) topographies hit our public code base (see github). With these functions the creation of various types of topographies is a breeze (thanks Anna).</description>
     </item>
     
     <item>
@@ -361,8 +399,8 @@ This month focused on getting our code base ready for the upcoming release of ve
       <guid>https://avaframe.org/posts/monthlyjul2020/</guid>
       <description>Welcome to the first installment of our monthly update on AvaFrame.
 Every month we want to give you a quick overview of the progress on all things related to AvaFrame.
-  This month the project went into full force with 2 new team members: we welcome Anna Wirbel and Matthias Tonnel to the team! More info on the whole team will follow on this homepage.
-  The first (development) code is available on github</description>
+This month the project went into full force with 2 new team members: we welcome Anna Wirbel and Matthias Tonnel to the team! More info on the whole team will follow on this homepage.
+The first (development) code is available on github</description>
     </item>
     
     <item>
@@ -407,7 +445,7 @@ For details see the pdf, if you have any further questions please use the matrix
       <guid>https://avaframe.org/about/</guid>
       <description>AvaFrame is a cooperation between the Austrian Avalanche and Torrent Service (Wildbach- und Lawinenverbauung; WLV) and the Austrian Research Centre for Forests (Bundesforschungszentrum für Wald; BFW) within the Federal Ministry Republic of Austria: Agriculture, Regions and Tourism (BMLRT).
 Our mission is to
- Develop an open source framework (licensed with the European Union Public license (EUPL) ) for avalanche simulations which replicates and simplifies current simulation procedures and models at the WLV and make them accessible to the public domain.</description>
+Develop an open source framework (licensed with the European Union Public license (EUPL) ) for avalanche simulations which replicates and simplifies current simulation procedures and models at the WLV and make them accessible to the public domain.</description>
     </item>
     
     <item>
@@ -419,7 +457,7 @@ Our mission is to
       <description>We are using https://element.io/ / https://matrix.org/ for our communication.
 You don’t have an element/matrix account: got to https://app.element.io/#/register -&amp;gt; Create Account
 You can choose between using:
- matrix.org, this is the default. your own or another infrastructure (universities, company, …). Setup via: Edit -&amp;gt; add your own homeserver.  Note: It does not matter where your account originates, it works for the whole matrix environment.
+matrix.org, this is the default. your own or another infrastructure (universities, company, …). Setup via: Edit -&amp;gt; add your own homeserver. Note: It does not matter where your account originates, it works for the whole matrix environment.
 Once you’re done, head to the next step:</description>
     </item>
     
@@ -429,10 +467,9 @@ Once you’re done, head to the next step:</description>
       <pubDate>Wed, 26 Feb 2020 13:00:08 +0100</pubDate>
       
       <guid>https://avaframe.org/reports/</guid>
-      <description> On this page we link to reports and publications that are related to AvaFrame, both produced by the project team or by cooperation partners.
- Difference report for Version 1.0 -SATDifferenceReport_v1-
-This report relates to our dense flow module and compares com1DFAOrig(SamosAT) results to com1DFA results. It can be found in the the assets of the version 1.0 release on Github, including supporting reports.
- </description>
+      <description>On this page we link to reports and publications that are related to AvaFrame, both produced by the project team or by cooperation partners.
+Difference report for Version 1.0 -SATDifferenceReport_v1-
+This report relates to our dense flow module and compares com1DFAOrig(SamosAT) results to com1DFA results. It can be found in the the assets of the version 1.0 release on Github, including supporting reports.</description>
     </item>
     
   </channel>

@@ -11,22 +11,22 @@
 
     <meta property="og:site_name" content="AvaFrame">
     <meta property="og:title" content="
-  This month in AvaFrame - August 2020 edition - AvaFrame
+  Release Version 1.2 - AvaFrame
 ">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://avaframe.org/posts/monthlyaug2020/">
+    <meta property="og:url" content="https://avaframe.org/posts/version1_2/">
     <meta property="og:image" content="https://avaframe.org">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://avaframe.org/posts/monthlyaug2020/">
+    <meta name="twitter:site" content="https://avaframe.org/posts/version1_2/">
     <meta name="twitter:image" content="https://avaframe.org">
 
-    <base href="https://avaframe.org/posts/monthlyaug2020/">
+    <base href="https://avaframe.org/posts/version1_2/">
     <title>
-  This month in AvaFrame - August 2020 edition - AvaFrame
+  Release Version 1.2 - AvaFrame
 </title>
 
-    <link rel="canonical" href="https://avaframe.org/posts/monthlyaug2020/">
+    <link rel="canonical" href="https://avaframe.org/posts/version1_2/">
     
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
     <link rel="stylesheet" href="https://avaframe.org/css/normalize.min.css">
@@ -95,59 +95,48 @@
   <section class="container post">
   <article>
     <header>
-      <h1 class="title">This month in AvaFrame - August 2020 edition</h1>
-      <h2 class="date">August 21, 2020</h2>
+      <h1 class="title">Release Version 1.2</h1>
+      <h2 class="date">July 7, 2022</h2>
 
       
     </header>
 
-    <p>Welcome to this months monthly update (try to say this really fast :-) ) :</p>
+    <p><strong>Today we released <a href="https://github.com/avaframe/AvaFrame/releases/tag/1.2">Version 1.2</a></strong></p>
+<p>The main changes are the automatic split point generation and optional computation of fields
+inside the calculation loop. Furthermore, renaming functions used for the QGis AvaFrameconnector are included.</p>
+<p>ENHANCEMENTS</p>
 <ul>
-<li>
-<p>The computational module for AlphaBeta is coming along nicely. We cleaned
-quite a lot of code and are starting the testing / comparing to reference results
-(Matthias is working on this).</p>
-</li>
-<li>
-<p>Creation of idealised (test) topographies hit our public code base
-(see <a href="https://github.com/avaframe/AvaFrame">github</a>). With these functions the
-creation of various types of topographies is a breeze (thanks Anna). Matching release areas
-can also be automatically created for some topographies. Additionally we started
-putting these topographies and matching release / entrainment areas into the
-data folder (in case you don&rsquo;t want to run the code yourself).</p>
-</li>
-<li>
-<p>The comparison tools/routines for AIMEC are on github now. This is the first
-transfer of existing code, so Matthias is heavily working on this one. Expect a lot
-of changes to happen here.</p>
-</li>
-<li>
-<p>The first functions for the computational module com1DFA (main dense flow
-module) are public now. As of now the necessary executable is not yet
-available, but expect it to hit the repository sometime around end of September.</p>
-</li>
-<li>
-<p>Various helper routines are included now:</p>
+<li>Add function for renaming simulations, i.e. adding info to the simName. Used for AvaFrameConnector</li>
+<li>Split cfgUtils: Utils contain all reading and writing; cfghandling has functions that do
+something with the cfgInfos</li>
+<li>Make computation of ppr, pta, P, TA and pke optional within the calculation loop. Only compute them
+if they are required as output</li>
+<li>Add automatic split point generation: - First run a DFA simulation, either using the runDFAModule flag
+in runComputeDFAPath.py or yourself
 <ul>
-<li>Configuration file reading and handling</li>
-<li>Log file creation and handling</li>
-<li>Project initialiser</li>
-<li>Input data transfer scripts</li>
-<li>&hellip;</li>
+<li>Do not forget that you need to save particles or FD, FM, FV for multiple time steps</li>
+<li>What DFA parameters to use is not yet clear. I would use the BenMoussa time stepping and particles parameters,
+sphOption 2, explicit friction option 1, some artificial viscosity, and maybe activate curvature
+(with all this and a mu=0.42, I get ok results)</li>
+<li>Then runComputeDFAPath computes the mass average path, extends it and defines a splitPoint</li>
 </ul>
 </li>
-<li>
-<p>Documentation (<a href="https://docs.avaframe.org">docs.avaframe.org</a>) is constantly
-being updated, current new additions / updates are
-the AlphaBeta module, AIMEC module and generateTopo module.</p>
-</li>
 </ul>
-<p>Thanks for following our project,
-signing off for summer :-)</p>
+<p>FIX</p>
+<ul>
+<li>Particle exiting domain was not working properly with the new cython flag (wraparound boundcheck…)</li>
+<li>Correct hybrid Path ini file</li>
+<li>Update fields is too slow #455</li>
+<li>Automatic split point or beta point finding #706</li>
+<li>Add pfe to output files #694</li>
+<li>Make cflTime and sphKernelRadius a common option #668</li>
+<li>Change benchmarks not read particles from file (particles files still exist)</li>
+<li>Add consistency check for com1DFA configuration</li>
+<li>Fix problems with filtering of simulations</li>
+<li>Aimec comparison checks</li>
+<li>Add missing mass files to benchmarks</li>
+</ul>
 <p>Felix</p>
-<p>If you have any questions and/or want to contact us, visit our matrix
-room at:
-<a href="https://matrix.to/#/!qmUrKSNurDoVuKAtRU:matrix.avaframe.org?via=matrix.avaframe.org">#public:matrix.avaframe.org</a></p>
 
   </article>
 
