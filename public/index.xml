@@ -6,7 +6,64 @@
     <description>Recent content on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 Jul 2022 00:00:00 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Nov 2022 00:00:00 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This month in AvaFrame - October 2022 edition</title>
+      <link>https://avaframe.org/posts/monthlyoctober2022/</link>
+      <pubDate>Thu, 03 Nov 2022 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlyoctober2022/</guid>
+      <description>Welcome the first (close to) winter update of October 2022.
+The main thing this month was the release of version 1.3, please head over to the release info of version 1.3 to read more about it.
+This meant a lot of work went into bug squashing, removal of minor niggles and improvement of the documentation.
+Please be aware that the installation method for QGis changed significantly. The AvaFrameConnector now tries to install the python package automatically.</description>
+    </item>
+    
+    <item>
+      <title>Release Version 1.3</title>
+      <link>https://avaframe.org/posts/version1_3/</link>
+      <pubDate>Wed, 12 Oct 2022 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/version1_3/</guid>
+      <description>Today we released Version 1.3
+The main change is the change of logic for secondary release areas. This was done to be able to expose these functions in the AvaFrameConnecter. So it is now possible to include secondary release areas in dense flow simulations done via QGis. Please also make sure you read the new installation instructions.
+ENHANCEMENTS
+Change logic for secondary release areas: Check for release and secondary release shapefiles If only release available -&amp;gt; just run release If both release and secondary release are available -&amp;gt; run with secondary release UNLESS secRelArea = False ALL scenarios in release get the secondary release areas!</description>
+    </item>
+    
+    <item>
+      <title>This month in AvaFrame - September 2022 edition</title>
+      <link>https://avaframe.org/posts/monthlyseptember2022/</link>
+      <pubDate>Mon, 03 Oct 2022 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlyseptember2022/</guid>
+      <description>Welcome to the September 2022 update.
+This was the month of conferences: First was the International Mountain Conference on our door steps in Innsbruck. We had a session about Gravitational mass flow simulations for avalanches with a bunch of very interesting talks. Thanks again to everyone who contributed and visited. The program can be found here.
+We also took this opportunity to hold the Scientific Meeting, discussing, among other things, the future direction AvaFrame takes.</description>
+    </item>
+    
+    <item>
+      <title>This month in AvaFrame - August 2022 edition</title>
+      <link>https://avaframe.org/posts/monthlyaugust2022/</link>
+      <pubDate>Mon, 05 Sep 2022 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlyaugust2022/</guid>
+      <description>Welcome to the August 2022 update.
+This month saw us adding a rotational energy line test which can be used to to checks eg. for numerical grid independence, i.e. the computations lead to the same results irrespective of the grid orientation. This includes helper functions and test data, see test case avaBowl.
+Again, in preparation for the upcoming release, we changed the logic for the secondary release areas. So far they had to be requested specifically.</description>
+    </item>
+    
+    <item>
+      <title>This month in AvaFrame - July 2022 edition</title>
+      <link>https://avaframe.org/posts/monthlyjuly2022/</link>
+      <pubDate>Fri, 05 Aug 2022 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlyjuly2022/</guid>
+      <description>Welcome to the July 2022 update.
+This month, despite being one of the slow summer month, we speed up our computation. Some variable are only computed if they are actually requested, so for most simulations this leads to faster compute times.
+In preparation for a bigger overhaul of the AvaFrameConnector (QGis) we started adding helper functions that are used by the connector. These functions contain stuff like layer renaming and similar stuff that makes handling the result a bit easier.</description>
+    </item>
+    
     <item>
       <title>Release Version 1.2</title>
       <link>https://avaframe.org/posts/version1_2/</link>
