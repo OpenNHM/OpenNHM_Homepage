@@ -13,7 +13,7 @@ This meant a lot of work went into bug squashing, removal of minor niggles and i
 
 Please be aware that the installation method for QGis changed significantly. The AvaFrameConnector now tries 
 to install the python package automatically. Hopefully this makes is a bit easier to get started. We also provide
-and update function in the AvaFrameConnector. 
+an update function in the AvaFrameConnector. 
 
 So we recommend you update your installations. You will find the instructions at our
 documentation at the end of the [installation instructions](https://docs.avaframe.org/en/latest/installation.html).
