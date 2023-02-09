@@ -87,6 +87,11 @@ pygmentsUseClasses = true
                 name = "Reports"
                 weight = 4.1
                 url = "reports"
+            
+            [[languages.en.menu.main]]
+                name = "Team"
+                weight = 4.2
+                url = "team"
 
             [[languages.en.menu.main]]
                 name = "Contact"
