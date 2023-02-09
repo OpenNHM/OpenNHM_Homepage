@@ -3,7 +3,7 @@ title = "Team"
 slug = "team"
 thumbnail = "images/tn.png"
 description = "team"
-date = 2023-01-09T13:00:08+01:00
+date = 2020-02-09T13:00:08+01:00
 +++
 
 
