@@ -6,7 +6,68 @@
     <description>Recent content on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Nov 2022 00:00:00 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This month in AvaFrame - January 2023 edition</title>
+      <link>https://avaframe.org/posts/monthlyjanuary2023/</link>
+      <pubDate>Thu, 02 Feb 2023 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlyjanuary2023/</guid>
+      <description>Ok, so let this year begin!
+This month&amp;rsquo;s main thing was the release of version 1.4; please head over to the release info of version 1.4 to read more about it.
+Please note that we did not include an update to the AvaFrameConnector for QGis. We have bug reports of unexpected crashes on Windows, and we are trying to determine the cause.
+The parallel computation is now included in the master branch and will end up in the next release.</description>
+    </item>
+    
+    <item>
+      <title>Release Version 1.4</title>
+      <link>https://avaframe.org/posts/version1_4/</link>
+      <pubDate>Mon, 23 Jan 2023 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/version1_4/</guid>
+      <description>Today we released Version 1.4
+(and version 1.4.1; and this is totally not because I made the same mistake as before and forgot to add some files&amp;hellip;)
+Version 1.4
+This version adds a new computiational module com5GlideSnow for glide snow avalanches, based on com1DFA. It also adds an (untested) wetSnow friction type to com1DFA and gives an indication about the used parameterset in the simulation names of com1DFA.
+ENHANCEMENTS
+Glide snow [com5GlideSnow] GlideSnow run script glide snow standard tests SphKernelRadius setting option [com1DFA] Wet snow friction type [com1DFA] Wet snow standard tests Docu paragraph for wetSnow Remove unused location option in addColorBar [out3Plot] Add avalanche coordinate system to particle properties [ana3AIMEC] Triangular initialization method [com1DFA] Indicator of default/changed to simulationname and report [com1DFA] #780 Adds D/C to indicate default/changed parameter set in simulation name Also adds info and changed parameters to report New workflow com1DFA: com1DFAPreprocess com1DFAMain com1DFAPostprocess Add the dam tool [com1DFA] Update com1DFA dam documentation Add reference simulation to contour plot Add contour plot to aimec Split cython files [com1DFA] Add filtering for greater or smaller than Add resDF to be saved for com1DFA results that can be used for statistical analysis [com1DFA] Match code to the description in the theory paper.</description>
+    </item>
+    
+    <item>
+      <title>Publication summary 2022</title>
+      <link>https://avaframe.org/posts/publications2022/</link>
+      <pubDate>Thu, 12 Jan 2023 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/publications2022/</guid>
+      <description>Here is an (incomplete) list of the 2022 publications related to AvaFrame. Maybe you might find some information that is of interest:
+EGU 2022:
+Tonnel, M., Wirbel, A., Oesterle, F., and Fischer, J.-T.: Are avalanche models correct? An uncertain view on convergence, EGU General Assembly 2022, Vienna, Austria, 23–27 May 2022, EGU22-7745, https://doi.org/10.5194/egusphere-egu22-7745, 2022.
+Neuhauser, M., Neurauter, R., Tuermer, S., Gerstmayr, J., Adams, M., Koehler, A., and Fischer, J.-T.: Investigating the potential of GNSS-modules for inflow avalanche measurements, EGU General Assembly 2022, Vienna, Austria, 23–27 May 2022, EGU22-6416, https://doi.</description>
+    </item>
+    
+    <item>
+      <title>This month in AvaFrame - December 2022 edition</title>
+      <link>https://avaframe.org/posts/monthlydecember2022/</link>
+      <pubDate>Mon, 02 Jan 2023 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlydecember2022/</guid>
+      <description>Welcome to the last update of this year.
+Another new tool was added to AvaFrame: calculating glide snow avalanches using the com1DFA module. This required significant internal additions like a new particle initialization method, adding bonds between particles and some other numerical functions. This, and the documentation, will end up in the next release, which is coming soon.
+We are also working on indicating within the simulation names of com1DFA whether the default parameters were used or something was changed.</description>
+    </item>
+    
+    <item>
+      <title>This month in AvaFrame - November 2022 edition</title>
+      <link>https://avaframe.org/posts/monthlynovember2022/</link>
+      <pubDate>Fri, 02 Dec 2022 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlynovember2022/</guid>
+      <description>Welcome to the November 2022 update.
+This month brought a lot of internal improvements and fixes, apart from one topic:
+The dense flow module com1dfa now contains the functionality of wall lines. These can be utilized to represent the effects of dams. However, please be aware of two things:
+first: this is untested and should only be used for experimental purposes. second: the application is directional dams, not catching dams. You can learn more about it in our documentation.</description>
+    </item>
+    
     <item>
       <title>This month in AvaFrame - October 2022 edition</title>
       <link>https://avaframe.org/posts/monthlyoctober2022/</link>

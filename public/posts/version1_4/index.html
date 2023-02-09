@@ -11,22 +11,22 @@
 
     <meta property="og:site_name" content="AvaFrame">
     <meta property="og:title" content="
-  Position numerics CLOSED - AvaFrame
+  Release Version 1.4 - AvaFrame
 ">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://avaframe.org/posts/positionnumericsclosed/">
-    <meta property="og:image" content="https://avaframe.orgimages/tn.png">
+    <meta property="og:url" content="https://avaframe.org/posts/version1_4/">
+    <meta property="og:image" content="https://avaframe.org">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://avaframe.org/posts/positionnumericsclosed/">
-    <meta name="twitter:image" content="https://avaframe.orgimages/tn.png">
+    <meta name="twitter:site" content="https://avaframe.org/posts/version1_4/">
+    <meta name="twitter:image" content="https://avaframe.org">
 
-    <base href="https://avaframe.org/posts/positionnumericsclosed/">
+    <base href="https://avaframe.org/posts/version1_4/">
     <title>
-  Position numerics CLOSED - AvaFrame
+  Release Version 1.4 - AvaFrame
 </title>
 
-    <link rel="canonical" href="https://avaframe.org/posts/positionnumericsclosed/">
+    <link rel="canonical" href="https://avaframe.org/posts/version1_4/">
     
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
     <link rel="stylesheet" href="https://avaframe.org/css/normalize.min.css">
@@ -95,15 +95,79 @@
   <section class="container post">
   <article>
     <header>
-      <h1 class="title">Position numerics CLOSED</h1>
-      <h2 class="date">April 1, 2020</h2>
+      <h1 class="title">Release Version 1.4</h1>
+      <h2 class="date">January 23, 2023</h2>
 
       
     </header>
 
-    <p>The following position:</p>
-<p><strong>Numerical developer/scientist for avalanche simulations</strong></p>
-<p>is CLOSED. Thank you for your applications, you should have recieved an email.</p>
+    <p><strong>Today we released <a href="https://github.com/avaframe/AvaFrame/releases/tag/1.4">Version 1.4</a></strong></p>
+<p>(and version 1.4.1; and this is totally not because I made the same mistake as before and
+forgot to add some files&hellip;)</p>
+<p>Version 1.4</p>
+<p>This version adds a new computiational module com5GlideSnow for glide snow avalanches,
+based on com1DFA.  It also adds an (untested) wetSnow friction type to com1DFA and gives an indication
+about the used parameterset in the simulation names of com1DFA.</p>
+<p>ENHANCEMENTS</p>
+<ul>
+<li>Glide snow [com5GlideSnow]
+<ul>
+<li>GlideSnow run script</li>
+<li>glide snow standard tests</li>
+</ul>
+</li>
+<li>SphKernelRadius setting option [com1DFA]</li>
+<li>Wet snow friction type [com1DFA]
+<ul>
+<li>Wet snow standard tests</li>
+<li>Docu paragraph for wetSnow</li>
+</ul>
+</li>
+<li>Remove unused location option in addColorBar [out3Plot]</li>
+<li>Add avalanche coordinate system to particle properties [ana3AIMEC]</li>
+<li>Triangular initialization method [com1DFA]</li>
+<li>Indicator of default/changed to simulationname and report [com1DFA] #780
+<ul>
+<li>Adds D/C to indicate default/changed parameter set in simulation name</li>
+<li>Also adds info and changed parameters to report</li>
+</ul>
+</li>
+<li>New workflow com1DFA:
+<ul>
+<li>com1DFAPreprocess</li>
+<li>com1DFAMain</li>
+<li>com1DFAPostprocess</li>
+</ul>
+</li>
+<li>Add the dam tool [com1DFA]
+<ul>
+<li>Update com1DFA dam documentation</li>
+</ul>
+</li>
+<li>Add reference simulation to contour plot</li>
+<li>Add contour plot to aimec</li>
+<li>Split cython files [com1DFA]</li>
+<li>Add filtering for greater or smaller than</li>
+<li>Add resDF to be saved for com1DFA results that can be used for statistical analysis [com1DFA]</li>
+<li>Match code to  the description in the theory paper. Added com1DFA options:
+<ul>
+<li>add the curvature in the pressure gradient computation</li>
+<li>to add the curvature in the friction force</li>
+<li>to add the curvature in the tangential equation</li>
+</ul>
+</li>
+</ul>
+<p>FIX</p>
+<ul>
+<li>Bug simName modelType [com1DFA]</li>
+<li>Saving plots and report generation [out3Plots][out1Peak]</li>
+<li>Handle two deprecated warnings; test black formatter</li>
+<li>Approach velocity for rangeTimeDiagram; Issue #782</li>
+<li>Allow for string in search for resType #776</li>
+<li>Bug for filtering function</li>
+<li>Bug in aimec warning Avatar</li>
+</ul>
+<p>Felix</p>
 
   </article>
 
