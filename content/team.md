@@ -16,13 +16,13 @@ Felix OESTERLE (*Project lead / Developer*) [ORCID](https://orcid.org/0000-0002-
 
 Jan-Thomas FISCHER (*Scientific lead*) [ORCID](https://orcid.org/0000-0001-5179-6457)
 
-Oscar DICK (*Trainee*)
-
 *Previous members*:
 
 Matthias TONNEL (*Scientist / Developer*) 
 
 Amaury BÉLIÈRES-FRENDO (*Trainee*)
+
+Oscar DICK (*Trainee*)
 
 **Operational Team Wildbach- und Lawinenverbaung**
 
