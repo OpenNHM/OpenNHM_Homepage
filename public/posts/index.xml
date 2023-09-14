@@ -6,7 +6,78 @@
     <description>Recent content in Posts on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0100</lastBuildDate><atom:link href="https://avaframe.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 May 2023 00:00:00 +0100</lastBuildDate><atom:link href="https://avaframe.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This month in AvaFrame - April 2023 edition</title>
+      <link>https://avaframe.org/posts/monthlyapr2023/</link>
+      <pubDate>Tue, 02 May 2023 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlyapr2023/</guid>
+      <description>The &amp;lsquo;Happy Easter to Everyone&amp;rsquo; update:
+As Easter vacation cut this month short, the amount work on the code concentrated on small issues, no major change.
+One big chunk of our effort this month went into the Geoscientific Model Development paper about our dense flow com1DFA theory. Head over to GMD to follow the review and discussions.
+Felix</description>
+    </item>
+    
+    <item>
+      <title>This month in AvaFrame - March 2023 edition</title>
+      <link>https://avaframe.org/posts/monthlymar2023/</link>
+      <pubDate>Wed, 05 Apr 2023 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlymar2023/</guid>
+      <description>Well, again: another month, some more releases:
+But this time these are only minor releases with bugfixes. See infos here: release info 1.5.1 and release info 1.5.2.
+We are still working on probability map generation.
+We started to rework the glossary, focusing on topics that are relevant for our framework. We are not trying to replicate any &amp;lsquo;standard&amp;rsquo; glossary for the snow and avalanche field. It is meant to clarify what we are talking about and how we define certain keywords.</description>
+    </item>
+    
+    <item>
+      <title>Release Version 1.5.2</title>
+      <link>https://avaframe.org/posts/version1_5_2/</link>
+      <pubDate>Thu, 16 Mar 2023 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/version1_5_2/</guid>
+      <description>Today we released Version 1.5.2
+This is a bugfix release:
+FIX
+Bugfix for parallel import on Windows Felix</description>
+    </item>
+    
+    <item>
+      <title>Release Version 1.5.1</title>
+      <link>https://avaframe.org/posts/version1_5_1/</link>
+      <pubDate>Mon, 06 Mar 2023 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/version1_5_1/</guid>
+      <description>Today we released Version 1.5.1
+This is a bugfix release:
+FIX
+For version 1.5 ANY simulation with com1DFA was marked as C (for changed) instead of D (for default), even in the case of no changes via local_ cfgs files. This is resolved now. Felix</description>
+    </item>
+    
+    <item>
+      <title>This month in AvaFrame - February 2023 edition</title>
+      <link>https://avaframe.org/posts/monthlyfeb2023/</link>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlyfeb2023/</guid>
+      <description>Another month, another release:
+This month&amp;rsquo;s release is version 1.5; please head over to the release info of version 1.5 to read more about it.
+We are also preparing tools for probability map generation. Do not expect this to arrive soon, but it is planned for one of the next versions.
+And on the admin side of things, we had a Steering Meeting, with a big focus on the next phase of AvaFrame.</description>
+    </item>
+    
+    <item>
+      <title>Release Version 1.5</title>
+      <link>https://avaframe.org/posts/version1_5/</link>
+      <pubDate>Tue, 28 Feb 2023 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/version1_5/</guid>
+      <description>Today we released Version 1.5
+The parallel release. This adds parallel computation for com1DFA, meaning multiple simulations are run in parallel. For more information see our documentation. Be aware, there is a breaking change in case you call com1DFA functions directly: the calls to com1DFAMain changed; there is one less argument to give.
+Add info about parallel computation in doc [com1DFA] rename s to travelLengthXY [ana4AIMEC] particle properties renaming: s -&amp;gt; travelLengthXY l -&amp;gt; travelLengthXYZ set kernelradius to cellsize for default settings [com1DFA] Add parallel computation of com1DFACore [com1DFA] Remove redundant argument from com1DFA functions [com1DFA] !</description>
+    </item>
+    
     <item>
       <title>This month in AvaFrame - January 2023 edition</title>
       <link>https://avaframe.org/posts/monthlyjanuary2023/</link>
