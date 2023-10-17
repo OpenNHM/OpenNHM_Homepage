@@ -6,7 +6,40 @@
     <description>Recent content on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 May 2023 00:00:00 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Oct 2023 00:00:00 +0100</lastBuildDate><atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Release Version 1.7</title>
+      <link>https://avaframe.org/posts/version1_7/</link>
+      <pubDate>Thu, 12 Oct 2023 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/version1_7/</guid>
+      <description>Today we released Version 1.7
+This is a benchmark release. We are updating the benchmarks that changed due to the introduction of the samosATAuto friction model. This release contains all necessary configuration changes. The actual result files will be pushed in the next version 1.7.1. We also updated and cleaned all AIMEC plotting, including new plots and removing/consolidating some others.
+What&amp;rsquo;s Changed Add pdf output to readthedocs by @fso42 in https://github.</description>
+    </item>
+    
+    <item>
+      <title>Release Version 1.6.1</title>
+      <link>https://avaframe.org/posts/version1_6_1/</link>
+      <pubDate>Tue, 05 Sep 2023 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/version1_6_1/</guid>
+      <description>Today we released Version 1.6.1
+Change the separator for the release area output statistics.
+What&amp;rsquo;s Changed Fix ranges plot by @awirb in https://github.com/avaframe/AvaFrame/pull/898 Change separator and float format in relStats csv [com1] by @fso42 in https://github.com/avaframe/AvaFrame/pull/902 Full Changelog: https://github.com/avaframe/AvaFrame/compare/1.6...1.6.1
+Felix</description>
+    </item>
+    
+    <item>
+      <title>Release Version 1.6</title>
+      <link>https://avaframe.org/posts/version1_6/</link>
+      <pubDate>Tue, 29 Aug 2023 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/version1_6/</guid>
+      <description>Today we released Version 1.6
+The samosATAuto release: The biggest, most obvious change in this release is the introduction of a samosATAuto friction relation (set as default). It decides the friction calibration for samosAT friction relation based on release volume (small, medium, large). This also means that some of our benchmarks show differences (see attached zip) for those avalanches that are now in the categories small or medium. We will update our benchmark results with the next release.</description>
+    </item>
+    
     <item>
       <title>This month in AvaFrame - April 2023 edition</title>
       <link>https://avaframe.org/posts/monthlyapr2023/</link>
