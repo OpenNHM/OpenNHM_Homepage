@@ -43,6 +43,17 @@ Felix</description>
     </item>
     
     <item>
+      <title>This month in AvaFrame - August 2023 edition</title>
+      <link>https://avaframe.org/posts/monthlyaug2023/</link>
+      <pubDate>Sat, 02 Sep 2023 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlyaug2023/</guid>
+      <description>Welcome to the August 2023 update:
+Well, you might have noticed the new version that was released at the end of August. So our month was basically focusing on getting this release out and ironing out the last few niggles of the new functions. Please head over to github to get more information.
+We also had our Scientific Meeting, and we are in full preparation mode for the AvaFrame Phase 2.</description>
+    </item>
+    
+    <item>
       <title>Release Version 1.6</title>
       <link>https://avaframe.org/posts/version1_6/</link>
       <pubDate>Tue, 29 Aug 2023 00:00:00 +0100</pubDate>
@@ -50,6 +61,39 @@ Felix</description>
       <guid>https://avaframe.org/posts/version1_6/</guid>
       <description>Today we released Version 1.6
 The samosATAuto release: The biggest, most obvious change in this release is the introduction of a samosATAuto friction relation (set as default). It decides the friction calibration for samosAT friction relation based on release volume (small, medium, large). This also means that some of our benchmarks show differences (see attached zip) for those avalanches that are now in the categories small or medium. We will update our benchmark results with the next release.</description>
+    </item>
+    
+    <item>
+      <title>This month in AvaFrame - July 2023 edition</title>
+      <link>https://avaframe.org/posts/monthlyjuly2023/</link>
+      <pubDate>Wed, 02 Aug 2023 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlyjuly2023/</guid>
+      <description>Welcome to the (quiet) summer update:
+Since there&amp;rsquo;s some proper vacationing going on, this month was rather quiet and mostly focusing on preparation for the next release. So this is a rather short update :-)
+Felix</description>
+    </item>
+    
+    <item>
+      <title>This month in AvaFrame - June 2023 edition</title>
+      <link>https://avaframe.org/posts/monthlyjun2023/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlyjun2023/</guid>
+      <description>Welcome to the June 2023 update:
+The function we mentioned last month that creates release area information from a given DEM and corresponding release is slowly making its way into the code and the connector. It will be included in the next release.
+We also started working on the inclusion of small and medium size calibration values for the friction model. This will also be added to the next release.</description>
+    </item>
+    
+    <item>
+      <title>This month in AvaFrame - May 2023 edition</title>
+      <link>https://avaframe.org/posts/monthlymay2023/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0100</pubDate>
+      
+      <guid>https://avaframe.org/posts/monthlymay2023/</guid>
+      <description>Welcome to the May 2023 update:
+This month we worked on one important user facing change, namely a new function to create release area information from a given DEM and corresponding release area files. This gives a summary about area, real area, mean inclination etc. This might be helpful to get a &amp;ldquo;feel&amp;rdquo; about the release area setup.
+Furthermore, we fixed a few bugs in regards to the documentation and plotting.</description>
     </item>
     
     <item>
@@ -226,7 +270,7 @@ We also took this opportunity to hold the Scientific Meeting, discussing, among 
       
       <guid>https://avaframe.org/posts/monthlyaugust2022/</guid>
       <description>Welcome to the August 2022 update.
-This month saw us adding a rotational energy line test which can be used to to checks eg. for numerical grid independence, i.e. the computations lead to the same results irrespective of the grid orientation. This includes helper functions and test data, see test case avaBowl.
+This month saw us adding a rotational energy line test which can be used to checks eg. for numerical grid independence, i.e. the computations lead to the same results irrespective of the grid orientation. This includes helper functions and test data, see test case avaBowl.
 Again, in preparation for the upcoming release, we changed the logic for the secondary release areas. So far they had to be requested specifically.</description>
     </item>
     

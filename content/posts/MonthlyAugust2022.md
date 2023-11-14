@@ -6,7 +6,7 @@ draft: false
 
 Welcome to the August 2022 update.
 
-This month saw us adding a rotational energy line test which can be used to to checks eg. for numerical grid independence,
+This month saw us adding a rotational energy line test which can be used to checks eg. for numerical grid independence,
 i.e. the computations lead to the same results irrespective of the grid orientation. This includes helper functions and test data,
 see test case avaBowl. 
 
