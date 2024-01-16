@@ -19,6 +19,8 @@ If you want to follow the hands on demo:
 
 - you can bring your own data if you want, but we will also provide test data.
 
+**Update** [Download test data (zip)](/pdf/2ndPublicWorkshopExampleData.zip)
+
 For anybody unable to participate we will provide a recording of the workshop, and you can 
 reach us on the AvaFrame matrix channel. 
 For more information see here: [AvaFrame communications](https://avaframe.org/contact/).
