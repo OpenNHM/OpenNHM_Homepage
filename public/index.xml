@@ -6,8 +6,15 @@
     <description>Recent content on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Jan 2024 10:46:51 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 05 Feb 2024 10:46:51 +0100</lastBuildDate>
     <atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1st Austrian Public Workshop</title>
+      <link>https://avaframe.org/posts/announce1staustrian/</link>
+      <pubDate>Mon, 05 Feb 2024 10:46:51 +0100</pubDate>
+      <guid>https://avaframe.org/posts/announce1staustrian/</guid>
+      <description>Here is an announcement in German for the: 1st Austrian user workshop.&#xA;Wir laden alle Interessierten ein am&#xA;23. Februar 2024 um 9:00 Uhr am Anwenderworkshop für Österreich&#xA;teilzunehmen.&#xA;Das Treffen findet via MS Teams statt: TEAMS-LINK (Login mittels Browser möglich, keine App-Installation und kein Account notwendig).&#xA;Die Vortragssprache ist Deutsch, es geht um die Einbettung AvaFrames in ein Standardvorgehen bei Planungen und Projekten in Österreich (vor allem im Sinne des Praxisleitfadens).</description>
+    </item>
     <item>
       <title>Recording 2nd Public Workshop 18. January 2024</title>
       <link>https://avaframe.org/posts/recording2ndworkshop/</link>
