@@ -6,8 +6,15 @@
     <description>Recent content in Posts on AvaFrame</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Feb 2024 10:46:51 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 15 Feb 2024 00:00:00 +0100</lastBuildDate>
     <atom:link href="https://avaframe.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Release Version 1.8</title>
+      <link>https://avaframe.org/posts/version1_8/</link>
+      <pubDate>Thu, 15 Feb 2024 00:00:00 +0100</pubDate>
+      <guid>https://avaframe.org/posts/version1_8/</guid>
+      <description>Today we released Version 1.8&#xA;Please note: the QGis AvaFrame Connector also received an update. Please do not forget to run Admin -&amp;gt; Update AvaFrame from within the toolbox to receive the updated core as well.&#xA;The new computational module release.&#xA;We&amp;rsquo;ve added two new (experimental) computational modules, com4FlowPy and com6RockAvalanche. Com4FlowPy integrates the development already done in the FlowPy project, and aims to be the target for flowpy development from now on.</description>
+    </item>
     <item>
       <title>1st Austrian Public Workshop</title>
       <link>https://avaframe.org/posts/announce1staustrian/</link>
