@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="AvaFrame">
+    <meta name="description" content="https://avaframe.org">
+    <meta name="keywords" content="project,avalanche">
+
+    <meta property="og:site_name" content="AvaFrame">
+    <meta property="og:title" content="
+  Release Version 1.8 - AvaFrame
+">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://avaframe.org/posts/version1_8/">
+    <meta property="og:image" content="https://avaframe.org">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://avaframe.org/posts/version1_8/">
+    <meta name="twitter:image" content="https://avaframe.org">
+
+    <base href="https://avaframe.org/posts/version1_8/">
+    <title>
+  Release Version 1.8 - AvaFrame
+</title>
+
+    <link rel="canonical" href="https://avaframe.org/posts/version1_8/">
+    
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
+    <link rel="stylesheet" href="https://avaframe.org/css/normalize.min.css">
+    <link rel="stylesheet" href="https://avaframe.org/css/style.min.css">
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://avaframe.org/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://avaframe.org/images/favicon-16x16.png" sizes="16x16">
+
+    
+      <link rel="alternate" href="https://avaframe.org/index.xml" type="application/rss+xml" title="AvaFrame">
+      <link href="https://avaframe.org/index.xml" rel="feed" type="application/rss+xml" title="AvaFrame" />
+    
+
+    <meta name="generator" content="Hugo 0.121.2">
+  </head>
+
+  <body class="">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">AvaFrame</a>
+    <input type="checkbox" id="menu-control"/>
+    <label class="menu-mobile  float-right " for="menu-control">
+      <span class="btn-mobile  float-right ">&#9776;</span>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://avaframe.org/about">About</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://docs.avaframe.org">Documentation</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://github.com/avaframe/AvaFrame/">Code</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://avaframe.org/posts">Posts</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://avaframe.org/reports">Reports</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://avaframe.org/team">Team</a>
+            </li>
+          
+            <li class="navigation-item  align-center ">
+              <a class="navigation-link" href="https://avaframe.org/contact">Contact</a>
+            </li>
+          
+        
+        
+      </ul>
+    </label>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">Release Version 1.8</h1>
+      <h2 class="date">February 15, 2024</h2>
+
+      
+    </header>
+
+    <p><strong>Today we released <a href="https://github.com/avaframe/AvaFrame/releases/tag/1.8">Version 1.8</a></strong></p>
+<p><strong>Please note: the QGis AvaFrame Connector also received an update. Please do not forget to run Admin -&gt; Update
+AvaFrame from within the toolbox to receive the updated core as well.</strong></p>
+<p>The new computational module release.</p>
+<p>We&rsquo;ve added two new (experimental) computational modules, com4FlowPy and com6RockAvalanche. Com4FlowPy integrates the development already done in the FlowPy project, and aims to be the target for flowpy development from now on.
+com6RockAvalanche is a highly experimental extension of com1DFA, aiming to find a parameterset/adjustments needed to simulate rock avalanches. It also allows the AvaFrame QGis Connector to set the release-thickness, which is done via a release-thickness raster file. This also necessitated a change in remeshing: now, the release thickness files are meshed analogous to the topography file (if necessary).</p>
+<p>One important change in regards to the operational application of com1dfa: now the release volume of secondary release areas is considered when choosing the correct friction settings for samosATAuto friction model. Important: it does not matter whether the secondary release areas are actually triggered or not, their volume is included in the decision.</p>
+<h2 id="breaking-change">Breaking change</h2>
+<p>There&rsquo;s one breaking change in this release: If you used the override function from within one of the ini configuration files, this changes now. It is necessary to include the module collection as well, ie. instead of [com1dfa_override], you have to use [com1dfa_com1dfa_override].</p>
+<h2 id="whats-changed">What&rsquo;s Changed</h2>
+<ul>
+<li>Add result types and info about entTh to documentation [doc] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/934">https://github.com/avaframe/AvaFrame/pull/934</a></li>
+<li>Add sec release to relVolume computation for samosATAuto by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/932">https://github.com/avaframe/AvaFrame/pull/932</a></li>
+<li>Include flowpy development in com4FlowPy [com4]  by @Iceman-bfw in <a href="https://github.com/avaframe/AvaFrame/pull/933">https://github.com/avaframe/AvaFrame/pull/933</a></li>
+<li>add coulomb min shear friction by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/942">https://github.com/avaframe/AvaFrame/pull/942</a></li>
+<li>Add L to simName for samosAT; fixes #930 [com1] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/940">https://github.com/avaframe/AvaFrame/pull/940</a></li>
+<li>Set exists_ok on creation of dirs (for parallel computing) [in3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/946">https://github.com/avaframe/AvaFrame/pull/946</a></li>
+<li>Add com6 rock avalanche [com6] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/939">https://github.com/avaframe/AvaFrame/pull/939</a></li>
+<li>Add new functions to analyze deepDiff results in parameter variation cases [com1] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/945">https://github.com/avaframe/AvaFrame/pull/945</a></li>
+<li>add aimec functionality to color parameters of type string [ana3; out3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/947">https://github.com/avaframe/AvaFrame/pull/947</a></li>
+<li>check warnings in pytest update adding a new column to dfs by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/949">https://github.com/avaframe/AvaFrame/pull/949</a></li>
+<li>Extend Kot topography [data] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/948">https://github.com/avaframe/AvaFrame/pull/948</a></li>
+<li>change finding of velocity threshold indices in aimec for thalweg plots [ana3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/950">https://github.com/avaframe/AvaFrame/pull/950</a></li>
+<li>Fixed avaKot pathAB projection [data] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/956">https://github.com/avaframe/AvaFrame/pull/956</a></li>
+<li>fix bug in labelling in legend by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/957">https://github.com/avaframe/AvaFrame/pull/957</a></li>
+<li>add runscript for prob analysis for existing sims within ava directory [ana4; in3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/955">https://github.com/avaframe/AvaFrame/pull/955</a></li>
+<li>Add contour line plot [com1; ana5; out3; breaking change] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/953">https://github.com/avaframe/AvaFrame/pull/953</a></li>
+<li>fix bug in figure legend by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/958">https://github.com/avaframe/AvaFrame/pull/958</a></li>
+<li>In case of relThFile = True, remesh the thickness file if needed [com1DFA] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/954">https://github.com/avaframe/AvaFrame/pull/954</a></li>
+<li>Update docu; add init for com4 by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/960">https://github.com/avaframe/AvaFrame/pull/960</a></li>
+</ul>
+<h2 id="new-contributors">New Contributors</h2>
+<ul>
+<li>@Iceman-bfw made their first contribution in <a href="https://github.com/avaframe/AvaFrame/pull/933">https://github.com/avaframe/AvaFrame/pull/933</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/avaframe/AvaFrame/compare/1.7.2...1.8">https://github.com/avaframe/AvaFrame/compare/1.7.2...1.8</a></p>
+<p>Felix</p>
+
+  </article>
+
+  <br/>
+
+  
+  
+</section>
+
+      </div>
+      
+        <footer class="footer">
+    
+</footer>
+<div class="fixed-bar">
+  <section class="container">
+    
+      <p id="privateTriggerText">Want to contact us? Visit our matrix room at:  <a id="privateTrigger"
+                                         href="https://matrix.to/#/!qmUrKSNurDoVuKAtRU:matrix.avaframe.org?via=matrix.avaframe.org">
+     #public:matrix.avaframe.org</a></p>
+    
+  </section>
+</div>
+
+      
+    </main>
+
+    
+
+  <script src="https://avaframe.org/js/app.js"></script>
+  
+  </body>
+</html>
