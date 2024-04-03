@@ -9,7 +9,7 @@ date = 2020-02-26T13:00:08+01:00
 AvaFrame is a cooperation between the Austrian Avalanche and Torrent Service
 (Wildbach- und Lawinenverbauung; WLV) and the Austrian Research Centre for
 Forests (Bundesforschungszentrum für Wald; BFW) within the Federal Ministry
-Republic of Austria: Agriculture, Regions and Tourism (BMLRT).
+Republic of Austria: Agriculture, Forestry, Regions and Water Management (BML).
 
 Our mission is to
 
@@ -29,12 +29,12 @@ mitigation measures within the WLV and civil engineering.
 models and cover a wide range of scientific topics. 
 + easily usable and extendable by (inter-)national partners, academia and interested users.
 
-AvaFrame is part of an BMLRT initiative to foster technological innovation
+AvaFrame is part of an BML initiative to foster technological innovation
 within a strategic focus on the area of Austrian safety policies, digital
 innovations and climate mitigation strategies.
 
 Information in German can be found on the 
-[BMLRT Homepage.](https://www.bmlrt.gv.at/forst/wildbach-lawinenverbauung/kooperationen-zusammenarbeit/lawinenschutzvorsorgeprojekt.html)
+[BML Homepage.](https://info.bml.gv.at/themen/wald/wald-und-naturgefahren/wildbach--und-lawinenverbauung/aktuelles-bundeslaender/lawinensimulation.html)
 
 ---
 
