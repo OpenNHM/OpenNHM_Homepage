@@ -6,23 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="author" content="AvaFrame">
-    <meta name="description" content="The open source avalanche framework">
+    <meta name="description" content="https://avaframe.org/">
     <meta name="keywords" content="project,avalanche">
 
     <meta property="og:site_name" content="AvaFrame">
-    <meta property="og:title" content="AvaFrame">
-    <meta property="og:description" content="The open source avalanche framework">
+    <meta property="og:title" content="
+  Release Version 1.8.1 - AvaFrame
+">
+    <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://avaframe.org/">
-    <meta property="og:image" content="https://avaframe.org/images/tn.png">
+    <meta property="og:url" content="https://avaframe.org/posts/version1_8_1/">
+    <meta property="og:image" content="https://avaframe.org/">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://avaframe.org/">
-    <meta name="twitter:image" content="https://avaframe.org/images/tn.png">
+    <meta name="twitter:site" content="https://avaframe.org/posts/version1_8_1/">
+    <meta name="twitter:image" content="https://avaframe.org/">
 
-    <base href="https://avaframe.org/">
-    <title>AvaFrame</title>
+    <base href="https://avaframe.org/posts/version1_8_1/">
+    <title>
+  Release Version 1.8.1 - AvaFrame
+</title>
 
-    <link rel="canonical" href="https://avaframe.org/">
+    <link rel="canonical" href="https://avaframe.org/posts/version1_8_1/">
     
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
     <link rel="stylesheet" href="https://avaframe.org/css/normalize.min.css">
@@ -92,178 +96,35 @@
 
       <div class="content">
         
-  <section class="container centered">
-  <div class="about">
-      
-      <div class="avatar"><img src="https://avaframe.org/images/AvaFrameLogo.svg" alt="Logo AvaFrame The
-  open avalanche framework"></div>
-      
-      
-      
+  <section class="container post">
+  <article>
+    <header>
+      <h1 class="title">Release Version 1.8.1</h1>
+      <h2 class="date">April 4, 2024</h2>
 
+      
+    </header>
 
-    <p style="text-align:center;">
-      
-    </p>
-
-  </div>
-
-
-</section>
-
-
-<section class="container list">
-  <div class="content centered">
-  <ul>
-    
-    <li>
-      <span>30. Sep, 2020</span><a href="https://avaframe.org/posts/monthlysep2020/">This month in AvaFrame - September 2020 edition</a>
-    </li>
-    
-    <li>
-      <span>21. Aug, 2020</span><a href="https://avaframe.org/posts/monthlyaug2020/">This month in AvaFrame - August 2020 edition</a>
-    </li>
-    
-    <li>
-      <span>31. Jul, 2020</span><a href="https://avaframe.org/posts/monthlyjul2020/">This month in AvaFrame - July 2020 edition</a>
-    </li>
-    
-    <li>
-      <span>5. Jun, 2020</span><a href="https://avaframe.org/posts/projectstart/">Project start</a>
-    </li>
-    
-    <li>
-      <span>1. Apr, 2020</span><a href="https://avaframe.org/posts/positionnumericsclosed/">Position numerics CLOSED</a>
-    </li>
-    
-    <li>
-      <span>27. Feb, 2020</span><a href="https://avaframe.org/posts/openpositionnumerics/">Open position numerics</a>
-    </li>
-    
-    <li>
-      <span>26. Feb, 2020</span><a href="https://avaframe.org/about/">About</a>
-    </li>
-    
-    <li>
-      <span>26. Feb, 2020</span><a href="https://avaframe.org/contact/">Contact</a>
-    </li>
-    
-    <li>
-      <span>26. Feb, 2020</span><a href="https://avaframe.org/reports/">Reports</a>
-    </li>
-    
-    <li>
-      <span>9. Feb, 2020</span><a href="https://avaframe.org/team/">Team</a>
-    </li>
-    
-  </ul>
-    </div>
-  
-
-
-
-
-
-<ul class="pagination">
-  
-    
-    <li><a href="/">&laquo;</a></li>
-    
-    <li class="hidden"><a href="/page/6/">&lsaquo;</a></li>
-  
-  
-    
-    
-      
-        
-      
-    
-    
-  
-    
-    
-      
-        
-      
-    
-    
-  
-    
-    
-      
-        
-          
-        
-      
-    
-    
-      
-      <li><a href="/page/3/">3</a></li>
-      
-    
-  
-    
-    
-      
-        
-          
-        
-      
-    
-    
-      
-      <li><a href="/page/4/">4</a></li>
-      
-    
-  
-    
-    
-      
-        
-          
-        
-      
-    
-    
-      
-      <li><a href="/page/5/">5</a></li>
-      
-    
-  
-    
-    
-      
-        
-          
-        
-      
-    
-    
-      
-      <li><a href="/page/6/">6</a></li>
-      
-    
-  
-    
-    
-      
-        
-          
-        
-      
-    
-    
-      
-      <li>7</li>
-      
-    
-  
-  
+    <p><strong>Today we released <a href="https://github.com/avaframe/AvaFrame/releases/tag/1.8.1">Version 1.8.1</a></strong></p>
+<p><strong>QGis users please note: do not forget to run Admin -&gt; Update AvaFrame from within the toolbox to receive the updated core as well.</strong></p>
+<p>This release fixes a bug/problem with com2AB in which the chosen interpolation method led to points being offset from the original profile. (Thanks @CT for reporting this)</p>
+<h2 id="whats-changed">What&rsquo;s Changed</h2>
+<ul>
+<li>add convert to th from depth [in2; out3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/959">https://github.com/avaframe/AvaFrame/pull/959</a></li>
+<li>add option to use discrete colorbar [out3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/961">https://github.com/avaframe/AvaFrame/pull/961</a></li>
+<li>fix bug in color aimec plot by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/964">https://github.com/avaframe/AvaFrame/pull/964</a></li>
+<li>Add +1SD point in com2AB plots; change prepareLine [com2AB; geoTrans] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/966">https://github.com/avaframe/AvaFrame/pull/966</a></li>
 </ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/avaframe/AvaFrame/compare/1.8...1.8.1">https://github.com/avaframe/AvaFrame/compare/1.8...1.8.1</a></p>
+<p>Felix</p>
 
+  </article>
 
+  <br/>
+
+  
+  
 </section>
-
 
       </div>
       
