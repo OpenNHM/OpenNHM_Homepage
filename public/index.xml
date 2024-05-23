@@ -4,10 +4,24 @@
     <title>AvaFrame</title>
     <link>https://avaframe.org/</link>
     <description>Recent content on AvaFrame</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 21 May 2024 00:00:00 +0100</lastBuildDate>
     <atom:link href="https://avaframe.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Release Version 1.8.3</title>
+      <link>https://avaframe.org/posts/version1_8.3/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0100</pubDate>
+      <guid>https://avaframe.org/posts/version1_8.3/</guid>
+      <description>Today we released Version 1.8.3&#xA;QGis users please note: do not forget to run Admin -&amp;gt; Update AvaFrame from within the toolbox to receive the updated core as well.&#xA;This release fixes the CI build pipeline to include 3.12 on max os and windows.&#xA;What&amp;rsquo;s Changed Remove Python 3.7 from Windows and Mac os build by @fso42 in https://github.com/avaframe/AvaFrame/pull/978 Split release script in Macosx and windows matrix by @fso42 in https://github.</description>
+    </item>
+    <item>
+      <title>Release Version 1.8.2</title>
+      <link>https://avaframe.org/posts/version1_8_2/</link>
+      <pubDate>Fri, 17 May 2024 00:00:00 +0100</pubDate>
+      <guid>https://avaframe.org/posts/version1_8_2/</guid>
+      <description>Today we released Version 1.8.2&#xA;QGis users please note: do not forget to run Admin -&amp;gt; Update AvaFrame from within the toolbox to receive the updated core as well.&#xA;This version adds Python 3.12 to the release script.&#xA;If you used and changed resistance parameters (not the outlines/shapes in QGis), this version includes a breaking change! See #970 for more information.&#xA;What&amp;rsquo;s Changed add runscript by @awirb in https://github.com/avaframe/AvaFrame/pull/968 Reduce resistance parameters to one parameter [com1] by @PaulaSp3 in https://github.</description>
+    </item>
     <item>
       <title>Release Version 1.8.1</title>
       <link>https://avaframe.org/posts/version1_8_1/</link>

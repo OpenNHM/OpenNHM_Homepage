@@ -11,22 +11,22 @@
 
     <meta property="og:site_name" content="AvaFrame">
     <meta property="og:title" content="
-  This month in AvaFrame - February 2021 edition - AvaFrame
+  Release Version 1.8.2 - AvaFrame
 ">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://avaframe.org/posts/monthlyfeb2021/">
+    <meta property="og:url" content="https://avaframe.org/posts/version1_8_2/">
     <meta property="og:image" content="https://avaframe.org/">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://avaframe.org/posts/monthlyfeb2021/">
+    <meta name="twitter:site" content="https://avaframe.org/posts/version1_8_2/">
     <meta name="twitter:image" content="https://avaframe.org/">
 
-    <base href="https://avaframe.org/posts/monthlyfeb2021/">
+    <base href="https://avaframe.org/posts/version1_8_2/">
     <title>
-  This month in AvaFrame - February 2021 edition - AvaFrame
+  Release Version 1.8.2 - AvaFrame
 </title>
 
-    <link rel="canonical" href="https://avaframe.org/posts/monthlyfeb2021/">
+    <link rel="canonical" href="https://avaframe.org/posts/version1_8_2/">
     
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
     <link rel="stylesheet" href="https://avaframe.org/css/normalize.min.css">
@@ -99,60 +99,26 @@
   <section class="container post">
   <article>
     <header>
-      <h1 class="title">This month in AvaFrame - February 2021 edition</h1>
-      <h2 class="date">March 5, 2021</h2>
+      <h1 class="title">Release Version 1.8.2</h1>
+      <h2 class="date">May 17, 2024</h2>
 
       
     </header>
 
-    <p>A short month with a lot of progress! It went over so quickly, even this post
-missed the end of the month&hellip;</p>
+    <p><strong>Today we released <a href="https://github.com/avaframe/AvaFrame/releases/tag/1.8.2">Version 1.8.2</a></strong></p>
+<p><strong>QGis users please note: do not forget to run Admin -&gt; Update AvaFrame from within the toolbox to receive the updated core as well.</strong></p>
+<p>This version adds Python 3.12 to the release script.</p>
+<p>If you used and changed resistance parameters (not the outlines/shapes in QGis), this version includes a breaking change! See #970 for more information.</p>
+<h2 id="whats-changed">What&rsquo;s Changed</h2>
 <ul>
-<li>
-<p>The big focus this month was the implementation of our dense flow kernel
-(com1DFAPy) in  python/cython. The aim is to replicate the results of our
-current com1DFA module to be able to swap them.
-This meant diving deep into every numerical/model detail, things like</p>
-<ul>
-<li>artificial viscosity</li>
-<li>friction forces</li>
-<li>particle initialisation</li>
-<li>and many more.</li>
+<li>add runscript by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/968">https://github.com/avaframe/AvaFrame/pull/968</a></li>
+<li>Reduce resistance parameters to one parameter [com1] by @PaulaSp3 in <a href="https://github.com/avaframe/AvaFrame/pull/970">https://github.com/avaframe/AvaFrame/pull/970</a></li>
+<li>adjust format of saving particle csv files by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/971">https://github.com/avaframe/AvaFrame/pull/971</a></li>
+<li>Modified documentation: resistance parameter [doc] by @PaulaSp3 in <a href="https://github.com/avaframe/AvaFrame/pull/972">https://github.com/avaframe/AvaFrame/pull/972</a></li>
+<li>add option to write parameter variation config files through ana4Prob… [ana4] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/973">https://github.com/avaframe/AvaFrame/pull/973</a></li>
+<li>Include py 3.12; add psutil requirement by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/977">https://github.com/avaframe/AvaFrame/pull/977</a></li>
 </ul>
-<p>Alongside this development a lot of <em>supporting</em> work was needed,
-i.e. making things easier for us, as one example: being able to read and export
-particle positions.</p>
-</li>
-<li>
-<p>While using our tests we came across some areas to improve on:</p>
-<ul>
-<li>the module <em>ana1Tests</em> was introduced, where we collect code related to
-testing, analytical solutions and similar (however not stuff related to code
-testing, i.e. pytest)</li>
-<li>a helpful new feature is the possibility to filter benchmark tests by tags, i.e.
-one only wants to run tests including entrainment, or only idealised
-topographies, or some other combination</li>
-<li>the similarity solution was improved, with added run script and setup
-reading from ini file.</li>
-</ul>
-</li>
-<li>
-<p>Then we have a lot of minor improvements:</p>
-<ul>
-<li>global plotting flags, options to save outputs and plots</li>
-<li>rename Velocity to FlowVelocity, rename the <em>hockey</em> test case to <em>parabola</em></li>
-<li>update topographies with channels</li>
-<li>functions for 3D topography plots</li>
-<li>more flexible cleaning routines</li>
-<li>code coverage for cython files</li>
-<li>documentation updates</li>
-</ul>
-</li>
-</ul>
-<p>And last but not least: our 2nd Scientific Meeting took place at the beginning
-of the month. Thanks again to all participants for your helpful and much
-appreciated input!</p>
-<p>That&rsquo;s it for this update, thanks for reading!</p>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/avaframe/AvaFrame/compare/1.8.1...1.8.2">https://github.com/avaframe/AvaFrame/compare/1.8.1...1.8.2</a></p>
 <p>Felix</p>
 
   </article>
