@@ -23,3 +23,9 @@ supporting reports.
 ---
 
 
+
+**[Final report phase 1 (pdf; German only)](/pdf/Endbericht_Phase1.pdf)**
+
+Final report of phase 1, giving an overview of our work, the publications and involved persons. 
+
+
