@@ -3,10 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://avaframe.org/</loc>
-    <lastmod>2024-05-21T00:00:00+01:00</lastmod>
+    <lastmod>2024-11-12T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://avaframe.org/posts/</loc>
-    <lastmod>2024-05-21T00:00:00+01:00</lastmod>
+    <lastmod>2024-11-12T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://avaframe.org/posts/version1_9/</loc>
+    <lastmod>2024-11-12T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://avaframe.org/posts/monthlyoct2024/</loc>
+    <lastmod>2024-11-01T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://avaframe.org/posts/monthlysep2024/</loc>
+    <lastmod>2024-10-01T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://avaframe.org/posts/monthlyaug2024/</loc>
+    <lastmod>2024-09-01T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://avaframe.org/posts/monthlyjul2024/</loc>
+    <lastmod>2024-08-01T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://avaframe.org/posts/monthlyjun2024/</loc>
+    <lastmod>2024-07-01T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://avaframe.org/posts/monthlymay2024/</loc>
+    <lastmod>2024-06-01T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://avaframe.org/posts/version1_8.3/</loc>
     <lastmod>2024-05-21T00:00:00+01:00</lastmod>
@@ -14,8 +35,17 @@
     <loc>https://avaframe.org/posts/version1_8_2/</loc>
     <lastmod>2024-05-17T00:00:00+01:00</lastmod>
   </url><url>
+    <loc>https://avaframe.org/posts/monthlyapr2024/</loc>
+    <lastmod>2024-05-01T00:00:00+01:00</lastmod>
+  </url><url>
     <loc>https://avaframe.org/posts/version1_8_1/</loc>
     <lastmod>2024-04-04T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://avaframe.org/posts/monthlymar2024/</loc>
+    <lastmod>2024-04-01T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://avaframe.org/posts/monthlyfeb2024/</loc>
+    <lastmod>2024-03-01T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://avaframe.org/posts/recording1statworkshop/</loc>
     <lastmod>2024-02-27T10:46:51+01:00</lastmod>
@@ -25,6 +55,9 @@
   </url><url>
     <loc>https://avaframe.org/posts/announce1staustrian/</loc>
     <lastmod>2024-02-05T10:46:51+01:00</lastmod>
+  </url><url>
+    <loc>https://avaframe.org/posts/monthlyjan2024/</loc>
+    <lastmod>2024-02-01T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://avaframe.org/posts/recording2ndworkshop/</loc>
     <lastmod>2024-01-22T10:46:51+01:00</lastmod>

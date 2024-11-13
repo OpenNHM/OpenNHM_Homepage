@@ -35,8 +35,5 @@
 
   <br/>
 
-  {{ if and (not (eq .Site.DisqusShortname "" )) (eq (.Params.disable_comments | default false) false)}}
-      {{ template "_internal/disqus.html" . }}
-  {{ end }}
-  
+
 </section>

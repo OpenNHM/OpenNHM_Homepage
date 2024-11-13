@@ -12,7 +12,6 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 pygmentsUseClasses = true
 
-disqusShortname = "yourdiscussshortname"
 
 [params]
     author = "Yusuke Ishimi"
