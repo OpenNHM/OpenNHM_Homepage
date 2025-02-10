@@ -7,7 +7,6 @@ theme = "coder-portfolio"
 
 DefaultContentLanguage = "en"
 
-paginate = 10
 
 pygmentsstyle = "b2"
 pygmentscodefences = true
@@ -49,6 +48,13 @@ pygmentsUseClasses = true
     rtl = false
 
     langseparator = "|"
+
+
+[pagination]
+    disableAliases = false
+    pagerSize = 10
+
+
 
 [languages]
     [languages.en]

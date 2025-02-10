@@ -6,8 +6,15 @@
     <description>Recent content in Posts on AvaFrame</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 Nov 2024 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0100</lastBuildDate>
     <atom:link href="https://avaframe.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Release Version 1.10</title>
+      <link>https://avaframe.org/posts/version1_10/</link>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0100</pubDate>
+      <guid>https://avaframe.org/posts/version1_10/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;We released &lt;a href=&#34;https://github.com/avaframe/AvaFrame/releases/tag/1.10&#34;&gt;Version 1.10&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;QGis users please note (after updating the plugin): do not forget to run Admin -&amp;gt; Update AvaFrame from within the&#xA;toolbox to receive the updated core as well.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The path generation and geotiff release. So the main changes are:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The raster reading routines now accept geotiff files as well&lt;/li&gt;&#xA;&lt;li&gt;we updated the automatic path generation, this will also end up in the QGis connector&lt;/li&gt;&#xA;&lt;li&gt;added a new spatialVoellmy friction setup, to read mu/xi values from raster during initialization.&lt;/li&gt;&#xA;&lt;li&gt;fix a long/long Windows bug (again&amp;hellip;)&lt;/li&gt;&#xA;&lt;li&gt;some plot can include a (online) background map&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Please be aware: the module ascUtils is being deprecated. Please use rasterUtils which has the same functions in it. ascUtils will be removed in a future version.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Release Version 1.9</title>
       <link>https://avaframe.org/posts/version1_9/</link>
@@ -321,7 +328,7 @@
       <link>https://avaframe.org/posts/monthlyseptember2022/</link>
       <pubDate>Mon, 03 Oct 2022 00:00:00 +0100</pubDate>
       <guid>https://avaframe.org/posts/monthlyseptember2022/</guid>
-      <description>&lt;p&gt;Welcome to the September 2022 update.&lt;/p&gt;&#xA;&lt;p&gt;This was the month of conferences:&#xA;First was the International Mountain Conference on our door steps in Innsbruck.&#xA;We had a session about &lt;em&gt;Gravitational mass flow simulations for avalanches&lt;/em&gt; with a bunch of very interesting talks. Thanks&#xA;again to everyone who contributed and visited. The program can be found &lt;a href=&#34;https://www.conftool.com/imc2022/index.php?page=browseSessions&amp;form_session=186&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;We also took this opportunity to hold the &lt;em&gt;Scientific Meeting&lt;/em&gt;, discussing, among other things, the future direction AvaFrame takes. We cannot share details yet,&#xA;but we are excited!&lt;/p&gt;</description>
+      <description>&lt;p&gt;Welcome to the September 2022 update.&lt;/p&gt;&#xA;&lt;p&gt;This was the month of conferences:&#xA;First was the International Mountain Conference on our door steps in Innsbruck.&#xA;We had a session about &lt;em&gt;Gravitational mass flow simulations for avalanches&lt;/em&gt; with a bunch of very interesting talks. Thanks&#xA;again to everyone who contributed and visited. The program can be found &lt;a href=&#34;https://www.conftool.com/imc2022/index.php?page=browseSessions&amp;amp;form_session=186&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;We also took this opportunity to hold the &lt;em&gt;Scientific Meeting&lt;/em&gt;, discussing, among other things, the future direction AvaFrame takes. We cannot share details yet,&#xA;but we are excited!&lt;/p&gt;</description>
     </item>
     <item>
       <title>This month in AvaFrame - August 2022 edition</title>
