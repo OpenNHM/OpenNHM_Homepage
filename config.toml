@@ -75,7 +75,7 @@ about_me = true
 
 
 [params.social]
-github = "https://github.com/avaframe"
+#github = "https://github.com/avaframe"
 
 [[params.bookmark_link]]
 title =  "Documentation AvaFrame"
