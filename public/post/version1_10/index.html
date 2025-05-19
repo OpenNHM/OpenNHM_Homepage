@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="AvaFrame">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="https://avaframe.org//img/HomepageBanner.png">
+    <meta property="twitter:image" content="https://avaframe.org//img/HomepageBanner.png" />
+    
+
+    
+    <meta name="title" content="Release Version 1.10" />
+    <meta property="og:title" content="Release Version 1.10" />
+    <meta property="twitter:title" content="Release Version 1.10" />
+    
+
+    
+    <meta name="description" content="AvaFrame">
+    <meta property="og:description" content="AvaFrame" />
+    <meta property="twitter:description" content="AvaFrame" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="avalanches">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>Release Version 1.10 | AvaFrame</title>
+
+    <link rel="canonical" href="/post/version1_10/">
+
+    
+    
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+
+    
+    <link rel="stylesheet" href="/css/font-awesome.all.min.css">
+
+    
+    
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    <script src="/js/lazysizes.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">AvaFrame</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">All Posts</a>
+                    </li>
+                    
+                    
+		    
+                        <li><a href="/top/archive//">ARCHIVE</a></li>
+                    
+                        <li><a href="/code/">CODE</a></li>
+                    
+                        <li><a href="/documentation/">DOCUMENTATION</a></li>
+                    
+                        <li><a href="/reports/">REPORTS</a></li>
+                    
+                        <li><a href="/team/">TEAM</a></li>
+                    
+                        <li><a href="/about/">ABOUT</a></li>
+                    
+                        <li><a href="/contact/">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+<header class="intro-header" style="background-image: url('/img/HomepageBanner.png')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+                <div class="site-heading">
+                    <h1>AvaFrame </h1>
+                    
+		    <span class="subheading">The open avalanche framework</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+            
+            <div class="
+            col-lg-8 col-lg-offset-1
+            col-md-8 col-md-offset-1
+            col-sm-12
+            col-xs-12
+            post-container">
+            
+                <p><strong>We released <a href="https://github.com/avaframe/AvaFrame/releases/tag/1.10">Version 1.10</a></strong></p>
+<p><strong>QGis users please note (after updating the plugin): do not forget to run Admin -&gt; Update AvaFrame from within the
+toolbox to receive the updated core as well.</strong></p>
+<p>The path generation and geotiff release. So the main changes are:</p>
+<ul>
+<li>The raster reading routines now accept geotiff files as well</li>
+<li>we updated the automatic path generation, this will also end up in the QGis connector</li>
+<li>added a new spatialVoellmy friction setup, to read mu/xi values from raster during initialization.</li>
+<li>fix a long/long Windows bug (again&hellip;)</li>
+<li>some plot can include a (online) background map</li>
+</ul>
+<p>Please be aware: the module ascUtils is being deprecated. Please use rasterUtils which has the same functions in it. ascUtils will be removed in a future version.</p>
+<p><strong>Also be aware: The benchmarks give slightly changed results!</strong> The differences are well within accepted ranges. They originate from the new interpolation during remeshing (using rasterio) and / or the slight changes during conversion from asc to tif topography (see avaAlr). We will update the benchmarks in the next release and add the difference report there.</p>
+<h2 id="whats-changed">What&rsquo;s Changed</h2>
+<ul>
+<li>add underscore in file name search using resType by @leon-wagner in <a href="https://github.com/avaframe/AvaFrame/pull/1040">https://github.com/avaframe/AvaFrame/pull/1040</a></li>
+<li>[out3]: Fix bugin AIMEC plot  by @PaulaSp3 in <a href="https://github.com/avaframe/AvaFrame/pull/1043">https://github.com/avaframe/AvaFrame/pull/1043</a></li>
+<li>Fix no points in shp reading routines [in2] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/1045">https://github.com/avaframe/AvaFrame/pull/1045</a></li>
+<li>[doc]: Adapt Docu (W. Fellin suggestions) by @PaulaSp3 in <a href="https://github.com/avaframe/AvaFrame/pull/1047">https://github.com/avaframe/AvaFrame/pull/1047</a></li>
+<li>add new friction model spatialVoellmy [com1] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/1046">https://github.com/avaframe/AvaFrame/pull/1046</a></li>
+<li>change default input and add in ini in probAnalysis [ana4] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/1049">https://github.com/avaframe/AvaFrame/pull/1049</a></li>
+<li>Update glossary.rst [doc] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1026">https://github.com/avaframe/AvaFrame/pull/1026</a></li>
+<li>fix wrong indents in glossary by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/1050">https://github.com/avaframe/AvaFrame/pull/1050</a></li>
+<li>update DFA path runscript [ana5; runscripts] by @leon-wagner in <a href="https://github.com/avaframe/AvaFrame/pull/1039">https://github.com/avaframe/AvaFrame/pull/1039</a></li>
+<li>Set dtypes for integer, Windows Long Long problem again [com1] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1052">https://github.com/avaframe/AvaFrame/pull/1052</a></li>
+<li>[doc]: update links to packages for com4FlowPy  by @PaulaSp3 in <a href="https://github.com/avaframe/AvaFrame/pull/1054">https://github.com/avaframe/AvaFrame/pull/1054</a></li>
+<li>[doc]: update (again) com4FlowPy docu by @PaulaSp3 in <a href="https://github.com/avaframe/AvaFrame/pull/1055">https://github.com/avaframe/AvaFrame/pull/1055</a></li>
+<li>[com1DFA]: Add options for computing resistance (especially dealing with hEff) by @PaulaSp3 in <a href="https://github.com/avaframe/AvaFrame/pull/993">https://github.com/avaframe/AvaFrame/pull/993</a></li>
+<li>fix com2AB multiple lines issue [com2] by @leon-wagner in <a href="https://github.com/avaframe/AvaFrame/pull/1060">https://github.com/avaframe/AvaFrame/pull/1060</a></li>
+<li>update check for extent of mu, xi fields [com1] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/1056">https://github.com/avaframe/AvaFrame/pull/1056</a></li>
+<li>Add an output raster: sum of flux [com4] by @PaulaSp3 in <a href="https://github.com/avaframe/AvaFrame/pull/1048">https://github.com/avaframe/AvaFrame/pull/1048</a></li>
+<li>disable overlap checking for secrels; fixes #1065 [com1] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1066">https://github.com/avaframe/AvaFrame/pull/1066</a></li>
+<li>[com4FlowPy]: new computation of zDeltaSum by @PaulaSp3 in <a href="https://github.com/avaframe/AvaFrame/pull/1067">https://github.com/avaframe/AvaFrame/pull/1067</a></li>
+<li>remove setting label for contourline at collections [out3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/1077">https://github.com/avaframe/AvaFrame/pull/1077</a></li>
+<li>update documentation with changes to DFAPath script [doc] by @leon-wagner in <a href="https://github.com/avaframe/AvaFrame/pull/1051">https://github.com/avaframe/AvaFrame/pull/1051</a></li>
+<li>Include rasterio for geotiff and wmts plotting  by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1059">https://github.com/avaframe/AvaFrame/pull/1059</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/avaframe/AvaFrame/compare/1.9...1.10">https://github.com/avaframe/AvaFrame/compare/1.9...1.10</a></p>
+<p>Felix</p>
+
+            
+             
+            
+
+
+            
+            </div>
+            
+            
+
+<div class="
+    col-lg-3 col-lg-offset-0
+    col-md-3 col-md-offset-0
+    col-sm-12
+    col-xs-12
+    sidebar-container
+">
+    
+	
+    <section class="visible-md visible-lg">
+	
+        <div class="short-about">
+            
+            <a href="/about">
+               <img src="/img/AvaFrameLogo_withBack.png" alt="avatar" style="cursor: pointer" />
+            </a>
+            
+            
+                <p>Strong together</p>
+            
+           
+           <ul class="list-inline">
+               
+               
+               
+               
+               
+               
+               
+               <li>
+                   <a target="_blank" href="https://github.com/avaframe">
+                       <span class="fa-stack fa-lg">
+                           <i class="fas fa-circle fa-stack-2x"></i>
+                           <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+               
+               
+               
+               
+            
+            
+               
+               
+               
+               
+                </ul>
+            </div>
+    </section>
+	
+    
+    
+    <section>
+        <hr>
+        <h5>QUICK LINKS</h5>
+        <ul class="list-inline">
+            
+            <li><a target="_blank" href="https://docs.avaframe.org">Documentation AvaFrame</a></li>
+            
+            <li><a target="_blank" href="https://github.com/avaframe/AvaFrame">Code AvaFrame</a></li>
+            
+        </ul>
+    </section>
+    
+    
+    
+    <section>
+        <hr class="hidden-sm hidden-xs">
+        <h5>FEATURED TAGS</h5>
+        <div class="tags">
+            
+            
+               
+                    <a href="/tags/avaframe" title="avaframe">
+                        avaframe
+                    </a>
+               
+            
+               
+                    <a href="/tags/monthly" title="monthly">
+                        monthly
+                    </a>
+               
+            
+               
+                    <a href="/tags/version" title="version">
+                        version
+                    </a>
+               
+            
+        </div>
+    </section>
+    
+
+    
+    
+    
+</div>
+
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">                  
+                    
+                    
+                    
+                    
+                    
+
+		            
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/avaframe">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		            
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+           
+             </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; AvaFrame 2025
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+
+
+
+</body>
+</html>
