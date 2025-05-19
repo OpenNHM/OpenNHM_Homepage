@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Monthly on AvaFrame</title>
-    <link>https://avaframe.org/tags/monthly/</link>
+    <link>http://localhost:1313/tags/monthly/</link>
     <description>Recent content in Monthly on AvaFrame</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +0100</lastBuildDate>
-    <atom:link href="https://avaframe.org/tags/monthly/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/monthly/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>This month in AvaFrame - February 2025 edition</title>
-      <link>https://avaframe.org/post/monthlyfeb2025/</link>
+      <link>http://localhost:1313/post/monthlyfeb2025/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0100</pubDate>
-      <guid>https://avaframe.org/post/monthlyfeb2025/</guid>
-      <description>&lt;p&gt;Welcome to the February update:&lt;/p&gt;&#xA;&lt;p&gt;As you might have noticed, we released two new versions this month:&lt;/p&gt;&#xA;&lt;p&gt;-&lt;a href=&#34;https://github.com/avaframe/AvaFrame/releases/tag/1.10&#34;&gt;Version 1.10&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;-&lt;a href=&#34;https://github.com/avaframe/AvaFrame/releases/tag/1.11&#34;&gt;Version 1.11&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;So one includes the new geotiff capabilities, while the other one is a maintenance release to update the benchmarks.&lt;/p&gt;&#xA;&lt;p&gt;So to emphasize this: due to the changes in the IO routines, the benchmarks have changed slightly! This is mostly&#xA;visible in areas on the border of the flow or really strong gradients. However, the differences are well within&#xA;acceptable ranges. But don&amp;rsquo;t take it from us, please see the attached report for the differences (version 1.11).&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/monthlyfeb2025/</guid>
+      <description>&lt;p&gt;Welcome to the February update:&lt;/p&gt;&#xA;&lt;p&gt;As you might have noticed, we released two new versions this month:&lt;/p&gt;&#xA;&lt;p&gt;-&lt;a href=&#34;https://github.com/avaframe/AvaFrame/releases/tag/1.10&#34; target=&#34;_blank&#34;&gt;Version 1.10&lt;/a&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;-&lt;a href=&#34;https://github.com/avaframe/AvaFrame/releases/tag/1.11&#34; target=&#34;_blank&#34;&gt;Version 1.11&lt;/a&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;So one includes the new geotiff capabilities, while the other one is a maintenance release to update the benchmarks.&lt;/p&gt;&#xA;&lt;p&gt;So to emphasize this: due to the changes in the IO routines, the benchmarks have changed slightly! This is mostly&#xA;visible in areas on the border of the flow or really strong gradients. However, the differences are well within&#xA;acceptable ranges. But don&amp;rsquo;t take it from us, please see the attached report for the differences (version 1.11).&lt;/p&gt;</description>
     </item>
     <item>
       <title>This month in AvaFrame - January 2025 edition</title>
-      <link>https://avaframe.org/post/monthlyjan2025/</link>
+      <link>http://localhost:1313/post/monthlyjan2025/</link>
       <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://avaframe.org/post/monthlyjan2025/</guid>
+      <guid>http://localhost:1313/post/monthlyjan2025/</guid>
       <description>&lt;p&gt;Welcome to the first update of 2025:&lt;/p&gt;&#xA;&lt;p&gt;Major work is being done of a change on our input side: we are including support for geotiff files. We will of&#xA;course keep the asc format, but the geotiff format allows for a better integration and&#xA;checks in relation to geographic information (i.e. coordinates, projections, etc.). Expect this to be released with&#xA;a new version within the next weeks.&lt;/p&gt;&#xA;&lt;p&gt;Work on the ISeeSnow paper is progressing nicely, as well as the work on our regional modelling project.&lt;/p&gt;</description>
     </item>
   </channel>

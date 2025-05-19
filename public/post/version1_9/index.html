@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,8 +10,8 @@
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="https://avaframe.org//img/HomepageBanner.png">
-    <meta property="twitter:image" content="https://avaframe.org//img/HomepageBanner.png" />
+    <meta property="og:image" content="http://localhost:1313//img/FZGL_PFD.jpg">
+    <meta property="twitter:image" content="http://localhost:1313//img/FZGL_PFD.jpg" />
     
 
     
@@ -34,7 +34,7 @@
     <meta name="keyword"  content="avalanches">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Release Version 1.9 | AvaFrame</title>
+    <title>Release Version 1.9-AvaFrame</title>
 
     <link rel="canonical" href="/post/version1_9/">
 
@@ -50,7 +50,7 @@
     <link rel="stylesheet" href="/css/zanshang.css">
 
     
-    <link rel="stylesheet" href="/css/font-awesome.all.min.css">
+    <link href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.1/css/all.css" rel="stylesheet" type="text/css">
 
     
     
@@ -65,14 +65,12 @@
     <script src="/js/hux-blog.min.js"></script>
 
     
-    <script src="/js/lazysizes.min.js"></script>
+    
 
     
     
 
 </head>
-
-
 
 
 
@@ -154,14 +152,37 @@
 
 
 
-<header class="intro-header" style="background-image: url('/img/HomepageBanner.png')">
+
+<style type="text/css">
+    header.intro-header {
+        background-image:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.4)), url('/img/FZGL_PFD.jpg')
+    }
+</style>
+
+<header class="intro-header" >
+
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-                    <h1>AvaFrame </h1>
-                    
-		    <span class="subheading">The open avalanche framework</span>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                    </div>
+                    <h1>Release Version 1.9</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                    AvaFrame
+                             
+                            on 
+                            Tuesday, November 12, 2024
+                            
+                            
+                            
+                            
+                    </span>
                 </div>
             </div>
         </div>
@@ -174,15 +195,16 @@
 <article>
     <div class="container">
         <div class="row">
+
             
             <div class="
-            col-lg-8 col-lg-offset-1
-            col-md-8 col-md-offset-1
-            col-sm-12
-            col-xs-12
-            post-container">
-            
-                <p><strong>We released <a href="https://github.com/avaframe/AvaFrame/releases/tag/1.9">Version 1.9</a></strong></p>
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <p><strong>We released <a href="https://github.com/avaframe/AvaFrame/releases/tag/1.9" target="_blank">Version 1.9</a>
+</strong></p>
 <p><strong>QGis users please note (after updating the plugin): do not forget to run Admin -&gt; Update AvaFrame from within the
 toolbox to receive the updated core as well.</strong></p>
 <p>As is obvious by the long list below, this release contains plenty of bug fixes and internal improvements.
@@ -197,168 +219,168 @@ The highlights are:</p>
 </ul>
 <h2 id="whats-changed">What&rsquo;s Changed</h2>
 <ul>
-<li>com4FlowPy bug-fixes/added functionality [com4] by @ahuber-bfw in <a href="https://github.com/avaframe/AvaFrame/pull/974">https://github.com/avaframe/AvaFrame/pull/974</a></li>
-<li>adjust extent of plots and add tests by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/982">https://github.com/avaframe/AvaFrame/pull/982</a></li>
-<li>functionality to create probMaps for peakfiles from different modules [ana4; out3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/976">https://github.com/avaframe/AvaFrame/pull/976</a></li>
-<li>Fix various admin doc by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/983">https://github.com/avaframe/AvaFrame/pull/983</a></li>
-<li>fix typo in docs by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/984">https://github.com/avaframe/AvaFrame/pull/984</a></li>
-<li>fix masking array for plot by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/985">https://github.com/avaframe/AvaFrame/pull/985</a></li>
-<li>Hotfix for installation problem (script install) by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/988">https://github.com/avaframe/AvaFrame/pull/988</a></li>
-<li>issue936 com4FlowPy documentation [doc] by @ahuber-bfw in <a href="https://github.com/avaframe/AvaFrame/pull/987">https://github.com/avaframe/AvaFrame/pull/987</a></li>
-<li>[com4FlowPy]: add travel length to output-files by @PaulaSp3 in <a href="https://github.com/avaframe/AvaFrame/pull/990">https://github.com/avaframe/AvaFrame/pull/990</a></li>
-<li>Immediate bugFixes to com4FlowPy and minor mode enhancement [com4] by @ahuber-bfw in <a href="https://github.com/avaframe/AvaFrame/pull/989">https://github.com/avaframe/AvaFrame/pull/989</a></li>
-<li>[com4FlowPy] cell_counts BUG FIX and code simplification by @ahuber-bfw in <a href="https://github.com/avaframe/AvaFrame/pull/996">https://github.com/avaframe/AvaFrame/pull/996</a></li>
-<li>Add ref to aimec [ana3; in3; out3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/992">https://github.com/avaframe/AvaFrame/pull/992</a></li>
-<li>[com4FlowPy]: Add additional output: ForestInteraction Layer by @PaulaSp3 in <a href="https://github.com/avaframe/AvaFrame/pull/997">https://github.com/avaframe/AvaFrame/pull/997</a></li>
-<li>add docu for aimec reference [ana3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/999">https://github.com/avaframe/AvaFrame/pull/999</a></li>
-<li>Add info about samosATAuto to doc [doc] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1000">https://github.com/avaframe/AvaFrame/pull/1000</a></li>
-<li>[com1DFA]: add detrainment by @PaulaSp3 in <a href="https://github.com/avaframe/AvaFrame/pull/991">https://github.com/avaframe/AvaFrame/pull/991</a></li>
-<li>change to array by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/1008">https://github.com/avaframe/AvaFrame/pull/1008</a></li>
-<li>[com4FlowPy]: option for dynamic max_z_delta by @PaulaSp3 in <a href="https://github.com/avaframe/AvaFrame/pull/995">https://github.com/avaframe/AvaFrame/pull/995</a></li>
-<li>Make syntax compatible with NumPy 2.0 by @ninsbl in <a href="https://github.com/avaframe/AvaFrame/pull/1007">https://github.com/avaframe/AvaFrame/pull/1007</a></li>
-<li>[doc]: Docu for detrainment by @PaulaSp3 in <a href="https://github.com/avaframe/AvaFrame/pull/1004">https://github.com/avaframe/AvaFrame/pull/1004</a></li>
-<li>Add aimec summary fig [out3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/1011">https://github.com/avaframe/AvaFrame/pull/1011</a></li>
-<li>add max velocity option to rangeTime diagram [ana5;out3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/1013">https://github.com/avaframe/AvaFrame/pull/1013</a></li>
-<li>fix issue with entrainment from shapefile; fixes #1009 by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1012">https://github.com/avaframe/AvaFrame/pull/1012</a></li>
-<li>Restructure com2AB parameter setup [com2] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1015">https://github.com/avaframe/AvaFrame/pull/1015</a></li>
-<li>change python version in test action by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1018">https://github.com/avaframe/AvaFrame/pull/1018</a></li>
-<li>[com4FlowPy] added support for .tif and .asc input/output, output files configurable via .ini by @ahuber-bfw in <a href="https://github.com/avaframe/AvaFrame/pull/1001">https://github.com/avaframe/AvaFrame/pull/1001</a></li>
-<li>add release volume info into report [com1] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/1014">https://github.com/avaframe/AvaFrame/pull/1014</a></li>
-<li>use returned array in probAna [ana4] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/1021">https://github.com/avaframe/AvaFrame/pull/1021</a></li>
-<li>add pytest for non-matching nrows and ncols of files for probAnalysis by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/1022">https://github.com/avaframe/AvaFrame/pull/1022</a></li>
-<li>Handle bug about simName / scenario mismatch in report (Windows QGis GUI); issue #872 [com1] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1024">https://github.com/avaframe/AvaFrame/pull/1024</a></li>
-<li>Start adding gallery in visualisation documentation by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1020">https://github.com/avaframe/AvaFrame/pull/1020</a></li>
-<li>[com4FlowPy]: minor modification for log-file by @PaulaSp3 in <a href="https://github.com/avaframe/AvaFrame/pull/1028">https://github.com/avaframe/AvaFrame/pull/1028</a></li>
-<li>fix runtime cython error on windows with current libs [com1] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1029">https://github.com/avaframe/AvaFrame/pull/1029</a></li>
-<li>Add units to parameters in ini file; update com5 resistance [com1; com5] by @leon-wagner in <a href="https://github.com/avaframe/AvaFrame/pull/1023">https://github.com/avaframe/AvaFrame/pull/1023</a></li>
-<li>Update Advanced Usage chapter in docs [doc] by @leon-wagner in <a href="https://github.com/avaframe/AvaFrame/pull/1031">https://github.com/avaframe/AvaFrame/pull/1031</a></li>
-<li>Add small indicator to com2AB outputs [com2] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1032">https://github.com/avaframe/AvaFrame/pull/1032</a></li>
-<li>Change default probAna range; fixes #967 [ana4] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1033">https://github.com/avaframe/AvaFrame/pull/1033</a></li>
-<li>Change runout info altitude for friction adjustment (request by WLV) [doc] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1034">https://github.com/avaframe/AvaFrame/pull/1034</a></li>
-<li>Adds a try except for cmcrameri lipari colormap (missing in older versions)[out3] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1035">https://github.com/avaframe/AvaFrame/pull/1035</a></li>
-<li>Adjust releaseWithManyLinux, start switching to cibuildwheel by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1036">https://github.com/avaframe/AvaFrame/pull/1036</a></li>
-<li>revers long long vs long again; adjust setup.py and releaseMany [com1] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1041">https://github.com/avaframe/AvaFrame/pull/1041</a></li>
+<li>com4FlowPy bug-fixes/added functionality [com4] by @ahuber-bfw in <a href="https://github.com/avaframe/AvaFrame/pull/974" target="_blank">https://github.com/avaframe/AvaFrame/pull/974</a>
+</li>
+<li>adjust extent of plots and add tests by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/982" target="_blank">https://github.com/avaframe/AvaFrame/pull/982</a>
+</li>
+<li>functionality to create probMaps for peakfiles from different modules [ana4; out3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/976" target="_blank">https://github.com/avaframe/AvaFrame/pull/976</a>
+</li>
+<li>Fix various admin doc by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/983" target="_blank">https://github.com/avaframe/AvaFrame/pull/983</a>
+</li>
+<li>fix typo in docs by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/984" target="_blank">https://github.com/avaframe/AvaFrame/pull/984</a>
+</li>
+<li>fix masking array for plot by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/985" target="_blank">https://github.com/avaframe/AvaFrame/pull/985</a>
+</li>
+<li>Hotfix for installation problem (script install) by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/988" target="_blank">https://github.com/avaframe/AvaFrame/pull/988</a>
+</li>
+<li>issue936 com4FlowPy documentation [doc] by @ahuber-bfw in <a href="https://github.com/avaframe/AvaFrame/pull/987" target="_blank">https://github.com/avaframe/AvaFrame/pull/987</a>
+</li>
+<li>[com4FlowPy]: add travel length to output-files by @PaulaSp3 in <a href="https://github.com/avaframe/AvaFrame/pull/990" target="_blank">https://github.com/avaframe/AvaFrame/pull/990</a>
+</li>
+<li>Immediate bugFixes to com4FlowPy and minor mode enhancement [com4] by @ahuber-bfw in <a href="https://github.com/avaframe/AvaFrame/pull/989" target="_blank">https://github.com/avaframe/AvaFrame/pull/989</a>
+</li>
+<li>[com4FlowPy] cell_counts BUG FIX and code simplification by @ahuber-bfw in <a href="https://github.com/avaframe/AvaFrame/pull/996" target="_blank">https://github.com/avaframe/AvaFrame/pull/996</a>
+</li>
+<li>Add ref to aimec [ana3; in3; out3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/992" target="_blank">https://github.com/avaframe/AvaFrame/pull/992</a>
+</li>
+<li>[com4FlowPy]: Add additional output: ForestInteraction Layer by @PaulaSp3 in <a href="https://github.com/avaframe/AvaFrame/pull/997" target="_blank">https://github.com/avaframe/AvaFrame/pull/997</a>
+</li>
+<li>add docu for aimec reference [ana3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/999" target="_blank">https://github.com/avaframe/AvaFrame/pull/999</a>
+</li>
+<li>Add info about samosATAuto to doc [doc] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1000" target="_blank">https://github.com/avaframe/AvaFrame/pull/1000</a>
+</li>
+<li>[com1DFA]: add detrainment by @PaulaSp3 in <a href="https://github.com/avaframe/AvaFrame/pull/991" target="_blank">https://github.com/avaframe/AvaFrame/pull/991</a>
+</li>
+<li>change to array by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/1008" target="_blank">https://github.com/avaframe/AvaFrame/pull/1008</a>
+</li>
+<li>[com4FlowPy]: option for dynamic max_z_delta by @PaulaSp3 in <a href="https://github.com/avaframe/AvaFrame/pull/995" target="_blank">https://github.com/avaframe/AvaFrame/pull/995</a>
+</li>
+<li>Make syntax compatible with NumPy 2.0 by @ninsbl in <a href="https://github.com/avaframe/AvaFrame/pull/1007" target="_blank">https://github.com/avaframe/AvaFrame/pull/1007</a>
+</li>
+<li>[doc]: Docu for detrainment by @PaulaSp3 in <a href="https://github.com/avaframe/AvaFrame/pull/1004" target="_blank">https://github.com/avaframe/AvaFrame/pull/1004</a>
+</li>
+<li>Add aimec summary fig [out3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/1011" target="_blank">https://github.com/avaframe/AvaFrame/pull/1011</a>
+</li>
+<li>add max velocity option to rangeTime diagram [ana5;out3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/1013" target="_blank">https://github.com/avaframe/AvaFrame/pull/1013</a>
+</li>
+<li>fix issue with entrainment from shapefile; fixes #1009 by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1012" target="_blank">https://github.com/avaframe/AvaFrame/pull/1012</a>
+</li>
+<li>Restructure com2AB parameter setup [com2] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1015" target="_blank">https://github.com/avaframe/AvaFrame/pull/1015</a>
+</li>
+<li>change python version in test action by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1018" target="_blank">https://github.com/avaframe/AvaFrame/pull/1018</a>
+</li>
+<li>[com4FlowPy] added support for .tif and .asc input/output, output files configurable via .ini by @ahuber-bfw in <a href="https://github.com/avaframe/AvaFrame/pull/1001" target="_blank">https://github.com/avaframe/AvaFrame/pull/1001</a>
+</li>
+<li>add release volume info into report [com1] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/1014" target="_blank">https://github.com/avaframe/AvaFrame/pull/1014</a>
+</li>
+<li>use returned array in probAna [ana4] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/1021" target="_blank">https://github.com/avaframe/AvaFrame/pull/1021</a>
+</li>
+<li>add pytest for non-matching nrows and ncols of files for probAnalysis by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/1022" target="_blank">https://github.com/avaframe/AvaFrame/pull/1022</a>
+</li>
+<li>Handle bug about simName / scenario mismatch in report (Windows QGis GUI); issue #872 [com1] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1024" target="_blank">https://github.com/avaframe/AvaFrame/pull/1024</a>
+</li>
+<li>Start adding gallery in visualisation documentation by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1020" target="_blank">https://github.com/avaframe/AvaFrame/pull/1020</a>
+</li>
+<li>[com4FlowPy]: minor modification for log-file by @PaulaSp3 in <a href="https://github.com/avaframe/AvaFrame/pull/1028" target="_blank">https://github.com/avaframe/AvaFrame/pull/1028</a>
+</li>
+<li>fix runtime cython error on windows with current libs [com1] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1029" target="_blank">https://github.com/avaframe/AvaFrame/pull/1029</a>
+</li>
+<li>Add units to parameters in ini file; update com5 resistance [com1; com5] by @leon-wagner in <a href="https://github.com/avaframe/AvaFrame/pull/1023" target="_blank">https://github.com/avaframe/AvaFrame/pull/1023</a>
+</li>
+<li>Update Advanced Usage chapter in docs [doc] by @leon-wagner in <a href="https://github.com/avaframe/AvaFrame/pull/1031" target="_blank">https://github.com/avaframe/AvaFrame/pull/1031</a>
+</li>
+<li>Add small indicator to com2AB outputs [com2] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1032" target="_blank">https://github.com/avaframe/AvaFrame/pull/1032</a>
+</li>
+<li>Change default probAna range; fixes #967 [ana4] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1033" target="_blank">https://github.com/avaframe/AvaFrame/pull/1033</a>
+</li>
+<li>Change runout info altitude for friction adjustment (request by WLV) [doc] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1034" target="_blank">https://github.com/avaframe/AvaFrame/pull/1034</a>
+</li>
+<li>Adds a try except for cmcrameri lipari colormap (missing in older versions)[out3] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1035" target="_blank">https://github.com/avaframe/AvaFrame/pull/1035</a>
+</li>
+<li>Adjust releaseWithManyLinux, start switching to cibuildwheel by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1036" target="_blank">https://github.com/avaframe/AvaFrame/pull/1036</a>
+</li>
+<li>revers long long vs long again; adjust setup.py and releaseMany [com1] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/1041" target="_blank">https://github.com/avaframe/AvaFrame/pull/1041</a>
+</li>
 </ul>
 <h2 id="new-contributors">New Contributors</h2>
 <ul>
-<li>@ahuber-bfw made their first contribution in <a href="https://github.com/avaframe/AvaFrame/pull/974">https://github.com/avaframe/AvaFrame/pull/974</a></li>
-<li>@leon-wagner made their first contribution in <a href="https://github.com/avaframe/AvaFrame/pull/1023">https://github.com/avaframe/AvaFrame/pull/1023</a></li>
+<li>@ahuber-bfw made their first contribution in <a href="https://github.com/avaframe/AvaFrame/pull/974" target="_blank">https://github.com/avaframe/AvaFrame/pull/974</a>
+</li>
+<li>@leon-wagner made their first contribution in <a href="https://github.com/avaframe/AvaFrame/pull/1023" target="_blank">https://github.com/avaframe/AvaFrame/pull/1023</a>
+</li>
 </ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/avaframe/AvaFrame/compare/1.8.3...1.9">https://github.com/avaframe/AvaFrame/compare/1.8.3...1.9</a></p>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/avaframe/AvaFrame/compare/1.8.3...1.9" target="_blank">https://github.com/avaframe/AvaFrame/compare/1.8.3...1.9</a>
+</p>
 <p>Felix</p>
 
-            
-             
-            
 
+                
 
-            
-            </div>
-            
-            
-
-<div class="
-    col-lg-3 col-lg-offset-0
-    col-md-3 col-md-offset-0
-    col-sm-12
-    col-xs-12
-    sidebar-container
-">
-    
-	
-    <section class="visible-md visible-lg">
-	
-        <div class="short-about">
-            
-            <a href="/about">
-               <img src="/img/AvaFrameLogo_withBack.png" alt="avatar" style="cursor: pointer" />
-            </a>
-            
-            
-                <p>Strong together</p>
-            
-           
-           <ul class="list-inline">
-               
-               
-               
-               
-               
-               
-               
-               <li>
-                   <a target="_blank" href="https://github.com/avaframe">
-                       <span class="fa-stack fa-lg">
-                           <i class="fas fa-circle fa-stack-2x"></i>
-                           <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                       </span>
-                   </a>
-               </li>
-               
-               
-               
-               
-               
-               
-            
-            
-               
-               
-               
-               
+                
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/post/monthlyoct2024/" data-toggle="tooltip" data-placement="top" title="This month in AvaFrame - October 2024 edition">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/post/monthlynov2024/" data-toggle="tooltip" data-placement="top" title="This month in AvaFrame - November 2024 edition">Next
+                            Post &rarr;</a>
+                    </li>
+                    
                 </ul>
+                
+
+                
+
+
             </div>
-    </section>
-	
-    
-    
-    <section>
-        <hr>
-        <h5>QUICK LINKS</h5>
-        <ul class="list-inline">
-            
-            <li><a target="_blank" href="https://docs.avaframe.org">Documentation AvaFrame</a></li>
-            
-            <li><a target="_blank" href="https://github.com/avaframe/AvaFrame">Code AvaFrame</a></li>
-            
-        </ul>
-    </section>
-    
-    
-    
-    <section>
-        <hr class="hidden-sm hidden-xs">
-        <h5>FEATURED TAGS</h5>
-        <div class="tags">
-            
-            
-               
-                    <a href="/tags/avaframe" title="avaframe">
-                        avaframe
-                    </a>
-               
-            
-               
-                    <a href="/tags/monthly" title="monthly">
-                        monthly
-                    </a>
-               
-            
-               
-                    <a href="/tags/version" title="version">
-                        version
-                    </a>
-               
-            
-        </div>
-    </section>
-    
 
-    
-    
-    
-</div>
+            
+            
 
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        <a href="/tags/avaframe" title="avaframe">
+                            avaframe
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/monthly" title="monthly">
+                            monthly
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/version" title="version">
+                            version
+                        </a>
+                        
+                        
+                    </div>
+                </section>
+                
+
+                
+                
+            </div>
         </div>
     </div>
 </article>
@@ -457,63 +479,6 @@ The highlights are:</p>
 
 
 
-
-<script type="text/javascript">
-    function generateCatalog(selector) {
-
-        
-        
-        
-        
-            _containerSelector = 'div.post-container'
-        
-
-        
-        var P = $(_containerSelector), a, n, t, l, i, c;
-        a = P.find('h1,h2,h3,h4,h5,h6');
-
-        
-        $(selector).html('')
-
-        
-        a.each(function () {
-            n = $(this).prop('tagName').toLowerCase();
-            i = "#" + $(this).prop('id');
-            t = $(this).text();
-            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
-            l = $('<li class="' + n + '_nav"></li>').append(c);
-            $(selector).append(l);
-        });
-        return true;
-    }
-
-    generateCatalog(".catalog-body");
-
-    
-    $(".catalog-toggle").click((function (e) {
-        e.preventDefault();
-        $('.side-catalog').toggleClass("fold")
-    }))
-
-    
-
-
-    loadAsync("\/js\/jquery.nav.js", function () {
-        $('.catalog-body').onePageNav({
-            currentClass: "active",
-            changeHash: !1,
-            easing: "swing",
-            filter: "",
-            scrollSpeed: 700,
-            scrollOffset: 0,
-            scrollThreshold: .2,
-            begin: null,
-            end: null,
-            scrollChange: null,
-            padding: 80
-        });
-    });
-</script>
 
 
 

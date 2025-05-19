@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,8 +10,8 @@
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="https://avaframe.org//img/HomepageBanner.png">
-    <meta property="twitter:image" content="https://avaframe.org//img/HomepageBanner.png" />
+    <meta property="og:image" content="http://localhost:1313//img/FZGL_PFD.jpg">
+    <meta property="twitter:image" content="http://localhost:1313//img/FZGL_PFD.jpg" />
     
 
     
@@ -34,7 +34,7 @@
     <meta name="keyword"  content="avalanches">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Release Version 1.0 | AvaFrame</title>
+    <title>Release Version 1.0-AvaFrame</title>
 
     <link rel="canonical" href="/post/version1_0/">
 
@@ -50,7 +50,7 @@
     <link rel="stylesheet" href="/css/zanshang.css">
 
     
-    <link rel="stylesheet" href="/css/font-awesome.all.min.css">
+    <link href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.1/css/all.css" rel="stylesheet" type="text/css">
 
     
     
@@ -65,14 +65,12 @@
     <script src="/js/hux-blog.min.js"></script>
 
     
-    <script src="/js/lazysizes.min.js"></script>
+    
 
     
     
 
 </head>
-
-
 
 
 
@@ -154,14 +152,37 @@
 
 
 
-<header class="intro-header" style="background-image: url('/img/HomepageBanner.png')">
+
+<style type="text/css">
+    header.intro-header {
+        background-image:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.4)), url('/img/FZGL_PFD.jpg')
+    }
+</style>
+
+<header class="intro-header" >
+
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-                    <h1>AvaFrame </h1>
-                    
-		    <span class="subheading">The open avalanche framework</span>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                    </div>
+                    <h1>Release Version 1.0</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                    AvaFrame
+                             
+                            on 
+                            Friday, May 6, 2022
+                            
+                            
+                            
+                            
+                    </span>
                 </div>
             </div>
         </div>
@@ -174,36 +195,42 @@
 <article>
     <div class="container">
         <div class="row">
+
             
             <div class="
-            col-lg-8 col-lg-offset-1
-            col-md-8 col-md-offset-1
-            col-sm-12
-            col-xs-12
-            post-container">
-            
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
                 <p>So this is a big one:</p>
-<p><strong>On April 6. we released <a href="https://github.com/avaframe/AvaFrame/releases/tag/1.0">Version 1.0</a>!</strong></p>
+<p><strong>On April 6. we released <a href="https://github.com/avaframe/AvaFrame/releases/tag/1.0" target="_blank">Version 1.0</a>
+!</strong></p>
 <p>As you might guess, this is very exciting for us, but what does this mean?</p>
 <ul>
 <li>
-<p>First of all, you can find all changes in our <a href="https://docs.avaframe.org/en/latest/releaseNotes.html#id1">documentation release notes</a>.
+<p>First of all, you can find all changes in our <a href="https://docs.avaframe.org/en/latest/releaseNotes.html#id1" target="_blank">documentation release notes</a>
+.
 As one might expect with a first full release, the list is long!</p>
 </li>
 <li>
-<p>Version 1.0 means we can partly fulfil a vital topic of our <a href="/about">mission</a>, namely the <em>replicating &hellip;
+<p>Version 1.0 means we can partly fulfil a vital topic of our <a href="/about">mission</a>
+, namely the <em>replicating &hellip;
 current simulation procedures&hellip;</em> part. The core computation module com1DFA for dense flow computations is in a state
 that allows it to be used in operational settings. In this regard, we published a report detailing differences between
 the currently operationally used com1DFAOrig (i.e. SamosAT) results and our rewritten com1DFA results. See
-<a href="/reports">reports</a> for a link to the report (or head over to
-<a href="https://github.com/avaframe/AvaFrame/releases/tag/1.0">the assets of the version 1.0 release on Github</a>). In this
+<a href="/reports">reports</a>
+ for a link to the report (or head over to
+<a href="https://github.com/avaframe/AvaFrame/releases/tag/1.0" target="_blank">the assets of the version 1.0 release on Github</a>
+). In this
 document, we detail the steps taken to ensure the similarity of the results, highlight the differences we found, the
 investigations into numerical issues and our recommendations for operational application.</p>
 </li>
 <li>
 <p>After testing this release by the WLV&rsquo;s operational team, AvaFrame is now included in the operational
 guidelines for avalanche simulations, see the
-<a href="https://info.bmlrt.gv.at/dam/jcr:edebd872-2a86-4edf-ac5e-635ef11e35fe/Praxisleitfaden%20LawSim%20WLV%202022%20Gr%C3%BCn.pdf">Praxisleitfaden</a>
+<a href="https://info.bmlrt.gv.at/dam/jcr:edebd872-2a86-4edf-ac5e-635ef11e35fe/Praxisleitfaden%20LawSim%20WLV%202022%20Gr%C3%BCn.pdf" target="_blank">Praxisleitfaden</a>
+
 (unfortunately only available in German). Integrating AvaFrame into current procedures is recommended, but running
 current models in parallel to catch any possible issues not yet discovered.</p>
 </li>
@@ -213,118 +240,74 @@ phase. But we are confident Version 1.0 already provides a benefit for avalanche
 quite a few interesting new features, so watch out for the next releases.</p>
 <p>Felix</p>
 
-            
-             
-            
 
+                
 
-            
-            </div>
-            
-            
-
-<div class="
-    col-lg-3 col-lg-offset-0
-    col-md-3 col-md-offset-0
-    col-sm-12
-    col-xs-12
-    sidebar-container
-">
-    
-	
-    <section class="visible-md visible-lg">
-	
-        <div class="short-about">
-            
-            <a href="/about">
-               <img src="/img/AvaFrameLogo_withBack.png" alt="avatar" style="cursor: pointer" />
-            </a>
-            
-            
-                <p>Strong together</p>
-            
-           
-           <ul class="list-inline">
-               
-               
-               
-               
-               
-               
-               
-               <li>
-                   <a target="_blank" href="https://github.com/avaframe">
-                       <span class="fa-stack fa-lg">
-                           <i class="fas fa-circle fa-stack-2x"></i>
-                           <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                       </span>
-                   </a>
-               </li>
-               
-               
-               
-               
-               
-               
-            
-            
-               
-               
-               
-               
+                
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/post/monthlyapr2022/" data-toggle="tooltip" data-placement="top" title="This month in AvaFrame - April 2022 edition">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/post/version1_1/" data-toggle="tooltip" data-placement="top" title="Release Version 1.1">Next
+                            Post &rarr;</a>
+                    </li>
+                    
                 </ul>
+                
+
+                
+
+
             </div>
-    </section>
-	
-    
-    
-    <section>
-        <hr>
-        <h5>QUICK LINKS</h5>
-        <ul class="list-inline">
-            
-            <li><a target="_blank" href="https://docs.avaframe.org">Documentation AvaFrame</a></li>
-            
-            <li><a target="_blank" href="https://github.com/avaframe/AvaFrame">Code AvaFrame</a></li>
-            
-        </ul>
-    </section>
-    
-    
-    
-    <section>
-        <hr class="hidden-sm hidden-xs">
-        <h5>FEATURED TAGS</h5>
-        <div class="tags">
-            
-            
-               
-                    <a href="/tags/avaframe" title="avaframe">
-                        avaframe
-                    </a>
-               
-            
-               
-                    <a href="/tags/monthly" title="monthly">
-                        monthly
-                    </a>
-               
-            
-               
-                    <a href="/tags/version" title="version">
-                        version
-                    </a>
-               
-            
-        </div>
-    </section>
-    
 
-    
-    
-    
-</div>
+            
+            
 
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        <a href="/tags/avaframe" title="avaframe">
+                            avaframe
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/monthly" title="monthly">
+                            monthly
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/version" title="version">
+                            version
+                        </a>
+                        
+                        
+                    </div>
+                </section>
+                
+
+                
+                
+            </div>
         </div>
     </div>
 </article>
@@ -423,63 +406,6 @@ quite a few interesting new features, so watch out for the next releases.</p>
 
 
 
-
-<script type="text/javascript">
-    function generateCatalog(selector) {
-
-        
-        
-        
-        
-            _containerSelector = 'div.post-container'
-        
-
-        
-        var P = $(_containerSelector), a, n, t, l, i, c;
-        a = P.find('h1,h2,h3,h4,h5,h6');
-
-        
-        $(selector).html('')
-
-        
-        a.each(function () {
-            n = $(this).prop('tagName').toLowerCase();
-            i = "#" + $(this).prop('id');
-            t = $(this).text();
-            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
-            l = $('<li class="' + n + '_nav"></li>').append(c);
-            $(selector).append(l);
-        });
-        return true;
-    }
-
-    generateCatalog(".catalog-body");
-
-    
-    $(".catalog-toggle").click((function (e) {
-        e.preventDefault();
-        $('.side-catalog').toggleClass("fold")
-    }))
-
-    
-
-
-    loadAsync("\/js\/jquery.nav.js", function () {
-        $('.catalog-body').onePageNav({
-            currentClass: "active",
-            changeHash: !1,
-            easing: "swing",
-            filter: "",
-            scrollSpeed: 700,
-            scrollOffset: 0,
-            scrollThreshold: .2,
-            begin: null,
-            end: null,
-            scrollChange: null,
-            padding: 80
-        });
-    });
-</script>
 
 
 

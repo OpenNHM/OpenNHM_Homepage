@@ -12,14 +12,13 @@
         crossorigin="{{ .Site.Params.giscus.crossorigin}}"
         async>
 </script>
-{{ end }}
-{{ if .Site.Params.disqus_proxy }}
+{{ else if .Site.Params.disqus_proxy }}
 <!-- disqus 评论框 end -->
 <div id="disqus-comment"></div>
 <script src="{{ "js/iDisqus.js" | relURL }}"></script>
 <script>
 var disq = new iDisqus('disqus-comment', {
-    forum: '{{ .Site.Config.Services.Disqus.Shortname }}',
+    forum: '{{ .Site.DisqusShortname}}',
     api: '{{ .Site.Params.disqus_proxy }}',
 	site: '{{ .Site.Params.disqus_site }}',
     mode: 1,
@@ -28,7 +27,7 @@ var disq = new iDisqus('disqus-comment', {
     emojiPreview: true
 });
 </script>
-{{ else if .Site.Config.Services.Disqus.Shortname }}
+{{ else if .Site.DisqusShortname }}
 <!-- disqus 评论框 end -->
 <div id="disqus-comment"></div>
 {{ template "_internal/disqus.html" . }}
@@ -43,22 +42,18 @@ var disq = new iDisqus('disqus-comment', {
 </script>
 {{ end }}
 
-
-{{ if .Site.Params.artalk_enable }}
-<link href="{{ $.Site.Params.artalk_server }}/dist/Artalk.css" rel="stylesheet" />
-<script src="{{ $.Site.Params.artalk_server }}/dist/Artalk.js"></script>
-
-<!-- Artalk -->
-<div id="Comments"></div>
-
-<script>
-    Artalk.init({
-        el: '#Comments',
-        pageKey: '{{ .Permalink }}',
-        pageTitle: '{{ .Title }}',
-        server: '{{ $.Site.Params.artalk_server }}',
-        site: '{{ $.Site.Params.artalk_site }}',
-    })
-</script>
-
-{{ end }}
+<!-- Facebook comment system -->
+<div id="fb-root"></div>
+<script 
+    async 
+    defer
+    crossorigin="anonymous" 
+    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=221193225126786&autoLogAppEvents=1" 
+    nonce="2LnlgHdl"
+></script>
+<div
+    class="fb-comments"
+    data-href="{{ .Page.Permalink }}"
+    data-width="600"
+    data-numposts="5"
+></div>

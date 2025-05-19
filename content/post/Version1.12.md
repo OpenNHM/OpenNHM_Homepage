@@ -1,6 +1,6 @@
 ---
-type: post
-layout: "post"
+#type: post
+#layout: "post"
 title: Release Version 1.12
 author: Felix
 subtitle: ""
@@ -9,10 +9,12 @@ publishDate: 2025-04-28
 #highlight: true
 draft: false
 #slug: "version1_12"
-image: "/img/FZGL_PFD.jpg"
+image: "img/FZGL_PFD.jpg"
+#image: "https://i.imgur.com/prPLcUi.jpg"
 tags:
   - avaframe
   - version
+categories: ["whatever"]
 ---
 
 **We released [Version 1.12](https://github.com/avaframe/AvaFrame/releases/tag/1.12)** 

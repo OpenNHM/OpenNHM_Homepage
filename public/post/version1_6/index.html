@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,8 +10,8 @@
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="https://avaframe.org//img/HomepageBanner.png">
-    <meta property="twitter:image" content="https://avaframe.org//img/HomepageBanner.png" />
+    <meta property="og:image" content="http://localhost:1313//img/FZGL_PFD.jpg">
+    <meta property="twitter:image" content="http://localhost:1313//img/FZGL_PFD.jpg" />
     
 
     
@@ -34,7 +34,7 @@
     <meta name="keyword"  content="avalanches">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Release Version 1.6 | AvaFrame</title>
+    <title>Release Version 1.6-AvaFrame</title>
 
     <link rel="canonical" href="/post/version1_6/">
 
@@ -50,7 +50,7 @@
     <link rel="stylesheet" href="/css/zanshang.css">
 
     
-    <link rel="stylesheet" href="/css/font-awesome.all.min.css">
+    <link href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.1/css/all.css" rel="stylesheet" type="text/css">
 
     
     
@@ -65,14 +65,12 @@
     <script src="/js/hux-blog.min.js"></script>
 
     
-    <script src="/js/lazysizes.min.js"></script>
+    
 
     
     
 
 </head>
-
-
 
 
 
@@ -154,14 +152,37 @@
 
 
 
-<header class="intro-header" style="background-image: url('/img/HomepageBanner.png')">
+
+<style type="text/css">
+    header.intro-header {
+        background-image:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.4)), url('/img/FZGL_PFD.jpg')
+    }
+</style>
+
+<header class="intro-header" >
+
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-                    <h1>AvaFrame </h1>
-                    
-		    <span class="subheading">The open avalanche framework</span>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                    </div>
+                    <h1>Release Version 1.6</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                    AvaFrame
+                             
+                            on 
+                            Tuesday, August 29, 2023
+                            
+                            
+                            
+                            
+                    </span>
                 </div>
             </div>
         </div>
@@ -174,15 +195,16 @@
 <article>
     <div class="container">
         <div class="row">
+
             
             <div class="
-            col-lg-8 col-lg-offset-1
-            col-md-8 col-md-offset-1
-            col-sm-12
-            col-xs-12
-            post-container">
-            
-                <p><strong>Today we released <a href="https://github.com/avaframe/AvaFrame/releases/tag/1.6">Version 1.6</a></strong></p>
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <p><strong>Today we released <a href="https://github.com/avaframe/AvaFrame/releases/tag/1.6" target="_blank">Version 1.6</a>
+</strong></p>
 <p>The samosATAuto release:
 The biggest, most obvious change in this release is the introduction of a samosATAuto friction relation (set as
 default). It decides the friction calibration for samosAT friction relation based on release volume (small, medium,
@@ -201,162 +223,159 @@ its own mu setting. Also, the simulation names indicate the friction calibration
 Remove keep log parameter from cleanSingleAvaDir</p>
 <h2 id="relevant-prs">Relevant PRs:</h2>
 <ul>
-<li>Prepare ana4ProbAna for QGis connector by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/829">https://github.com/avaframe/AvaFrame/pull/829</a></li>
-<li>Refactor glossary  by @jtfisch in <a href="https://github.com/avaframe/AvaFrame/pull/830">https://github.com/avaframe/AvaFrame/pull/830</a></li>
-<li>add remeshing result files for probMap [ana4Prop][out3plot] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/835">https://github.com/avaframe/AvaFrame/pull/835</a></li>
-<li>Make error on features outside DEM clearer [in2Trans] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/836">https://github.com/avaframe/AvaFrame/pull/836</a></li>
-<li>Add modelType to com5 cfg; remove kernel radius setting [com5] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/838">https://github.com/avaframe/AvaFrame/pull/838</a></li>
-<li>add optional argument for general config by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/839">https://github.com/avaframe/AvaFrame/pull/839</a></li>
-<li>Fix boundary bug in plotUtils [ou3Plot]; add missing ini parameter [ana4] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/840">https://github.com/avaframe/AvaFrame/pull/840</a></li>
-<li>split and add line point snapping distance functions by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/841">https://github.com/avaframe/AvaFrame/pull/841</a></li>
-<li>add snap point to line and analysis plots [in3Utils] [out3Plots] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/843">https://github.com/avaframe/AvaFrame/pull/843</a></li>
-<li>add flag for exports and create contour line plot [com1DFA] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/844">https://github.com/avaframe/AvaFrame/pull/844</a></li>
-<li>add creating rel info file [com1DFA] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/845">https://github.com/avaframe/AvaFrame/pull/845</a></li>
-<li>remove unused check for contourType [out3Plot] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/850">https://github.com/avaframe/AvaFrame/pull/850</a></li>
-<li>Fix failing doc  by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/853">https://github.com/avaframe/AvaFrame/pull/853</a></li>
-<li>add acceleration to particle info [com1DFA] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/851">https://github.com/avaframe/AvaFrame/pull/851</a></li>
-<li>rename frict model parameters to include model name [com1DFA] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/849">https://github.com/avaframe/AvaFrame/pull/849</a></li>
-<li>fix bug in adding dem in probmap plot [ana4Stats] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/855">https://github.com/avaframe/AvaFrame/pull/855</a></li>
-<li>rename travelAngle of particles to trajectoryAngle [com1DFA] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/856">https://github.com/avaframe/AvaFrame/pull/856</a></li>
-<li>Update probAna run script example by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/861">https://github.com/avaframe/AvaFrame/pull/861</a></li>
-<li>add capability of adding small and medium size calibration values [com1DFA] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/857">https://github.com/avaframe/AvaFrame/pull/857</a></li>
-<li>add RELTH to folderstruct [in3Utils] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/864">https://github.com/avaframe/AvaFrame/pull/864</a></li>
-<li>Rename glidesnow to snowslide [com5] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/865">https://github.com/avaframe/AvaFrame/pull/865</a></li>
-<li>Fix graphvix on rtd by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/867">https://github.com/avaframe/AvaFrame/pull/867</a></li>
-<li>Prepare RelInfo for the connector [in1Data] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/869">https://github.com/avaframe/AvaFrame/pull/869</a></li>
-<li>remove unused filter option, change input for ana4Prob run script [ana4Prop] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/862">https://github.com/avaframe/AvaFrame/pull/862</a></li>
-<li>fix line in docu by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/871">https://github.com/avaframe/AvaFrame/pull/871</a></li>
-<li>address change in scipy libraries [in1Data] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/878">https://github.com/avaframe/AvaFrame/pull/878</a></li>
-<li>Add Friction model option that chooses L/M/S based on release volume [com1DFA] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/874">https://github.com/avaframe/AvaFrame/pull/874</a></li>
-<li>add ci95 to HelixChannel and Mal releases by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/882">https://github.com/avaframe/AvaFrame/pull/882</a></li>
-<li>remove : from path for amaP by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/883">https://github.com/avaframe/AvaFrame/pull/883</a></li>
-<li>only use relthFile if relThFromFile true [com1] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/888">https://github.com/avaframe/AvaFrame/pull/888</a></li>
-<li>RelTh file check for nans [com1] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/887">https://github.com/avaframe/AvaFrame/pull/887</a></li>
-<li>Prob plots [com1; out3; ana4] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/886">https://github.com/avaframe/AvaFrame/pull/886</a></li>
-<li>add input read function [com1] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/892">https://github.com/avaframe/AvaFrame/pull/892</a></li>
-<li>Include particle plots and comparisons [com1;ana5;out3;in1;ana3;in3;out3] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/880">https://github.com/avaframe/AvaFrame/pull/880</a></li>
-<li>add flag for label in contourplots [out3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/895">https://github.com/avaframe/AvaFrame/pull/895</a></li>
-<li>Add plot of release scenario [com1] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/894">https://github.com/avaframe/AvaFrame/pull/894</a></li>
-<li>add optional input dir for aimec analysis by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/896">https://github.com/avaframe/AvaFrame/pull/896</a></li>
-<li>Fix docu by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/897">https://github.com/avaframe/AvaFrame/pull/897</a></li>
-<li>Prepare com1dfa com2AB runscripts for QGis_AF; add size indicator to simname [com1] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/870">https://github.com/avaframe/AvaFrame/pull/870</a></li>
-<li>Fix name problems in runStandardTests by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/900">https://github.com/avaframe/AvaFrame/pull/900</a></li>
+<li>Prepare ana4ProbAna for QGis connector by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/829" target="_blank">https://github.com/avaframe/AvaFrame/pull/829</a>
+</li>
+<li>Refactor glossary  by @jtfisch in <a href="https://github.com/avaframe/AvaFrame/pull/830" target="_blank">https://github.com/avaframe/AvaFrame/pull/830</a>
+</li>
+<li>add remeshing result files for probMap [ana4Prop][out3plot] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/835" target="_blank">https://github.com/avaframe/AvaFrame/pull/835</a>
+</li>
+<li>Make error on features outside DEM clearer [in2Trans] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/836" target="_blank">https://github.com/avaframe/AvaFrame/pull/836</a>
+</li>
+<li>Add modelType to com5 cfg; remove kernel radius setting [com5] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/838" target="_blank">https://github.com/avaframe/AvaFrame/pull/838</a>
+</li>
+<li>add optional argument for general config by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/839" target="_blank">https://github.com/avaframe/AvaFrame/pull/839</a>
+</li>
+<li>Fix boundary bug in plotUtils [ou3Plot]; add missing ini parameter [ana4] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/840" target="_blank">https://github.com/avaframe/AvaFrame/pull/840</a>
+</li>
+<li>split and add line point snapping distance functions by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/841" target="_blank">https://github.com/avaframe/AvaFrame/pull/841</a>
+</li>
+<li>add snap point to line and analysis plots [in3Utils] [out3Plots] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/843" target="_blank">https://github.com/avaframe/AvaFrame/pull/843</a>
+</li>
+<li>add flag for exports and create contour line plot [com1DFA] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/844" target="_blank">https://github.com/avaframe/AvaFrame/pull/844</a>
+</li>
+<li>add creating rel info file [com1DFA] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/845" target="_blank">https://github.com/avaframe/AvaFrame/pull/845</a>
+</li>
+<li>remove unused check for contourType [out3Plot] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/850" target="_blank">https://github.com/avaframe/AvaFrame/pull/850</a>
+</li>
+<li>Fix failing doc  by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/853" target="_blank">https://github.com/avaframe/AvaFrame/pull/853</a>
+</li>
+<li>add acceleration to particle info [com1DFA] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/851" target="_blank">https://github.com/avaframe/AvaFrame/pull/851</a>
+</li>
+<li>rename frict model parameters to include model name [com1DFA] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/849" target="_blank">https://github.com/avaframe/AvaFrame/pull/849</a>
+</li>
+<li>fix bug in adding dem in probmap plot [ana4Stats] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/855" target="_blank">https://github.com/avaframe/AvaFrame/pull/855</a>
+</li>
+<li>rename travelAngle of particles to trajectoryAngle [com1DFA] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/856" target="_blank">https://github.com/avaframe/AvaFrame/pull/856</a>
+</li>
+<li>Update probAna run script example by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/861" target="_blank">https://github.com/avaframe/AvaFrame/pull/861</a>
+</li>
+<li>add capability of adding small and medium size calibration values [com1DFA] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/857" target="_blank">https://github.com/avaframe/AvaFrame/pull/857</a>
+</li>
+<li>add RELTH to folderstruct [in3Utils] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/864" target="_blank">https://github.com/avaframe/AvaFrame/pull/864</a>
+</li>
+<li>Rename glidesnow to snowslide [com5] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/865" target="_blank">https://github.com/avaframe/AvaFrame/pull/865</a>
+</li>
+<li>Fix graphvix on rtd by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/867" target="_blank">https://github.com/avaframe/AvaFrame/pull/867</a>
+</li>
+<li>Prepare RelInfo for the connector [in1Data] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/869" target="_blank">https://github.com/avaframe/AvaFrame/pull/869</a>
+</li>
+<li>remove unused filter option, change input for ana4Prob run script [ana4Prop] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/862" target="_blank">https://github.com/avaframe/AvaFrame/pull/862</a>
+</li>
+<li>fix line in docu by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/871" target="_blank">https://github.com/avaframe/AvaFrame/pull/871</a>
+</li>
+<li>address change in scipy libraries [in1Data] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/878" target="_blank">https://github.com/avaframe/AvaFrame/pull/878</a>
+</li>
+<li>Add Friction model option that chooses L/M/S based on release volume [com1DFA] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/874" target="_blank">https://github.com/avaframe/AvaFrame/pull/874</a>
+</li>
+<li>add ci95 to HelixChannel and Mal releases by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/882" target="_blank">https://github.com/avaframe/AvaFrame/pull/882</a>
+</li>
+<li>remove : from path for amaP by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/883" target="_blank">https://github.com/avaframe/AvaFrame/pull/883</a>
+</li>
+<li>only use relthFile if relThFromFile true [com1] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/888" target="_blank">https://github.com/avaframe/AvaFrame/pull/888</a>
+</li>
+<li>RelTh file check for nans [com1] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/887" target="_blank">https://github.com/avaframe/AvaFrame/pull/887</a>
+</li>
+<li>Prob plots [com1; out3; ana4] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/886" target="_blank">https://github.com/avaframe/AvaFrame/pull/886</a>
+</li>
+<li>add input read function [com1] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/892" target="_blank">https://github.com/avaframe/AvaFrame/pull/892</a>
+</li>
+<li>Include particle plots and comparisons [com1;ana5;out3;in1;ana3;in3;out3] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/880" target="_blank">https://github.com/avaframe/AvaFrame/pull/880</a>
+</li>
+<li>add flag for label in contourplots [out3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/895" target="_blank">https://github.com/avaframe/AvaFrame/pull/895</a>
+</li>
+<li>Add plot of release scenario [com1] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/894" target="_blank">https://github.com/avaframe/AvaFrame/pull/894</a>
+</li>
+<li>add optional input dir for aimec analysis by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/896" target="_blank">https://github.com/avaframe/AvaFrame/pull/896</a>
+</li>
+<li>Fix docu by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/897" target="_blank">https://github.com/avaframe/AvaFrame/pull/897</a>
+</li>
+<li>Prepare com1dfa com2AB runscripts for QGis_AF; add size indicator to simname [com1] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/870" target="_blank">https://github.com/avaframe/AvaFrame/pull/870</a>
+</li>
+<li>Fix name problems in runStandardTests by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/900" target="_blank">https://github.com/avaframe/AvaFrame/pull/900</a>
+</li>
 </ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/avaframe/AvaFrame/compare/1.5.2...1.6">https://github.com/avaframe/AvaFrame/compare/1.5.2...1.6</a></p>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/avaframe/AvaFrame/compare/1.5.2...1.6" target="_blank">https://github.com/avaframe/AvaFrame/compare/1.5.2...1.6</a>
+</p>
 <p>Felix</p>
 
-            
-             
-            
 
+                
 
-            
-            </div>
-            
-            
-
-<div class="
-    col-lg-3 col-lg-offset-0
-    col-md-3 col-md-offset-0
-    col-sm-12
-    col-xs-12
-    sidebar-container
-">
-    
-	
-    <section class="visible-md visible-lg">
-	
-        <div class="short-about">
-            
-            <a href="/about">
-               <img src="/img/AvaFrameLogo_withBack.png" alt="avatar" style="cursor: pointer" />
-            </a>
-            
-            
-                <p>Strong together</p>
-            
-           
-           <ul class="list-inline">
-               
-               
-               
-               
-               
-               
-               
-               <li>
-                   <a target="_blank" href="https://github.com/avaframe">
-                       <span class="fa-stack fa-lg">
-                           <i class="fas fa-circle fa-stack-2x"></i>
-                           <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                       </span>
-                   </a>
-               </li>
-               
-               
-               
-               
-               
-               
-            
-            
-               
-               
-               
-               
+                
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/post/monthlyjuly2023/" data-toggle="tooltip" data-placement="top" title="This month in AvaFrame - July 2023 edition">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/post/monthlyaug2023/" data-toggle="tooltip" data-placement="top" title="This month in AvaFrame - August 2023 edition">Next
+                            Post &rarr;</a>
+                    </li>
+                    
                 </ul>
+                
+
+                
+
+
             </div>
-    </section>
-	
-    
-    
-    <section>
-        <hr>
-        <h5>QUICK LINKS</h5>
-        <ul class="list-inline">
-            
-            <li><a target="_blank" href="https://docs.avaframe.org">Documentation AvaFrame</a></li>
-            
-            <li><a target="_blank" href="https://github.com/avaframe/AvaFrame">Code AvaFrame</a></li>
-            
-        </ul>
-    </section>
-    
-    
-    
-    <section>
-        <hr class="hidden-sm hidden-xs">
-        <h5>FEATURED TAGS</h5>
-        <div class="tags">
-            
-            
-               
-                    <a href="/tags/avaframe" title="avaframe">
-                        avaframe
-                    </a>
-               
-            
-               
-                    <a href="/tags/monthly" title="monthly">
-                        monthly
-                    </a>
-               
-            
-               
-                    <a href="/tags/version" title="version">
-                        version
-                    </a>
-               
-            
-        </div>
-    </section>
-    
 
-    
-    
-    
-</div>
+            
+            
 
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        <a href="/tags/avaframe" title="avaframe">
+                            avaframe
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/monthly" title="monthly">
+                            monthly
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/version" title="version">
+                            version
+                        </a>
+                        
+                        
+                    </div>
+                </section>
+                
+
+                
+                
+            </div>
         </div>
     </div>
 </article>
@@ -455,63 +474,6 @@ Remove keep log parameter from cleanSingleAvaDir</p>
 
 
 
-
-<script type="text/javascript">
-    function generateCatalog(selector) {
-
-        
-        
-        
-        
-            _containerSelector = 'div.post-container'
-        
-
-        
-        var P = $(_containerSelector), a, n, t, l, i, c;
-        a = P.find('h1,h2,h3,h4,h5,h6');
-
-        
-        $(selector).html('')
-
-        
-        a.each(function () {
-            n = $(this).prop('tagName').toLowerCase();
-            i = "#" + $(this).prop('id');
-            t = $(this).text();
-            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
-            l = $('<li class="' + n + '_nav"></li>').append(c);
-            $(selector).append(l);
-        });
-        return true;
-    }
-
-    generateCatalog(".catalog-body");
-
-    
-    $(".catalog-toggle").click((function (e) {
-        e.preventDefault();
-        $('.side-catalog').toggleClass("fold")
-    }))
-
-    
-
-
-    loadAsync("\/js\/jquery.nav.js", function () {
-        $('.catalog-body').onePageNav({
-            currentClass: "active",
-            changeHash: !1,
-            easing: "swing",
-            filter: "",
-            scrollSpeed: 700,
-            scrollOffset: 0,
-            scrollThreshold: .2,
-            begin: null,
-            end: null,
-            scrollChange: null,
-            padding: 80
-        });
-    });
-</script>
 
 
 

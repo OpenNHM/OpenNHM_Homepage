@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<meta name="generator" content="Hugo 0.147.0">
+	<meta name="generator" content="Hugo 0.147.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,8 +11,8 @@
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="https://avaframe.org//img/HomepageBanner.png">
-    <meta property="twitter:image" content="https://avaframe.org//img/HomepageBanner.png" />
+    <meta property="og:image" content="http://localhost:1313//img/FZGL_PFD.jpg">
+    <meta property="twitter:image" content="http://localhost:1313//img/FZGL_PFD.jpg" />
     
 
     
@@ -35,7 +35,7 @@
     <meta name="keyword"  content="avalanches">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>AvaFrame | AvaFrame</title>
+    <title>AvaFrame-AvaFrame</title>
 
     <link rel="canonical" href="/">
 
@@ -66,14 +66,12 @@
     <script src="/js/hux-blog.min.js"></script>
 
     
-    <script src="/js/lazysizes.min.js"></script>
+    
 
     
     
 
 </head>
-
-
 
 
 
@@ -155,7 +153,7 @@
 
 
 
-<header class="intro-header" style="background-image: url('/img/HomepageBanner.png')">
+<header class="intro-header" style="background-image:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.4)), url('/img/FZGL_PFD.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
@@ -172,7 +170,7 @@
 
 
   
-<div data-pagefind-ignore="all" class="container">
+<div class="container">
     <div class="row">
         
         
@@ -184,156 +182,197 @@
             post-container
         ">
             
-<div data-pagefind-ignore="all">
 
 <div class="post-preview">
-    <a href="https://avaframe.org/post/version1_7/">
-        <h2 class="post-title">
-            Release Version 1.7
-        </h2>
-	
-        <div class="post-content-preview">
-	
-            <p><strong>Today we released <a href="https://github.com/avaframe/AvaFrame/releases/tag/1.7">Version 1.7</a></strong></p>
+  <a href="http://localhost:1313/post/version1_7/">
+    <h2 class="post-title">
+      Release Version 1.7
+    </h2>
+    
+    <div class="post-content-preview">
+      
+      <p><strong>Today we released <a href="https://github.com/avaframe/AvaFrame/releases/tag/1.7" target="_blank">Version 1.7</a>
+</strong></p>
 <p>This is a benchmark release.
 We are updating the benchmarks that changed due to the introduction of the samosATAuto friction model. This release
 contains all necessary configuration changes. The actual result files will be pushed in the next version 1.7.1.
 We also updated and cleaned all AIMEC plotting, including new plots and removing/consolidating some others.</p>
 <h2 id="whats-changed">What&rsquo;s Changed</h2>
 <ul>
-<li>Add pdf output to readthedocs by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/903">https://github.com/avaframe/AvaFrame/pull/903</a></li>
-<li>change location of plot / deprecated libs pytest  by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/904">https://github.com/avaframe/AvaFrame/pull/904</a></li>
-<li>allow to pass dem [ana3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/905">https://github.com/avaframe/AvaFrame/pull/905</a></li>
-<li>Add new AIMEC plot; add flag for in depth plots; change readASCheader [ana3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/908">https://github.com/avaframe/AvaFrame/pull/908</a></li>
-<li>fix bug in checking for matplotlibversion by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/916">https://github.com/avaframe/AvaFrame/pull/916</a></li>
-<li>changes topo gen to move topo in z direction [in3Utils] by @chhesselbach in <a href="https://github.com/avaframe/AvaFrame/pull/911">https://github.com/avaframe/AvaFrame/pull/911</a></li>
-<li>update thalweg plot to compute average for bars by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/917">https://github.com/avaframe/AvaFrame/pull/917</a></li>
-<li>Update py versions in GitHub workflows by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/912">https://github.com/avaframe/AvaFrame/pull/912</a></li>
-<li>Clarify input information and requirements in documentation by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/914">https://github.com/avaframe/AvaFrame/pull/914</a></li>
-<li>add ax object to aimec contour plot colorbar by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/918">https://github.com/avaframe/AvaFrame/pull/918</a></li>
-<li>make name dependent on input in plot [out3Plot] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/919">https://github.com/avaframe/AvaFrame/pull/919</a></li>
-<li>Change aimec [ana3,ana5,out3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/921">https://github.com/avaframe/AvaFrame/pull/921</a></li>
-<li>Adjust aimec min mean values with added zero mask [ana3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/923">https://github.com/avaframe/AvaFrame/pull/923</a></li>
-<li>Add documentation for particle plots [out3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/922">https://github.com/avaframe/AvaFrame/pull/922</a></li>
-<li>Adjust float format of ReleaseStat to avoid Excel Problem by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/924">https://github.com/avaframe/AvaFrame/pull/924</a></li>
-<li>add updated aimec cfg for benchmarks by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/925">https://github.com/avaframe/AvaFrame/pull/925</a></li>
+<li>Add pdf output to readthedocs by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/903" target="_blank">https://github.com/avaframe/AvaFrame/pull/903</a>
+</li>
+<li>change location of plot / deprecated libs pytest  by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/904" target="_blank">https://github.com/avaframe/AvaFrame/pull/904</a>
+</li>
+<li>allow to pass dem [ana3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/905" target="_blank">https://github.com/avaframe/AvaFrame/pull/905</a>
+</li>
+<li>Add new AIMEC plot; add flag for in depth plots; change readASCheader [ana3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/908" target="_blank">https://github.com/avaframe/AvaFrame/pull/908</a>
+</li>
+<li>fix bug in checking for matplotlibversion by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/916" target="_blank">https://github.com/avaframe/AvaFrame/pull/916</a>
+</li>
+<li>changes topo gen to move topo in z direction [in3Utils] by @chhesselbach in <a href="https://github.com/avaframe/AvaFrame/pull/911" target="_blank">https://github.com/avaframe/AvaFrame/pull/911</a>
+</li>
+<li>update thalweg plot to compute average for bars by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/917" target="_blank">https://github.com/avaframe/AvaFrame/pull/917</a>
+</li>
+<li>Update py versions in GitHub workflows by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/912" target="_blank">https://github.com/avaframe/AvaFrame/pull/912</a>
+</li>
+<li>Clarify input information and requirements in documentation by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/914" target="_blank">https://github.com/avaframe/AvaFrame/pull/914</a>
+</li>
+<li>add ax object to aimec contour plot colorbar by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/918" target="_blank">https://github.com/avaframe/AvaFrame/pull/918</a>
+</li>
+<li>make name dependent on input in plot [out3Plot] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/919" target="_blank">https://github.com/avaframe/AvaFrame/pull/919</a>
+</li>
+<li>Change aimec [ana3,ana5,out3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/921" target="_blank">https://github.com/avaframe/AvaFrame/pull/921</a>
+</li>
+<li>Adjust aimec min mean values with added zero mask [ana3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/923" target="_blank">https://github.com/avaframe/AvaFrame/pull/923</a>
+</li>
+<li>Add documentation for particle plots [out3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/922" target="_blank">https://github.com/avaframe/AvaFrame/pull/922</a>
+</li>
+<li>Adjust float format of ReleaseStat to avoid Excel Problem by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/924" target="_blank">https://github.com/avaframe/AvaFrame/pull/924</a>
+</li>
+<li>add updated aimec cfg for benchmarks by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/925" target="_blank">https://github.com/avaframe/AvaFrame/pull/925</a>
+</li>
 </ul>
 <h2 id="new-contributors">New Contributors</h2>
 <ul>
-<li>@chhesselbach made their first contribution in <a href="https://github.com/avaframe/AvaFrame/pull/911">https://github.com/avaframe/AvaFrame/pull/911</a></li>
+<li>@chhesselbach made their first contribution in <a href="https://github.com/avaframe/AvaFrame/pull/911" target="_blank">https://github.com/avaframe/AvaFrame/pull/911</a>
+</li>
 </ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/avaframe/AvaFrame/compare/1.6.1...1.7">https://github.com/avaframe/AvaFrame/compare/1.6.1...1.7</a></p>
-       
-        </div>
-    </a>
-    <p class="post-meta">
+<p><strong>Full Changelog</strong>: <a href="https://github.com/avaframe/AvaFrame/compare/1.6.1...1.7" target="_blank">https://github.com/avaframe/AvaFrame/compare/1.6.1...1.7</a>
+</p>
+      
+    </div>
+  </a>
+  <div class="tags">
+      
+  </div>
+  <p class="post-meta">
+    Posted by
     
-        Posted by AvaFrame on Thursday, October 12, 2023
-        
-        
+    AvaFrame
     
-    </p>
-
+    Thursday, October 12, 2023
+    
+    
+  </p>
 </div>
-<hr>
+<hr />
 
 <div class="post-preview">
-    <a href="https://avaframe.org/post/monthlysep2023/">
-        <h2 class="post-title">
-            This month in AvaFrame - September 2023 edition
-        </h2>
-	
-        <div class="post-content-preview">
-	
-            <p>Welcome to the September 2023 update:</p>
+  <a href="http://localhost:1313/post/monthlysep2023/">
+    <h2 class="post-title">
+      This month in AvaFrame - September 2023 edition
+    </h2>
+    
+    <div class="post-content-preview">
+      
+      <p>Welcome to the September 2023 update:</p>
 <p>We released a minor version update to change the separator for release are output statistics file, see[github]
-(<a href="https://github.com/avaframe/AvaFrame/releases/tag/1.6.1">https://github.com/avaframe/AvaFrame/releases/tag/1.6.1</a>) to get more information.</p>
+(<a href="https://github.com/avaframe/AvaFrame/releases/tag/1.6.1" target="_blank">https://github.com/avaframe/AvaFrame/releases/tag/1.6.1</a>
+) to get more information.</p>
 <p>Some might have noticed, we also enabled downloadable pdfs for our documentation. Now you can take it with you
 wherever you want to go :-).</p>
 <p>Apart from that we did quite a bit of maintenance on our plots and documentation in preparation for the ISeeSnow
 project that&rsquo;s coming up.</p>
-       
-        </div>
-    </a>
-    <p class="post-meta">
+      
+    </div>
+  </a>
+  <div class="tags">
+      
+  </div>
+  <p class="post-meta">
+    Posted by
     
-        Posted by AvaFrame on Monday, October 2, 2023
-        
-        
+    AvaFrame
     
-    </p>
-
+    Monday, October 2, 2023
+    
+    
+  </p>
 </div>
-<hr>
+<hr />
 
 <div class="post-preview">
-    <a href="https://avaframe.org/post/version1_6_1/">
-        <h2 class="post-title">
-            Release Version 1.6.1
-        </h2>
-	
-        <div class="post-content-preview">
-	
-            <p><strong>Today we released <a href="https://github.com/avaframe/AvaFrame/releases/tag/1.6.1">Version 1.6.1</a></strong></p>
+  <a href="http://localhost:1313/post/version1_6_1/">
+    <h2 class="post-title">
+      Release Version 1.6.1
+    </h2>
+    
+    <div class="post-content-preview">
+      
+      <p><strong>Today we released <a href="https://github.com/avaframe/AvaFrame/releases/tag/1.6.1" target="_blank">Version 1.6.1</a>
+</strong></p>
 <p>Change the separator for the release area output statistics.</p>
 <h2 id="whats-changed">What&rsquo;s Changed</h2>
 <ul>
-<li>Fix ranges plot by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/898">https://github.com/avaframe/AvaFrame/pull/898</a></li>
-<li>Change separator and float format in relStats csv [com1] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/902">https://github.com/avaframe/AvaFrame/pull/902</a></li>
+<li>Fix ranges plot by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/898" target="_blank">https://github.com/avaframe/AvaFrame/pull/898</a>
+</li>
+<li>Change separator and float format in relStats csv [com1] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/902" target="_blank">https://github.com/avaframe/AvaFrame/pull/902</a>
+</li>
 </ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/avaframe/AvaFrame/compare/1.6...1.6.1">https://github.com/avaframe/AvaFrame/compare/1.6...1.6.1</a></p>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/avaframe/AvaFrame/compare/1.6...1.6.1" target="_blank">https://github.com/avaframe/AvaFrame/compare/1.6...1.6.1</a>
+</p>
 <p>Felix</p>
-       
-        </div>
-    </a>
-    <p class="post-meta">
+      
+    </div>
+  </a>
+  <div class="tags">
+      
+  </div>
+  <p class="post-meta">
+    Posted by
     
-        Posted by AvaFrame on Tuesday, September 5, 2023
-        
-        
+    AvaFrame
     
-    </p>
-
+    Tuesday, September 5, 2023
+    
+    
+  </p>
 </div>
-<hr>
+<hr />
 
 <div class="post-preview">
-    <a href="https://avaframe.org/post/monthlyaug2023/">
-        <h2 class="post-title">
-            This month in AvaFrame - August 2023 edition
-        </h2>
-	
-        <div class="post-content-preview">
-	
-            <p>Welcome to the August 2023 update:</p>
+  <a href="http://localhost:1313/post/monthlyaug2023/">
+    <h2 class="post-title">
+      This month in AvaFrame - August 2023 edition
+    </h2>
+    
+    <div class="post-content-preview">
+      
+      <p>Welcome to the August 2023 update:</p>
 <p>Well, you might have noticed the new version that was released at the end of August. So our month was basically
 focusing on getting this release out and ironing out the last few niggles of the new functions. Please head over to
-<a href="https://github.com/avaframe/AvaFrame/releases/tag/1.6">github</a> to get more information.</p>
+<a href="https://github.com/avaframe/AvaFrame/releases/tag/1.6" target="_blank">github</a>
+ to get more information.</p>
 <p>We also had our Scientific Meeting, and we are in full preparation mode for the AvaFrame Phase 2. We are currently
 writing our final report to finish with phase 1.</p>
-       
-        </div>
-    </a>
-    <p class="post-meta">
+      
+    </div>
+  </a>
+  <div class="tags">
+      
+  </div>
+  <p class="post-meta">
+    Posted by
     
-        Posted by AvaFrame on Saturday, September 2, 2023
-        
-        
+    AvaFrame
     
-    </p>
-
+    Saturday, September 2, 2023
+    
+    
+  </p>
 </div>
-<hr>
+<hr />
 
 <div class="post-preview">
-    <a href="https://avaframe.org/post/version1_6/">
-        <h2 class="post-title">
-            Release Version 1.6
-        </h2>
-	
-        <div class="post-content-preview">
-	
-            <p><strong>Today we released <a href="https://github.com/avaframe/AvaFrame/releases/tag/1.6">Version 1.6</a></strong></p>
+  <a href="http://localhost:1313/post/version1_6/">
+    <h2 class="post-title">
+      Release Version 1.6
+    </h2>
+    
+    <div class="post-content-preview">
+      
+      <p><strong>Today we released <a href="https://github.com/avaframe/AvaFrame/releases/tag/1.6" target="_blank">Version 1.6</a>
+</strong></p>
 <p>The samosATAuto release:
 The biggest, most obvious change in this release is the introduction of a samosATAuto friction relation (set as
 default). It decides the friction calibration for samosAT friction relation based on release volume (small, medium,
@@ -341,141 +380,163 @@ large). This also means that some of our benchmarks show differences (see attach
 now in the categories small or medium. We will update our benchmark results with the next release. It also means that we
 now have moved away from a single mu setting (in com1DFACfg.ini) for all friction relations and gave each friction model
 its own mu setting. Also, the simulation names indicate the friction calibration if small or medium was used.</p>
-       
-        </div>
-    </a>
-    <p class="post-meta">
+      
+    </div>
+  </a>
+  <div class="tags">
+      
+  </div>
+  <p class="post-meta">
+    Posted by
     
-        Posted by AvaFrame on Tuesday, August 29, 2023
-        
-        
+    AvaFrame
     
-    </p>
-
+    Tuesday, August 29, 2023
+    
+    
+  </p>
 </div>
-<hr>
+<hr />
 
 <div class="post-preview">
-    <a href="https://avaframe.org/post/monthlyjuly2023/">
-        <h2 class="post-title">
-            This month in AvaFrame - July 2023 edition
-        </h2>
-	
-        <div class="post-content-preview">
-	
-            <p>Welcome to the (quiet) summer update:</p>
+  <a href="http://localhost:1313/post/monthlyjuly2023/">
+    <h2 class="post-title">
+      This month in AvaFrame - July 2023 edition
+    </h2>
+    
+    <div class="post-content-preview">
+      
+      <p>Welcome to the (quiet) summer update:</p>
 <p>Since there&rsquo;s some proper vacationing going on, this month was rather quiet and mostly focusing on preparation for
 the next release.
 So this is a rather short update :-)</p>
 <p>Felix</p>
-       
-        </div>
-    </a>
-    <p class="post-meta">
+      
+    </div>
+  </a>
+  <div class="tags">
+      
+  </div>
+  <p class="post-meta">
+    Posted by
     
-        Posted by AvaFrame on Wednesday, August 2, 2023
-        
-        
+    AvaFrame
     
-    </p>
-
+    Wednesday, August 2, 2023
+    
+    
+  </p>
 </div>
-<hr>
+<hr />
 
 <div class="post-preview">
-    <a href="https://avaframe.org/post/monthlyjun2023/">
-        <h2 class="post-title">
-            This month in AvaFrame - June 2023 edition
-        </h2>
-	
-        <div class="post-content-preview">
-	
-            <p>Welcome to the June 2023 update:</p>
+  <a href="http://localhost:1313/post/monthlyjun2023/">
+    <h2 class="post-title">
+      This month in AvaFrame - June 2023 edition
+    </h2>
+    
+    <div class="post-content-preview">
+      
+      <p>Welcome to the June 2023 update:</p>
 <p>The function we mentioned last month that creates release area information
 from a given DEM and corresponding release is slowly making its way into the code and the connector. It will be
 included in the next release.</p>
 <p>We also started working on the inclusion of small and medium size calibration values for the friction model. This
 will also be added to the next release.</p>
-       
-        </div>
-    </a>
-    <p class="post-meta">
+      
+    </div>
+  </a>
+  <div class="tags">
+      
+  </div>
+  <p class="post-meta">
+    Posted by
     
-        Posted by AvaFrame on Saturday, July 1, 2023
-        
-        
+    AvaFrame
     
-    </p>
-
+    Saturday, July 1, 2023
+    
+    
+  </p>
 </div>
-<hr>
+<hr />
 
 <div class="post-preview">
-    <a href="https://avaframe.org/post/monthlymay2023/">
-        <h2 class="post-title">
-            This month in AvaFrame - May 2023 edition
-        </h2>
-	
-        <div class="post-content-preview">
-	
-            <p>Welcome to the May 2023 update:</p>
+  <a href="http://localhost:1313/post/monthlymay2023/">
+    <h2 class="post-title">
+      This month in AvaFrame - May 2023 edition
+    </h2>
+    
+    <div class="post-content-preview">
+      
+      <p>Welcome to the May 2023 update:</p>
 <p>This month we worked on one important user facing change, namely a new function to create release area information
 from a given DEM and corresponding release area files. This gives a summary about area, real area, mean inclination
 etc. This might be helpful to get a &ldquo;feel&rdquo; about the release area setup.</p>
 <p>Furthermore, we fixed a few bugs in regards to the documentation and plotting. And we also added acceleration
 information to the particles.</p>
-       
-        </div>
-    </a>
-    <p class="post-meta">
+      
+    </div>
+  </a>
+  <div class="tags">
+      
+  </div>
+  <p class="post-meta">
+    Posted by
     
-        Posted by AvaFrame on Thursday, June 1, 2023
-        
-        
+    AvaFrame
     
-    </p>
-
+    Thursday, June 1, 2023
+    
+    
+  </p>
 </div>
-<hr>
+<hr />
 
 <div class="post-preview">
-    <a href="https://avaframe.org/post/monthlyapr2023/">
-        <h2 class="post-title">
-            This month in AvaFrame - April 2023 edition
-        </h2>
-	
-        <div class="post-content-preview">
-	
-            <p>The &lsquo;Happy Easter to Everyone&rsquo; update:</p>
+  <a href="http://localhost:1313/post/monthlyapr2023/">
+    <h2 class="post-title">
+      This month in AvaFrame - April 2023 edition
+    </h2>
+    
+    <div class="post-content-preview">
+      
+      <p>The &lsquo;Happy Easter to Everyone&rsquo; update:</p>
 <p>As Easter vacation cut this month short, the amount work on the code concentrated on small issues, no major change.</p>
 <p>One big chunk of our effort this month went into the Geoscientific Model Development paper about our dense flow com1DFA
 theory. Head over to GMD to follow the review and discussions.</p>
 <p>Felix</p>
-       
-        </div>
-    </a>
-    <p class="post-meta">
+      
+    </div>
+  </a>
+  <div class="tags">
+      
+  </div>
+  <p class="post-meta">
+    Posted by
     
-        Posted by AvaFrame on Tuesday, May 2, 2023
-        
-        
+    AvaFrame
     
-    </p>
-
+    Tuesday, May 2, 2023
+    
+    
+  </p>
 </div>
-<hr>
+<hr />
 
 <div class="post-preview">
-    <a href="https://avaframe.org/post/monthlymar2023/">
-        <h2 class="post-title">
-            This month in AvaFrame - March 2023 edition
-        </h2>
-	
-        <div class="post-content-preview">
-	
-            <p>Well, again: another month, some more releases:</p>
+  <a href="http://localhost:1313/post/monthlymar2023/">
+    <h2 class="post-title">
+      This month in AvaFrame - March 2023 edition
+    </h2>
+    
+    <div class="post-content-preview">
+      
+      <p>Well, again: another month, some more releases:</p>
 <p>But this time these are only minor releases with bugfixes. See infos here:
-<a href="/posts/version1_5_1/">release info 1.5.1</a> and <a href="/posts/version1_5_2/">release info 1.5.2</a>.</p>
+<a href="/posts/version1_5_1/">release info 1.5.1</a>
+ and <a href="/posts/version1_5_2/">release info 1.5.2</a>
+.</p>
 <ul>
 <li>
 <p>We are still working on probability map generation.</p>
@@ -484,26 +545,29 @@ theory. Head over to GMD to follow the review and discussions.</p>
 <p>We started to rework the glossary, focusing on topics that are relevant for our framework. We are not trying to
 replicate any &lsquo;standard&rsquo; glossary for the snow and avalanche field. It is meant to clarify what we are talking
 about and how we define certain keywords.</p>
-       
-        </div>
-    </a>
-    <p class="post-meta">
+      
+    </div>
+  </a>
+  <div class="tags">
+      
+  </div>
+  <p class="post-meta">
+    Posted by
     
-        Posted by AvaFrame on Wednesday, April 5, 2023
-        
-        
+    AvaFrame
     
-    </p>
-
+    Wednesday, April 5, 2023
+    
+    
+  </p>
 </div>
-<hr>
+<hr />
 
-</div>
 
             
 
 
-<ul class="pager" data-pagefind-ignore="all">
+<ul class="pager">
     
     <li class="previous">
         <a href="/page/3/">&larr; Newer Posts</a>
@@ -720,63 +784,6 @@ about and how we define certain keywords.</p>
 
 
 
-
-<script type="text/javascript">
-    function generateCatalog(selector) {
-
-        
-        
-        
-        
-            _containerSelector = 'div.post-container'
-        
-
-        
-        var P = $(_containerSelector), a, n, t, l, i, c;
-        a = P.find('h1,h2,h3,h4,h5,h6');
-
-        
-        $(selector).html('')
-
-        
-        a.each(function () {
-            n = $(this).prop('tagName').toLowerCase();
-            i = "#" + $(this).prop('id');
-            t = $(this).text();
-            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
-            l = $('<li class="' + n + '_nav"></li>').append(c);
-            $(selector).append(l);
-        });
-        return true;
-    }
-
-    generateCatalog(".catalog-body");
-
-    
-    $(".catalog-toggle").click((function (e) {
-        e.preventDefault();
-        $('.side-catalog').toggleClass("fold")
-    }))
-
-    
-
-
-    loadAsync("\/js\/jquery.nav.js", function () {
-        $('.catalog-body').onePageNav({
-            currentClass: "active",
-            changeHash: !1,
-            easing: "swing",
-            filter: "",
-            scrollSpeed: 700,
-            scrollOffset: 0,
-            scrollThreshold: .2,
-            begin: null,
-            end: null,
-            scrollChange: null,
-            padding: 80
-        });
-    });
-</script>
 
 
 

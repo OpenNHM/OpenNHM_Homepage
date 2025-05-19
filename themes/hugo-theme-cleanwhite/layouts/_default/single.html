@@ -2,7 +2,7 @@
 <!-- Post Header -->
 <style type="text/css">
     header.intro-header {
-        background-image: url('{{ if .Params.image }}{{ .Params.image | relURL }}{{ else }}{{ .Site.Params.header_image | relURL}}{{ end }}')
+        background-image:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.4)), url('{{ if .Params.image }}{{ .Params.image | relURL }}{{ else }}{{ .Site.Params.header_image | relURL}}{{ end }}')
     }
 </style>
 {{ if eq .Params.headerstyle "text" }}
