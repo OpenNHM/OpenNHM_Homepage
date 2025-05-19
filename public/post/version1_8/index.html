@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="AvaFrame">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="https://avaframe.org//img/HomepageBanner.png">
+    <meta property="twitter:image" content="https://avaframe.org//img/HomepageBanner.png" />
+    
+
+    
+    <meta name="title" content="Release Version 1.8" />
+    <meta property="og:title" content="Release Version 1.8" />
+    <meta property="twitter:title" content="Release Version 1.8" />
+    
+
+    
+    <meta name="description" content="AvaFrame">
+    <meta property="og:description" content="AvaFrame" />
+    <meta property="twitter:description" content="AvaFrame" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="avalanches">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>Release Version 1.8 | AvaFrame</title>
+
+    <link rel="canonical" href="/post/version1_8/">
+
+    
+    
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+
+    
+    <link rel="stylesheet" href="/css/font-awesome.all.min.css">
+
+    
+    
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    <script src="/js/lazysizes.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">AvaFrame</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">All Posts</a>
+                    </li>
+                    
+                    
+		    
+                        <li><a href="/top/archive//">ARCHIVE</a></li>
+                    
+                        <li><a href="/code/">CODE</a></li>
+                    
+                        <li><a href="/documentation/">DOCUMENTATION</a></li>
+                    
+                        <li><a href="/reports/">REPORTS</a></li>
+                    
+                        <li><a href="/team/">TEAM</a></li>
+                    
+                        <li><a href="/about/">ABOUT</a></li>
+                    
+                        <li><a href="/contact/">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+<header class="intro-header" style="background-image: url('/img/HomepageBanner.png')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+                <div class="site-heading">
+                    <h1>AvaFrame </h1>
+                    
+		    <span class="subheading">The open avalanche framework</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+            
+            <div class="
+            col-lg-8 col-lg-offset-1
+            col-md-8 col-md-offset-1
+            col-sm-12
+            col-xs-12
+            post-container">
+            
+                <p><strong>Today we released <a href="https://github.com/avaframe/AvaFrame/releases/tag/1.8">Version 1.8</a></strong></p>
+<p><strong>Please note: the QGis AvaFrame Connector also received an update. Please do not forget to run Admin -&gt; Update
+AvaFrame from within the toolbox to receive the updated core as well.</strong></p>
+<p>The new computational module release.</p>
+<p>We&rsquo;ve added two new (experimental) computational modules, com4FlowPy and com6RockAvalanche. Com4FlowPy integrates the development already done in the FlowPy project, and aims to be the target for flowpy development from now on.
+com6RockAvalanche is a highly experimental extension of com1DFA, aiming to find a parameterset/adjustments needed to simulate rock avalanches. It also allows the AvaFrame QGis Connector to set the release-thickness, which is done via a release-thickness raster file. This also necessitated a change in remeshing: now, the release thickness files are meshed analogous to the topography file (if necessary).</p>
+<p>One important change in regards to the operational application of com1dfa: now the release volume of secondary release areas is considered when choosing the correct friction settings for samosATAuto friction model. Important: it does not matter whether the secondary release areas are actually triggered or not, their volume is included in the decision.</p>
+<h2 id="breaking-change">Breaking change</h2>
+<p>There&rsquo;s one breaking change in this release: If you used the override function from within one of the ini configuration files, this changes now. It is necessary to include the module collection as well, ie. instead of [com1dfa_override], you have to use [com1dfa_com1dfa_override].</p>
+<h2 id="whats-changed">What&rsquo;s Changed</h2>
+<ul>
+<li>Add result types and info about entTh to documentation [doc] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/934">https://github.com/avaframe/AvaFrame/pull/934</a></li>
+<li>Add sec release to relVolume computation for samosATAuto by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/932">https://github.com/avaframe/AvaFrame/pull/932</a></li>
+<li>Include flowpy development in com4FlowPy [com4]  by @Iceman-bfw in <a href="https://github.com/avaframe/AvaFrame/pull/933">https://github.com/avaframe/AvaFrame/pull/933</a></li>
+<li>add coulomb min shear friction by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/942">https://github.com/avaframe/AvaFrame/pull/942</a></li>
+<li>Add L to simName for samosAT; fixes #930 [com1] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/940">https://github.com/avaframe/AvaFrame/pull/940</a></li>
+<li>Set exists_ok on creation of dirs (for parallel computing) [in3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/946">https://github.com/avaframe/AvaFrame/pull/946</a></li>
+<li>Add com6 rock avalanche [com6] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/939">https://github.com/avaframe/AvaFrame/pull/939</a></li>
+<li>Add new functions to analyze deepDiff results in parameter variation cases [com1] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/945">https://github.com/avaframe/AvaFrame/pull/945</a></li>
+<li>add aimec functionality to color parameters of type string [ana3; out3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/947">https://github.com/avaframe/AvaFrame/pull/947</a></li>
+<li>check warnings in pytest update adding a new column to dfs by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/949">https://github.com/avaframe/AvaFrame/pull/949</a></li>
+<li>Extend Kot topography [data] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/948">https://github.com/avaframe/AvaFrame/pull/948</a></li>
+<li>change finding of velocity threshold indices in aimec for thalweg plots [ana3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/950">https://github.com/avaframe/AvaFrame/pull/950</a></li>
+<li>Fixed avaKot pathAB projection [data] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/956">https://github.com/avaframe/AvaFrame/pull/956</a></li>
+<li>fix bug in labelling in legend by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/957">https://github.com/avaframe/AvaFrame/pull/957</a></li>
+<li>add runscript for prob analysis for existing sims within ava directory [ana4; in3] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/955">https://github.com/avaframe/AvaFrame/pull/955</a></li>
+<li>Add contour line plot [com1; ana5; out3; breaking change] by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/953">https://github.com/avaframe/AvaFrame/pull/953</a></li>
+<li>fix bug in figure legend by @awirb in <a href="https://github.com/avaframe/AvaFrame/pull/958">https://github.com/avaframe/AvaFrame/pull/958</a></li>
+<li>In case of relThFile = True, remesh the thickness file if needed [com1DFA] by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/954">https://github.com/avaframe/AvaFrame/pull/954</a></li>
+<li>Update docu; add init for com4 by @fso42 in <a href="https://github.com/avaframe/AvaFrame/pull/960">https://github.com/avaframe/AvaFrame/pull/960</a></li>
+</ul>
+<h2 id="new-contributors">New Contributors</h2>
+<ul>
+<li>@Iceman-bfw made their first contribution in <a href="https://github.com/avaframe/AvaFrame/pull/933">https://github.com/avaframe/AvaFrame/pull/933</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/avaframe/AvaFrame/compare/1.7.2...1.8">https://github.com/avaframe/AvaFrame/compare/1.7.2...1.8</a></p>
+<p>Felix</p>
+
+            
+             
+            
+
+
+            
+            </div>
+            
+            
+
+<div class="
+    col-lg-3 col-lg-offset-0
+    col-md-3 col-md-offset-0
+    col-sm-12
+    col-xs-12
+    sidebar-container
+">
+    
+	
+    <section class="visible-md visible-lg">
+	
+        <div class="short-about">
+            
+            <a href="/about">
+               <img src="/img/AvaFrameLogo_withBack.png" alt="avatar" style="cursor: pointer" />
+            </a>
+            
+            
+                <p>Strong together</p>
+            
+           
+           <ul class="list-inline">
+               
+               
+               
+               
+               
+               
+               
+               <li>
+                   <a target="_blank" href="https://github.com/avaframe">
+                       <span class="fa-stack fa-lg">
+                           <i class="fas fa-circle fa-stack-2x"></i>
+                           <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+               
+               
+               
+               
+            
+            
+               
+               
+               
+               
+                </ul>
+            </div>
+    </section>
+	
+    
+    
+    <section>
+        <hr>
+        <h5>QUICK LINKS</h5>
+        <ul class="list-inline">
+            
+            <li><a target="_blank" href="https://docs.avaframe.org">Documentation AvaFrame</a></li>
+            
+            <li><a target="_blank" href="https://github.com/avaframe/AvaFrame">Code AvaFrame</a></li>
+            
+        </ul>
+    </section>
+    
+    
+    
+    <section>
+        <hr class="hidden-sm hidden-xs">
+        <h5>FEATURED TAGS</h5>
+        <div class="tags">
+            
+            
+               
+                    <a href="/tags/avaframe" title="avaframe">
+                        avaframe
+                    </a>
+               
+            
+               
+                    <a href="/tags/monthly" title="monthly">
+                        monthly
+                    </a>
+               
+            
+               
+                    <a href="/tags/version" title="version">
+                        version
+                    </a>
+               
+            
+        </div>
+    </section>
+    
+
+    
+    
+    
+</div>
+
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">                  
+                    
+                    
+                    
+                    
+                    
+
+		            
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/avaframe">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		            
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+           
+             </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; AvaFrame 2025
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+
+
+
+</body>
+</html>

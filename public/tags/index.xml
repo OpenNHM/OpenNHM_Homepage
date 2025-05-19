@@ -5,7 +5,29 @@
     <link>https://avaframe.org/tags/</link>
     <description>Recent content in Tags on AvaFrame</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://avaframe.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Avaframe</title>
+      <link>https://avaframe.org/tags/avaframe/</link>
+      <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://avaframe.org/tags/avaframe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Version</title>
+      <link>https://avaframe.org/tags/version/</link>
+      <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://avaframe.org/tags/version/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Monthly</title>
+      <link>https://avaframe.org/tags/monthly/</link>
+      <pubDate>Sat, 01 Mar 2025 00:00:00 +0100</pubDate>
+      <guid>https://avaframe.org/tags/monthly/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

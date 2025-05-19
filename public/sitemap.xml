@@ -3,295 +3,545 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://avaframe.org/</loc>
-    <lastmod>2025-04-28T00:00:00+01:00</lastmod>
+    <lastmod>2025-05-10T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/</loc>
-    <lastmod>2025-04-28T00:00:00+01:00</lastmod>
+    <loc>https://avaframe.org/code/</loc>
+    <lastmod>2025-05-10T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/version1_12/</loc>
-    <lastmod>2025-04-28T00:00:00+01:00</lastmod>
+    <loc>https://avaframe.org/documentation/</loc>
+    <lastmod>2025-05-10T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyfeb2025/</loc>
+    <loc>https://avaframe.org/tags/avaframe/</loc>
+    <lastmod>2025-04-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://avaframe.org/post/</loc>
+    <lastmod>2025-04-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://avaframe.org/post/version1.12/</loc>
+    <lastmod>2025-04-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://avaframe.org/tags/</loc>
+    <lastmod>2025-04-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://avaframe.org/tags/version/</loc>
+    <lastmod>2025-04-28T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://avaframe.org/tags/monthly/</loc>
     <lastmod>2025-03-01T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/version1_11/</loc>
+    <loc>https://avaframe.org/post/monthlyfeb2025/</loc>
+    <lastmod>2025-03-01T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://avaframe.org/post/version1_11/</loc>
     <lastmod>2025-02-19T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/version1_10/</loc>
+    <loc>https://avaframe.org/post/monthlyjan2025/</loc>
+    <lastmod>2025-02-11T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://avaframe.org/post/version1_10/</loc>
     <lastmod>2025-02-10T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyjan2025/</loc>
-    <lastmod>2025-02-01T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://avaframe.org/posts/monthlydec2024/</loc>
+    <loc>https://avaframe.org/post/monthlydec2024/</loc>
     <lastmod>2025-01-01T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlynov2024/</loc>
+    <loc>https://avaframe.org/post/monthlynov2024/</loc>
     <lastmod>2024-12-01T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/version1_9/</loc>
+    <loc>https://avaframe.org/post/version1_9/</loc>
     <lastmod>2024-11-12T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyoct2024/</loc>
+    <loc>https://avaframe.org/post/monthlyoct2024/</loc>
     <lastmod>2024-11-01T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlysep2024/</loc>
+    <loc>https://avaframe.org/post/monthlysep2024/</loc>
     <lastmod>2024-10-01T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyaug2024/</loc>
+    <loc>https://avaframe.org/post/monthlyaug2024/</loc>
     <lastmod>2024-09-01T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyjul2024/</loc>
+    <loc>https://avaframe.org/post/monthlyjul2024/</loc>
     <lastmod>2024-08-01T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyjun2024/</loc>
+    <loc>https://avaframe.org/post/monthlyjun2024/</loc>
     <lastmod>2024-07-01T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlymay2024/</loc>
+    <loc>https://avaframe.org/post/monthlymay2024/</loc>
     <lastmod>2024-06-01T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/version1_8.3/</loc>
+    <loc>https://avaframe.org/post/version1_8.3/</loc>
     <lastmod>2024-05-21T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/version1_8_2/</loc>
+    <loc>https://avaframe.org/post/version1_8_2/</loc>
     <lastmod>2024-05-17T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyapr2024/</loc>
+    <loc>https://avaframe.org/post/monthlyapr2024/</loc>
     <lastmod>2024-05-01T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/version1_8_1/</loc>
+    <loc>https://avaframe.org/post/version1_8_1/</loc>
     <lastmod>2024-04-04T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlymar2024/</loc>
+    <loc>https://avaframe.org/post/monthlymar2024/</loc>
     <lastmod>2024-04-01T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyfeb2024/</loc>
+    <loc>https://avaframe.org/post/monthlyfeb2024/</loc>
     <lastmod>2024-03-01T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/recording1statworkshop/</loc>
+    <loc>https://avaframe.org/post/recording1statworkshop/</loc>
     <lastmod>2024-02-27T10:46:51+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/version1_8/</loc>
+    <loc>https://avaframe.org/post/version1_8/</loc>
     <lastmod>2024-02-15T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/announce1staustrian/</loc>
+    <loc>https://avaframe.org/post/announce1staustrian/</loc>
     <lastmod>2024-02-05T10:46:51+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyjan2024/</loc>
+    <loc>https://avaframe.org/post/monthlyjan2024/</loc>
     <lastmod>2024-02-01T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/recording2ndworkshop/</loc>
+    <loc>https://avaframe.org/post/recording2ndworkshop/</loc>
     <lastmod>2024-01-22T10:46:51+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/info2ndworkshop/</loc>
+    <loc>https://avaframe.org/post/info2ndworkshop/</loc>
     <lastmod>2024-01-13T20:46:51+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlydec2023/</loc>
+    <loc>https://avaframe.org/post/monthlydec2023/</loc>
     <lastmod>2024-01-02T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlynov2023/</loc>
+    <loc>https://avaframe.org/post/monthlynov2023/</loc>
     <lastmod>2023-12-02T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/announce2ndworkshop/</loc>
+    <loc>https://avaframe.org/post/announce2ndworkshop/</loc>
     <lastmod>2023-11-14T10:46:51+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyoct2023/</loc>
+    <loc>https://avaframe.org/post/monthlyoct2023/</loc>
     <lastmod>2023-11-02T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/version1_7/</loc>
+    <loc>https://avaframe.org/post/version1_7/</loc>
     <lastmod>2023-10-12T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlysep2023/</loc>
+    <loc>https://avaframe.org/post/monthlysep2023/</loc>
     <lastmod>2023-10-02T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/version1_6_1/</loc>
+    <loc>https://avaframe.org/post/version1_6_1/</loc>
     <lastmod>2023-09-05T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyaug2023/</loc>
+    <loc>https://avaframe.org/post/monthlyaug2023/</loc>
     <lastmod>2023-09-02T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/version1_6/</loc>
+    <loc>https://avaframe.org/post/version1_6/</loc>
     <lastmod>2023-08-29T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyjuly2023/</loc>
+    <loc>https://avaframe.org/post/monthlyjuly2023/</loc>
     <lastmod>2023-08-02T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyjun2023/</loc>
+    <loc>https://avaframe.org/post/monthlyjun2023/</loc>
     <lastmod>2023-07-01T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlymay2023/</loc>
+    <loc>https://avaframe.org/post/monthlymay2023/</loc>
     <lastmod>2023-06-01T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyapr2023/</loc>
+    <loc>https://avaframe.org/post/monthlyapr2023/</loc>
     <lastmod>2023-05-02T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlymar2023/</loc>
+    <loc>https://avaframe.org/post/monthlymar2023/</loc>
     <lastmod>2023-04-05T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/version1_5_2/</loc>
+    <loc>https://avaframe.org/post/version1_5_2/</loc>
     <lastmod>2023-03-16T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/version1_5_1/</loc>
+    <loc>https://avaframe.org/post/version1_5_1/</loc>
     <lastmod>2023-03-06T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyfeb2023/</loc>
+    <loc>https://avaframe.org/post/monthlyfeb2023/</loc>
     <lastmod>2023-03-02T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/version1_5/</loc>
+    <loc>https://avaframe.org/post/version1_5/</loc>
     <lastmod>2023-02-28T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyjanuary2023/</loc>
+    <loc>https://avaframe.org/post/monthlyjanuary2023/</loc>
     <lastmod>2023-02-02T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/version1_4/</loc>
+    <loc>https://avaframe.org/post/version1_4/</loc>
     <lastmod>2023-01-23T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/publications2022/</loc>
+    <loc>https://avaframe.org/post/publications2022/</loc>
     <lastmod>2023-01-12T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlydecember2022/</loc>
+    <loc>https://avaframe.org/post/monthlydecember2022/</loc>
     <lastmod>2023-01-02T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlynovember2022/</loc>
+    <loc>https://avaframe.org/post/monthlynovember2022/</loc>
     <lastmod>2022-12-02T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyoctober2022/</loc>
+    <loc>https://avaframe.org/post/monthlyoctober2022/</loc>
     <lastmod>2022-11-03T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/version1_3/</loc>
+    <loc>https://avaframe.org/post/version1_3/</loc>
     <lastmod>2022-10-12T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyseptember2022/</loc>
+    <loc>https://avaframe.org/post/monthlyseptember2022/</loc>
     <lastmod>2022-10-03T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyaugust2022/</loc>
+    <loc>https://avaframe.org/post/monthlyaugust2022/</loc>
     <lastmod>2022-09-05T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyjuly2022/</loc>
+    <loc>https://avaframe.org/post/monthlyjuly2022/</loc>
     <lastmod>2022-08-05T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/version1_2/</loc>
+    <loc>https://avaframe.org/post/version1_2/</loc>
     <lastmod>2022-07-07T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyjun2022/</loc>
+    <loc>https://avaframe.org/post/monthlyjun2022/</loc>
     <lastmod>2022-07-05T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlymay2022/</loc>
+    <loc>https://avaframe.org/post/monthlymay2022/</loc>
     <lastmod>2022-06-05T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/version1_1/</loc>
+    <loc>https://avaframe.org/post/version1_1/</loc>
     <lastmod>2022-05-19T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/version1_0/</loc>
+    <loc>https://avaframe.org/post/version1_0/</loc>
     <lastmod>2022-05-06T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyapr2022/</loc>
+    <loc>https://avaframe.org/post/monthlyapr2022/</loc>
     <lastmod>2022-05-05T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlymar2022/</loc>
+    <loc>https://avaframe.org/post/monthlymar2022/</loc>
     <lastmod>2022-04-03T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/recording1stworkshop/</loc>
+    <loc>https://avaframe.org/post/recording1stworkshop/</loc>
     <lastmod>2022-03-28T10:46:51+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyfeb2022/</loc>
+    <loc>https://avaframe.org/post/monthlyfeb2022/</loc>
     <lastmod>2022-03-04T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/info1stworkshop/</loc>
+    <loc>https://avaframe.org/post/info1stworkshop/</loc>
     <lastmod>2022-03-01T20:46:51+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyjan2022/</loc>
+    <loc>https://avaframe.org/post/monthlyjan2022/</loc>
     <lastmod>2022-02-05T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/announce1stworkshop/</loc>
+    <loc>https://avaframe.org/post/announce1stworkshop/</loc>
     <lastmod>2022-01-19T10:46:51+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/announceimc22/</loc>
+    <loc>https://avaframe.org/post/announceimc22/</loc>
     <lastmod>2022-01-17T10:46:51+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlydec2021/</loc>
+    <loc>https://avaframe.org/post/monthlydec2021/</loc>
     <lastmod>2022-01-03T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlynov2021/</loc>
+    <loc>https://avaframe.org/post/monthlynov2021/</loc>
     <lastmod>2021-12-03T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyoct2021/</loc>
+    <loc>https://avaframe.org/post/monthlyoct2021/</loc>
     <lastmod>2021-11-05T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyseptember2021/</loc>
+    <loc>https://avaframe.org/post/monthlyseptember2021/</loc>
     <lastmod>2021-10-05T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/publicproto/</loc>
+    <loc>https://avaframe.org/post/publicproto/</loc>
     <lastmod>2021-07-14T07:08:58+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlymeeting/</loc>
+    <loc>https://avaframe.org/post/monthlymeeting/</loc>
     <lastmod>2021-06-09T10:46:51+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlymay2021/</loc>
+    <loc>https://avaframe.org/post/monthlymay2021/</loc>
     <lastmod>2021-06-05T17:08:58+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyapr2021/</loc>
+    <loc>https://avaframe.org/post/monthlyapr2021/</loc>
     <lastmod>2021-05-05T17:08:58+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/version0_3/</loc>
+    <loc>https://avaframe.org/post/version0_3/</loc>
     <lastmod>2021-04-26T10:46:51+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlymar2021/</loc>
+    <loc>https://avaframe.org/post/monthlymar2021/</loc>
     <lastmod>2021-04-04T19:08:58+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyfeb2021/</loc>
+    <loc>https://avaframe.org/post/monthlyfeb2021/</loc>
     <lastmod>2021-03-05T19:08:58+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyjan2021/</loc>
+    <loc>https://avaframe.org/post/monthlyjan2021/</loc>
     <lastmod>2021-01-30T19:08:58+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlydec2020/</loc>
+    <loc>https://avaframe.org/post/monthlydec2020/</loc>
     <lastmod>2020-12-29T20:19:18+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/version0_2/</loc>
+    <loc>https://avaframe.org/post/version0_2/</loc>
     <lastmod>2020-12-28T10:46:51+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlynov2020/</loc>
+    <loc>https://avaframe.org/post/monthlynov2020/</loc>
     <lastmod>2020-11-29T20:19:18+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/version0_1/</loc>
+    <loc>https://avaframe.org/post/version0_1/</loc>
     <lastmod>2020-11-06T10:46:51+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyoct2020/</loc>
+    <loc>https://avaframe.org/post/monthlyoct2020/</loc>
     <lastmod>2020-10-29T20:19:18+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlysep2020/</loc>
+    <loc>https://avaframe.org/post/monthlysep2020/</loc>
     <lastmod>2020-09-30T12:28:05+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyaug2020/</loc>
+    <loc>https://avaframe.org/post/monthlyaug2020/</loc>
     <lastmod>2020-08-21T12:28:05+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/monthlyjul2020/</loc>
+    <loc>https://avaframe.org/post/monthlyjul2020/</loc>
     <lastmod>2020-07-31T09:49:32+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/projectstart/</loc>
+    <loc>https://avaframe.org/post/projectstart/</loc>
     <lastmod>2020-06-05T16:04:13+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/positionnumericsclosed/</loc>
+    <loc>https://avaframe.org/post/positionnumericsclosed/</loc>
     <lastmod>2020-04-01T17:13:12+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/posts/openpositionnumerics/</loc>
+    <loc>https://avaframe.org/post/openpositionnumerics/</loc>
     <lastmod>2020-02-27T13:00:08+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://avaframe.org/about/</loc>
     <lastmod>2020-02-26T13:00:08+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://avaframe.org/contact/</loc>
     <lastmod>2020-02-26T13:00:08+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://avaframe.org/reports/</loc>
     <lastmod>2020-02-26T13:00:08+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://avaframe.org/team/</loc>
     <lastmod>2020-02-09T13:00:08+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://avaframe.org/notes/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://avaframe.org/search/placeholder/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://avaframe.org/top/disclaimer/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://avaframe.org/top/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://avaframe.org/categories/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
-    <loc>https://avaframe.org/tags/</loc>
+    <loc>https://avaframe.org/top/archive/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://avaframe.org/search/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://avaframe.org/top/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
