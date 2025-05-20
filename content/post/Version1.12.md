@@ -1,20 +1,17 @@
 ---
-#type: post
-#layout: "post"
-title: Release Version 1.12
+draft: false
+publishDate: 2025-04-28
 author: Felix
 subtitle: ""
-publishDate: 2025-04-28
-#date: 2025-05-18T10:36:44+02:00
-#highlight: true
-draft: false
-#slug: "version1_12"
-image: "img/FZGL_PFD.jpg"
-#image: "https://i.imgur.com/prPLcUi.jpg"
+title: Release Version 1.12
 tags:
   - avaframe
   - version
-categories: ["whatever"]
+image: img/FZGL_PFD.jpg
+categories:
+  - whatever
+description: "New release version 1.12: com1DFA improvements and release
+  thickness raster updates"
 ---
 
 **We released [Version 1.12](https://github.com/avaframe/AvaFrame/releases/tag/1.12)** 
