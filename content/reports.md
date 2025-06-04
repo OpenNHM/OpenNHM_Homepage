@@ -13,7 +13,7 @@ or by cooperation partners.**
 
 ---
 
-**04.06.25 [Report for ForestFrame 2 (pdf; German only)](pdf/ForestFrame_II_Projektbericht-v1.pdf)**
+**04.06.25 [Report for ForestFrame 2 (pdf; German only)](/pdf/ForestFrame_II_Projektbericht-v1.pdf)**
 
 This report is relevant for the change in the resistance setup, showing the effect of the new setup on various 
 avalanches.
