@@ -18,6 +18,9 @@ or by cooperation partners.**
 This report is relevant for the change in the resistance setup, showing the effect of the new setup on various 
 avalanches.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15592803.svg)](https://doi.org/10.5281/zenodo.15592803)
+
+
 ---
 
 **27.05.2024 [Final report phase 1 (pdf; German only)](/pdf/Endbericht_Phase1.pdf)**
