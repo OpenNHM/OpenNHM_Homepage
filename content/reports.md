@@ -13,13 +13,12 @@ or by cooperation partners.**
 
 ---
 
-**04.06.25 [Report for ForestFrame 2 (pdf; German only)](/pdf/ForestFrame_II_Projektbericht-v1.pdf)**
+**04.06.25 [Report for ForestFrame 2 (pdf; German only; updated 18.08.2025)](/pdf/ForestFrame_II_Projektbericht-v2.pdf)**
 
 This report is relevant for the change in the resistance setup, showing the effect of the new setup on various 
 avalanches.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15592803.svg)](https://doi.org/10.5281/zenodo.15592803)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16893215.svg)](https://doi.org/10.5281/zenodo.16893215)
 
 ---
 
