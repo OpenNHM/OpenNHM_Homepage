@@ -7,7 +7,7 @@ tags:
   - openNHM
   - announcement
 description: "Introducing OpenNHM, a new collaborative initiative for open-source natural hazard modeling.
-Building on AvaFrame's success to create a unified ecosystem for multi-hazard simulation and analysis."
+Building on AvaFrame's experience to create an ecosystem for multi-hazard simulation and analysis. Read more..."
 image: "/img/posts/OpenNHMStructure.png"
 ---
 
