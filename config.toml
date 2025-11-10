@@ -1,6 +1,6 @@
-baseurl = "https://avaframe.org"
+baseurl = "https://opennhm.org"
 # baseurl = "/"
-title = "AvaFrame"
+title = "OpenNHM"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -29,10 +29,10 @@ home = ["HTML", "RSS"]
 [params]
 #header_image = "img/HomepageBanner.png"
 header_image = "img/FZGL_PFD.jpg"
-SEOTitle = "AvaFrame"
-description = "AvaFrame"
+SEOTitle = "OpenNHM"
+description = "OpenNHM"
 keyword = "avalanches"
-slogan = "The open avalanche framework"
+slogan = "OPEN NATURAL HAZARD MODELING"
 rssLimit = 10
 showtoc = false
 
@@ -53,7 +53,8 @@ algolia_apiKey = ""
 
 # Sidebar settings
 sidebar_about_description = "Strong together"
-sidebar_avatar = "img/AvaFrameLogo_withBack.png"      # use absolute URL, seeing it's used in both `/` and
+#sidebar_avatar = "img/AvaFrameLogo_withBack.png"      # use absolute URL, seeing it's used in both `/` and
+sidebar_avatar = "img/HomeOf.png"      # use absolute URL, seeing it's used in both `/` and
 
 featured_tags = true
 featured_condition_size = 0
@@ -83,6 +84,9 @@ href =  "https://docs.avaframe.org"
 [[params.bookmark_link]]
 title =  "Code AvaFrame"
 href =  "https://github.com/avaframe/AvaFrame"
+[[params.bookmark_link]]
+title =  "Code DebrisFrame"
+href =  "https://github.com/opennhm/DebrisFrame"
 
 [[params.addtional_menus]]
 title = "ARCHIVE"
