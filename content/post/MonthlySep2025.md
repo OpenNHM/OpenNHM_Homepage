@@ -2,7 +2,7 @@
 Title: "This month in AvaFrame - September 2025 edition"
 
 Date: 2025-10-01T00:00:00+01:00
-
+author: "Felix"
 Draft: false
 
 Tags:
