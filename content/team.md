@@ -36,4 +36,4 @@ Scientific committee:  Ingrid REIWEGER (*Head*)
 
 **External contributions**
 
-For a list of all code contributors, head over to the [github contributors page](https://github.com/avaframe/AvaFrame/graphs/contributors)
+For a list of all code contributors, head over to the [github contributors page](https://github.com/opennhm/AvaFrame/graphs/contributors)
