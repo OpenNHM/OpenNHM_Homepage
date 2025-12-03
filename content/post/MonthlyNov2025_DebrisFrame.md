@@ -9,7 +9,9 @@ Tags:
 - debrisframe 
 - monthly
 
-Description: ""
+Description: "First DebrisFrame kickoff meeting establishes project goals including case study processing, input
+hydrograph development, and PyTopRun module integration. PR #1167 introduces initial hydrograph input functionality to
+com1DFA for debris flow simulations."
 
 ---
 
