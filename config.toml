@@ -98,8 +98,8 @@ href = "/code"
 title = "DOCUMENTATION"
 href = "/documentation"
 [[params.addtional_menus]]
-title = "REPORTS"
-href = "/reports"
+title = "PUBLICATIONS"
+href = "/publications"
 [[params.addtional_menus]]
 title = "TEAM"
 href = "/team"
