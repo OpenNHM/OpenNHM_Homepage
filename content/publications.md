@@ -39,6 +39,12 @@ supporting reports.
 
 ## 2025
 
+- Patrick KOMON, Gerald KIMMERSDORFER, Markus RAMPP, Paula SPANNRING, Felix OESTERLE, Jan-Thomas FISCHER, Adam CELAREK, Manuela WALDNER. **[weBIGeo: Interaktive Lawinensimulation im Web](https://doi.org/10.34726/11439)**. Tagungsband des 6. internationalen Lawinensymposiums, 6. Lawinen Symposium Graz 2025. (2025).
+
+- Christoph HESSELBACH, Jakob SCHWARZ, Paula SPANNRING, Andreas HUBER, Alice GASPERI, Michael WINKLER, Marc ADAMS, Jan-Thomas FISCHER. **Lawinenszenariokarten als Entscheidungshilfe für Lawinenkommissionen**. 6. Lawinensymposium Graz, 18.10.2025, conference abstracts (not reviewed). (2025).
+
+- Anna WIRBEL, Felix OESTERLE, Jan-Thomas FISCHER. **AvaFrame - a Real World Example of Snow Avalanches Seen as Granular Flow**. 4th IMA Conference on Dense Granular Flows June 2025. (2025).
+
 - Felix OESTERLE, Matthias GRANIG, Paula SPANNRING, Anna WIRBEL, Jan-Thomas FISCHER, Christian TOLLINGER. **Guidelines and digital toolboxes for mitigation measure planning and assessment from an Austrian perspective**. SNOW 2025 Conference: International Symposium on Mitigation Measures against Snow Avalanches and Other Rapid Gravity Mass Flows, Ísafjörður Iceland, conference ext. abstract / proceedings paper. (2025).
 
 - Michael NEUHAUSER, Anselm KÖHLER, Anna WIRBEL, Felix OESTERLE, Wolfgang FELLIN, Johannes GERSTMAYR, Falko DRESSLER, Jan-Thomas FISCHER. **[Particle and front tracking in experimental and computational avalanche dynamics](https://doi.org/10.5194/nhess-25-4185-2025)**. Natural Hazards and Earth System Sciences, peer-reviewed journal article. (2025).
@@ -48,6 +54,8 @@ supporting reports.
 - Felix OESTERLE, Mattias GRANIG. **New Normative and Digital Instruments in Avalanche Protection**. INAC 2025, Innsbruck, conference presentation. (2025).
 
 - Laura SAXER, Andreas HUBER, Michaela TEICH. **Empirical Modelling of Snow Avalanche–Forest Interaction with com4FlowPy’s Forest Friction Module**. IMC 2025, Innsbruck, conference poster. (2025).
+
+- Laura SAXER. **Empirical Modelling of Snow Avalanche – Forest Interaction**. Innsbruck, master's thesis. (2025).
 
 - Andreas HUBER, Frank PERZL, Reinhard FROMM, Michaela TEICH. **Adapting the open-source model com4FlowPy for regional-scale modeling of forests with a direct object-protective function against gravitational mass flows**. IMC 2025, Innsbruck, conference presentation. (2025).
 
@@ -133,4 +141,3 @@ Lawinengeländeklassifikation im Sellrain**. Alpinforum, contribution at a meeti
 - Felix OESTERLE, Anna WIRBEL, Matthias TONNEL, Jan-Thomas FISCHER. **[AvaFrame as a testing and benchmarking environment for avalanche simulations](https://doi.org/10.5194/egusphere-egu21-6560)**. EGU General Assembly 2021, online, 19–30 April 2021, conference abstracts (not reviewed). (2021).
 
 - Michael WINKLER. **Vergleich von AvaFrame-Lawinensimulationen mit mGeodar-Radarmessungen am Beispiel von gesprengten Lawinen auf der Nordkette**. master's thesis. (2021).
-
