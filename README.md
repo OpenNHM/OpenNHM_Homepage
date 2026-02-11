@@ -6,7 +6,11 @@ To deploy: run `hugo`
 
 then copy the files to our server on uberspace.de
 
+Use this if you want to copy all:
 `scp -r ./public/* avaframe@helin.uberspace.de:~/html/`
+
+Use this if you just want to update the changed files:
+rsync -avz --delete ./public/ avaframe@helin.uberspace.de:~/html/
 
 To add a new post:
 
