@@ -3,6 +3,9 @@ title: "Recording 2nd Public Workshop 18. January 2024"
 date: 2024-01-22T10:46:51+01:00
 draft: false
 slug: "recording2ndworkshop"
+tags:
+  - recording
+  - workshop
 ---
 
 As promised, here is the link to the recording of our 

@@ -3,6 +3,9 @@ title: "Recording 1st Austrian Workshop 23. February 2024"
 date: 2024-02-27T10:46:51+01:00
 draft: false
 slug: "recording1statworkshop"
+tags:
+  - recording
+  - workshop
 ---
 
 Wie angekündigt, hier der Link zur Aufnahme des

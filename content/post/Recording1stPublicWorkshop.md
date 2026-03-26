@@ -3,6 +3,9 @@ title: "Recording 1st Public Workshop 8. March"
 date: 2022-03-28T10:46:51+01:00
 draft: false
 slug: "recording1stworkshop"
+tags:
+  - recording
+  - workshop
 ---
 
 As promised, here is the link to the recording of our 
