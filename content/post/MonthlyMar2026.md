@@ -17,18 +17,9 @@ Description: "Rheological model improvements for Herschel-Bulkley and Bingham mo
 Welcome to the March 2026 update:
 
 March focused on improving the rheological models in com1DFA, restructuring the documentation for better usability,
-and fixing compatibility issues for the upcoming QGis 4.0 release.
-
-**Rheological Model Improvements**
-
-Two PRs improved the rheological models in com1DFA. PR #1252
-(https://github.com/OpenNHM/AvaFrame/pull/1252) corrected the Herschel-Bulkley implementation by replacing the bulk
-dynamic viscosity with the consistency factor K. The previous implementation incorrectly assumed these were equivalent,
-which is not the case. The theory documentation was updated accordingly.
-
-PR #1254 (https://github.com/OpenNHM/AvaFrame/pull/1254) then added direct input options for yield shear stress
-(`tauy`) and dynamic viscosity (`eta`) in the Bingham, Herschel-Bulkley, and O'Brien-Julien rheological models. By
-default, these values are used directly from the configuration file. 
+and fixing compatibility issues for the upcoming QGis 4.0 release. We are also working towards the next release of AvaFrame, 
+which will be available in April and switch to the next major version 2.0. Currently release candidates are being tested,
+so stay tuned for the final release.
 
 **Documentation Restructuring**
 
