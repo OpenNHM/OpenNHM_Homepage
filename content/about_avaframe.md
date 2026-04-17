@@ -11,6 +11,8 @@ AvaFrame is a cooperation between the Austrian Avalanche and Torrent Service
 Forests (Bundesforschungszentrum für Wald; BFW) within the Federal Ministry
 Republic of Austria: Agriculture, Forestry, Regions and Water Management (BML).
 
+![WLV-BFW combined logo](/img/logos/WLVBFWcombinedForHP.png) 
+
 ### Phase I
 
 Our mission was to
@@ -108,3 +110,4 @@ Information in German can be found on the
 )
 
 ---
+

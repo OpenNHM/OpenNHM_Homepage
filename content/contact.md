@@ -37,3 +37,24 @@ and you will be added manually.
 
 A comprehensive list of clients can be found here: https://matrix.org/clients/.
 Starting with the Element ones (Android/Web/Desktop) is a good beginners choice.
+
+### Logos
+
+If you need logos for your project, report, whatever, please see below. Logos are provided both in vector and raster format.
+The font is Axis Font. 
+
+OpenNHM:
+- [OpenNHMLogo.png](/img/logos/OpenNHMLogo.png)
+- [OpenNHMLogo_Square.png](/img/logos/OpenNHMLogo_Square.png)
+- [OpenNHMLogo.svg](/img/logos/OpenNHMLogo.svg)
+
+AvaFrame:
+- [AvaFrameLogo.png](/img/logos/AvaFrameLogo.png)
+- [AvaFrameLogo.svg](/img/logos/AvaFrameLogo.svg)
+- [AvaFrameLogo_Transparent.png](/img/logos/AvaFrameLogo_Transparent.png)
+- [AvaFrameLogo.pdf](/img/logos/AvaFrameLogo.pdf)
+
+DebrisFrame:
+- [DebrisFrameLogo.png](/img/logos/DebrisFrameLogo.png)
+- [DebrisFrameLogo.svg](/img/logos/DebrisFrameLogo.svg)
+- [DebrisFrameLogo_transparent.png](/img/logos/DebrisFrameLogo_transparent.png)
