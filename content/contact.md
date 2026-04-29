@@ -44,17 +44,17 @@ If you need logos for your project, report, whatever, please see below. Logos ar
 The font is Axis Font. 
 
 OpenNHM:
-- [OpenNHMLogo.png](/img/logos/OpenNHMLogo.png)
-- [OpenNHMLogo_Square.png](/img/logos/OpenNHMLogo_Square.png)
-- [OpenNHMLogo.svg](/img/logos/OpenNHMLogo.svg)
+- {{< download "/img/logos/OpenNHMLogo.png" "OpenNHMLogo.png" >}}
+- {{< download "/img/logos/OpenNHMLogo_Square.png" "OpenNHMLogo_Square.png" >}}
+- {{< download "/img/logos/OpenNHMLogo.svg" "OpenNHMLogo.svg" >}}
 
 AvaFrame:
-- [AvaFrameLogo.png](/img/logos/AvaFrameLogo.png)
-- [AvaFrameLogo.svg](/img/logos/AvaFrameLogo.svg)
-- [AvaFrameLogo_Transparent.png](/img/logos/AvaFrameLogo_Transparent.png)
-- [AvaFrameLogo.pdf](/img/logos/AvaFrameLogo.pdf)
+- {{< download "/img/logos/AvaFrameLogo.png" "AvaFrameLogo.png" >}}
+- {{< download "/img/logos/AvaFrameLogo.svg" "AvaFrameLogo.svg" >}}
+- {{< download "/img/logos/AvaFrameLogo_Transparent.png" "AvaFrameLogo_Transparent.png" >}}
+- {{< download "/img/logos/AvaFrameLogo.pdf" "AvaFrameLogo.pdf" >}}
 
 DebrisFrame:
-- [DebrisFrameLogo.png](/img/logos/DebrisFrameLogo.png)
-- [DebrisFrameLogo.svg](/img/logos/DebrisFrameLogo.svg)
-- [DebrisFrameLogo_transparent.png](/img/logos/DebrisFrameLogo_transparent.png)
+- {{< download "/img/logos/DebrisFrameLogo.png" "DebrisFrameLogo.png" >}}
+- {{< download "/img/logos/DebrisFrameLogo.svg" "DebrisFrameLogo.svg" >}}
+- {{< download "/img/logos/DebrisFrameLogo_transparent.png" "DebrisFrameLogo_transparent.png" >}}
