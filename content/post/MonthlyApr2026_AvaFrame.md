@@ -6,6 +6,9 @@ tags:
   - avaframe
   - debrisframe
   - monthly
+
+Description: "AvaFrame 2.0 preview, hillshade contrast, snow slide detrainment, remeshing NaN fix, and more."
+
 ---
 
 Welcome to the April 2026 update for AvaFrame and DebrisFrame:
