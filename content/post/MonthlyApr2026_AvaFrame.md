@@ -1,6 +1,7 @@
 ---
-title: "This month in AvaFrame and DebrisFrame- April 2026 edition"
+title: "This month in AvaFrame and DebrisFrame - April 2026 edition"
 date: 2026-05-01T00:00:00+01:00
+author: "Felix"
 draft: false
 tags:
   - avaframe
