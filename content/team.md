@@ -16,9 +16,9 @@ Felix OESTERLE (*Project lead AvaFrame / Developer*) [ORCID](https://orcid.org/0
 
 Jan-Thomas FISCHER (*Scientific lead AvaFrame*) [ORCID](https://orcid.org/0000-0001-5179-6457)
 
-Pauls SPANNRING (*Scientist / Developer*) [ORCID](https://orcid.org/0009-0005-1843-264X)
+Paula SPANNRING (*Scientist / Developer*) [ORCID](https://orcid.org/0009-0005-1843-264X)
 
-Julian LARSSEN (*Scientist / Developer*) [ORCID](https://orcid.org/0009-0007-7642-8192)
+Julian LAHRSSEN (*Scientist / Developer*) [ORCID](https://orcid.org/0009-0007-7642-8192)
 
 Roland KAITNA(*Project lead DebrisFrame*) [ORCID](https://orcid.org/0000-0002-2289-723X)
 
