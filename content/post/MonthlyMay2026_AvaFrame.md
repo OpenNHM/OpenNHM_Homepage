@@ -6,6 +6,10 @@ draft: false
 tags:
   - avaframe
   - monthly
+
+Description: "AvaFrame 2.0 released with breaking changes, first 2.1 release candidates, com5/com1DFA fixes, 
+time-dependent release, selective particle output, and MoT-Voellmy updates."
+
 ---
 
 Welcome to the May 2026 update for AvaFrame:
