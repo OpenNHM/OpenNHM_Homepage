@@ -87,12 +87,15 @@ href =  "https://github.com/opennhm/AvaFrame"
 [[params.bookmark_link]]
 title =  "Code DebrisFrame"
 href =  "https://github.com/opennhm/DebrisFrame"
+[[params.bookmark_link]]
+title =  "All OpenNHM Repositories"
+href =  "https://github.com/opennhm"
 
 [[params.addtional_menus]]
 title = "ARCHIVE"
 href = "/top/archive/"
 [[params.addtional_menus]]
-title = "CODE"
+title = "CODE/DATA"
 href = "/code"
 [[params.addtional_menus]]
 title = "DOCUMENTATION"
